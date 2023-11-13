@@ -14,14 +14,14 @@
   flex-direction: column;
 }
 .root {
-  width: 1296px;
+  width: 1396px;
   height: min-content;
   place-content: space-between;
   align-items: center;
   padding: 32px 40px;
   border-radius: 16px;
   background-color: #c9f269;
-  z-index: 4;
+  z-index: 5;
   margin-top: 3400px;
   margin-left: -1300px;
 }
@@ -54,7 +54,73 @@
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   letter-spacing: -0.3px;
-  width: 477px;
+  width: 577px;
   height: min-content;
   flex-direction: column;
+}
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .getStartedNow {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: flex-end;
+    white-space: nowrap;
+    
+  }
+  .root {
+    width: 400px;
+    height: 250px;
+    place-content: space-between;
+    align-items: center;
+    padding: 32px 40px;
+    border-radius: 16px;
+    background-color: #c9f269;
+    z-index: 5;
+    margin-top: 4500px;
+    margin-left: -70px;
+    flex-direction: column;
+    align-items: center; 
+  }
+  .title {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .scheduleAFreeConsultation {
+    color: #083c2f;
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -1px;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .weHaveConsideredOurSolutionsTo {
+    color: #083c2f;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 300px;
+    height: min-content;
+    flex-direction: column;
+   
+  }
 }

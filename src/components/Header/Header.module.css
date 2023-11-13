@@ -1,5 +1,6 @@
+/* Existing styles for larger screens */
 .button.button {
-  left: 34.8936%;
+  left: 94.8936%;
   right: 0;
   top: 0;
   bottom: 0;
@@ -12,7 +13,7 @@
   align-items: center;
   z-index: 2;
   margin-top: 25px;
-  margin-left: -500px;
+  margin-left: -540px;
 }
 .menu {
   width: min-content;
@@ -21,60 +22,12 @@
   align-items: center;
   gap: 42px;
 }
-.home {
-  color: #083c2f;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  letter-spacing: -0.3px;
-  width: min-content;
-  height: min-content;
-  white-space: nowrap;
-  flex-direction: column;
-}
-.about {
-  color: #3c4a47;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  letter-spacing: -0.3px;
-  width: min-content;
-  height: min-content;
-  white-space: nowrap;
-  flex-direction: column;
-}
-.product {
-  color: #3c4a47;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  letter-spacing: -0.3px;
-  width: min-content;
-  height: min-content;
-  white-space: nowrap;
-  flex-direction: column;
-}
-.pages {
-  color: #3c4a47;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  letter-spacing: -0.3px;
-  width: min-content;
-  height: min-content;
-  white-space: nowrap;
-  flex-direction: column;
-}
+.home,
+.about,
+.product,
+.pages,
 .contact {
-  color: #3c4a47;
+  color: #083c2f;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -100,8 +53,8 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -0.3px;
   position: absolute;
-  left: 0;
-  right: 80.4255%;
+  left: 70%;
+  right: 90.4255%;
   top: 22.9167%;
   bottom: 27.0833%;
   width: min-content;
@@ -110,4 +63,50 @@
   align-items: end;
   white-space: nowrap;
   flex-direction: column;
+}
+
+/* Mobile-specific styles */
+@media screen and (max-width: 700px) {
+
+  .logo{
+    left:0px;
+  }
+  .root {
+    width: 100px;
+    height: min-content;
+    place-content: space-between;
+    align-items: center;
+    z-index: 2;
+    margin-top: 25px;
+    margin-left: -400px;
+  }
+  .menu {
+    display:none;
+  }
+  .logIn {
+    color: #083c2f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 60%;
+    right: 90.4255%;
+    top: 22.9167%;
+    bottom: 27.0833%;
+    width: min-content;
+    height: min-content;
+    text-align: end;
+    align-items: end;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .button2 {
+    position: relative;
+    width: 235px;
+    height: 48px;
+    right: 50px;
+  }
 }

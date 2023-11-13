@@ -26,6 +26,7 @@ interface Props {
 export const Hero: FC<Props> = memo(function Hero(props = {}) {
   return (
     <>
+     <div className="main-container">
        <div className={classes.bg}></div>
       <video autoPlay muted loop className={classes.video}>
         <source src="/assets/Nue.mp4" type="video/mp4" />
@@ -121,7 +122,7 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
           <div className={classes.title}>
             <div className={classes.connectWithCustomersSmartly}>Create personalized videos for your restaurant.</div>
             <div className={classes.nexoProvidesYouEverythingYouNe}>
-              We are a passionate team of cretives, food entheusiasts, and storytellers whi laverages the power of AI to help you tell your story.
+              We are a passionate team of cretives, food entheusiasts, and storytellers who laverages the power of AI to help you tell your story.
             </div>
           </div>
         </div>
@@ -134,6 +135,7 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
             getStartedNow: <div className={classes.getStartedNow2}>Get Started For Free</div>,
           }}
         />
+      </div>
       </div>
     </>
   );

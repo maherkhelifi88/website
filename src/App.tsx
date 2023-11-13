@@ -11,6 +11,7 @@ import { Texttwo } from './components/Texttwo/Text';
 import { Textthree } from './components/Textthree/Text';
 import { CTA } from './components/CTA/CTA';
 import { Content } from './components/Content/Content';
+import { Footer } from './components/Footer/Footer';
 interface Props {
   className?: string;
 }
@@ -25,7 +26,7 @@ export const App: FC<Props> = memo(function App(props = {}) {
       <CTA />
       <Hero />
       <HowItWorks />
-      
+      <Footer />
     </div>
   );
 });

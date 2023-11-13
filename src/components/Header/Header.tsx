@@ -1,10 +1,13 @@
-import { memo } from 'react';
+import { memo, useState } from 'react';
 import type { FC } from 'react';
-
 import resets from '../_resets.module.css';
 import { Button_StateNormalTypeSmall } from './Button_StateNormalTypeSmall/Button_StateNormalTypeSmall';
 import classes from './Header.module.css';
 import { OriginalLogo_TypeMain } from './OriginalLogo_TypeMain/OriginalLogo_TypeMain';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Container from 'react-bootstrap/Container';
 
 interface Props {
   className?: string;
@@ -13,28 +16,49 @@ interface Props {
     iconOutlineArrowRight?: boolean;
   };
 }
-/* @figmaId 7715:2441 */
+
 export const Header: FC<Props> = memo(function Header(props = {}) {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <div className={`${resets.storybrainResets} ${classes.root}`}>
-      <OriginalLogo_TypeMain />
-      <div className={classes.menu}>
-        <div className={classes.home}>Home</div>
-        <div className={classes.about}>About</div>
-        <div className={classes.product}>Product</div>
-        <div className={classes.pages}>Pages</div>
-        <div className={classes.contact}>Contact</div>
-      </div>
-      <div className={classes.button2}>
-        <Button_StateNormalTypeSmall
-          className={classes.button}
-          hide={{
-            iconOutlineCheckCircle: true,
-            iconOutlineArrowRight: true,
-          }}
-        />
-        <div className={classes.logIn}>Log In</div>
-      </div>
-    </div>
+    <Navbar expand="lg" className={`${resets.storybrainResets} ${classes.root}`}>
+      <Navbar.Brand className={classes.logo}>
+        <OriginalLogo_TypeMain />
+      </Navbar.Brand>
+      <Navbar.Toggle onClick={toggleMenu} aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className={`ml-auto ${classes.menu}`}>
+          <Nav.Link href="#home" className={classes.home}>
+            Home
+          </Nav.Link>
+          <Nav.Link href="#link" className={classes.about}>
+            About
+          </Nav.Link>
+          <Nav.Link href="#link" className={classes.product}>
+            Product
+          </Nav.Link>
+          <Nav.Link href="#link" className={classes.pages}>
+            Pages
+          </Nav.Link>
+          <Nav.Link href="#link" className={classes.contact}>
+            Contact
+          </Nav.Link>
+        </Nav>
+        <div className={classes.button2}>
+          <Button_StateNormalTypeSmall
+            className={classes.button}
+            hide={{
+              iconOutlineCheckCircle: true,
+              iconOutlineArrowRight: true,
+            }}
+          />
+          <div className={classes.logIn}>Log In</div>
+        </div>
+      </Navbar.Collapse>
+    </Navbar>
   );
 });
