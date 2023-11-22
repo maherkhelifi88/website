@@ -18,7 +18,7 @@ export const HowItWorkss: FC<Props> = memo(function HowItWorkss(props = {}) {
       <div className={classes.image}></div>
       <div className={classes.text}>
         <div className={classes.title}>
-          <div className={classes.heyJenLetSCreateMagic}>Hey Jen, let’s create magic</div>
+          <div className={classes.heyJenLetSCreateMagic}>Hey Jen,&nbsp;   let’s create magic</div>
           <div className={classes.weHaveConsideredOurSolutionsTo}>
             We have considered our solutions to support every stage of your growth. We are the fastest and easiest way
             to launch SaaS.
