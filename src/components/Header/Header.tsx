@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
-
+import { useNavigate } from 'react-router-dom';
 interface Props {
   className?: string;
   hide?: {
@@ -19,6 +19,11 @@ interface Props {
 
 export const Header: FC<Props> = memo(function Header(props = {}) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const navigate = useNavigate();
+
+  const handleOpen = (event: React.MouseEvent<HTMLButtonElement>) => {
+    navigate('/influencer');
+  };
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -50,6 +55,7 @@ export const Header: FC<Props> = memo(function Header(props = {}) {
         </Nav>
         <div className={classes.button2}>
           <Button_StateNormalTypeSmall
+            onClick={handleOpen}
             className={classes.button}
             hide={{
               iconOutlineCheckCircle: true,
