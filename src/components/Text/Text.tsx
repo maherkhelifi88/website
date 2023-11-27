@@ -16,7 +16,7 @@ interface Props {
     iconOutlineArrowRight?: boolean;
   };
 }
-
+//1st dont believe us 
 export const Text: FC<Props> = memo(function Text(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>

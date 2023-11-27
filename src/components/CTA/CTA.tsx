@@ -12,7 +12,7 @@ interface Props {
     iconOutlineArrowRight?: boolean;
   };
 }
-/* @figmaId 70:1940 */
+/* Schedule a free consultation */
 export const CTA: FC<Props> = memo(function CTA(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>

@@ -26,7 +26,7 @@ interface Props {
     iconOutlineArrowRight2?: boolean;
   };
 }
-/* @figmaId 70:3938 */
+/* budget */
 export const Content: FC<Props> = memo(function Content(props = {}) {
   return (
     <>

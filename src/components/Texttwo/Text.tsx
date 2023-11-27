@@ -6,10 +6,6 @@ import { Button_StateNormalTypePrimary } from './Button_StateNormalTypePrimary/B
 import classes from './Text.module.css';
 import image1 from '/assets/image4.png';
 import image2 from '/assets/image5.png';
-// Import your video assets
-import Video1 from '/assets/Canlis.mp4';
-import Video2 from '/assets/Tavolata.mp4';
-
 interface Props {
   className?: string;
   hide?: {
@@ -17,7 +13,7 @@ interface Props {
     iconOutlineArrowRight?: boolean;
   };
 }
-
+//2nd dont believe us 
 export const Texttwo: FC<Props> = memo(function Text(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
