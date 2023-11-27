@@ -24,6 +24,9 @@ export const Header: FC<Props> = memo(function Header(props = {}) {
   const handleOpen = (event: React.MouseEvent<HTMLButtonElement>) => {
     navigate('/influencer');
   };
+  const handleOpen1 = (event: React.MouseEvent<HTMLButtonElement>) => {
+    navigate('/');
+  };
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -37,7 +40,7 @@ export const Header: FC<Props> = memo(function Header(props = {}) {
       <Navbar.Toggle onClick={toggleMenu} aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className={`ml-auto ${classes.menu}`}>
-          <Nav.Link href="#home" className={classes.home}>
+          <Nav.Link href="/" className={classes.home}>
             Home
           </Nav.Link>
           <Nav.Link href="#link" className={classes.about}>
