@@ -64,24 +64,8 @@ export const HowItWorks: FC<Props> = memo(function HowItWorks(props = {}) {
           </div>
         </div>
       </div>
-      <div className={classes.vector658}>
-        <Vector658Icon className={classes.icon6} />
-      </div>
-      <IconOutlineCheveronRight
-        className={classes.iconOutlineCheveronRight}
-        swap={{
-          icon: <IconOutlineCheveronRightIcon className={classes.icon} />,
-        }}
-      />
-      <div className={classes.vector6582}>
-        <Vector658Icon2 className={classes.icon7} />
-      </div>
-      <IconOutlineCheveronRight
-        className={classes.iconOutlineCheveronRight2}
-        swap={{
-          icon: <IconOutlineCheveronRightIcon2 className={classes.icon2} />,
-        }}
-      />
+     
+      
       <div className={classes.howKanteenWorks}>How Kanteen works?</div>
     </>
   );
