@@ -25,7 +25,7 @@ export const Footer: FC<Props> = memo(function Footer(props = {}) {
         <div className={classes.col1}>
           <OriginalLogo_TypeDark />
           <div className={classes.welcomeToAPlaceOfRefinementAnd}>
-            Welcome to a place of refinement and beauty. This is Furnixo, we made for all furniture stores &amp; brands.
+           Elevating social media with speed precision &amp; efficiency.
           </div>
         </div>
         <div className={classes.col10}>

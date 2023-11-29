@@ -17,10 +17,9 @@ export const CTA: FC<Props> = memo(function CTA(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       <div className={classes.title}>
-        <div className={classes.scheduleAFreeConsultation}>Schedule a free consultation</div>
+        <div className={classes.scheduleAFreeConsultation}>Book a free consultation with our experts NOW!</div>
         <div className={classes.weHaveConsideredOurSolutionsTo}>
-          We have considered our solutions to support every stage of your growth. We are the fastest and easiest way to
-          launch.
+          Always here for you, we care about your business growth. Simplicity-high quality results-Uncomplicated solutions for your success. 
         </div>
       </div>
       <Button_StateNormalTypeSecondar

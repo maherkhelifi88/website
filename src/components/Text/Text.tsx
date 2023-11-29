@@ -20,11 +20,11 @@ interface Props {
 export const Text: FC<Props> = memo(function Text(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
+      
       <div className={classes.title}>
-        <div className={classes.donTBelieveUsPeopleTalkAboutIt}>Don’t believe us? People talk about it</div>
+        <div className={classes.donTBelieveUsPeopleTalkAboutIt}>Who are we?</div>
         <div className={classes.weHaveConsideredOurSolutionsTo}>
-          We have considered our solutions to support every stage of your growth. We are the fastest and easiest way to
-          launch SaaS showcase for our customers.
+       " We are a team of passionate professionals and food enthousiasts, expert social media managers ready to elevate your business. Our mission is to help you grow a faithful and unmatched community, taking your brand to the next level."
         </div>
       </div>
       <Button_StateNormalTypePrimary

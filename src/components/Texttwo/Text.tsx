@@ -4,8 +4,8 @@ import type { FC } from 'react';
 import resets from '../_resets.module.css';
 import { Button_StateNormalTypePrimary } from './Button_StateNormalTypePrimary/Button_StateNormalTypePrimary';
 import classes from './Text.module.css';
-import image1 from '/assets/image4.png';
-import image2 from '/assets/image5.png';
+import image1 from '/assets/mez.jpg';
+import image2 from '/assets/mezcal.jpg';
 interface Props {
   className?: string;
   hide?: {
@@ -17,11 +17,11 @@ interface Props {
 export const Texttwo: FC<Props> = memo(function Text(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
+      <div className={classes.bg}></div>
       <div className={classes.title}>
-        <div className={classes.donTBelieveUsPeopleTalkAboutIt}>Don’t believe us? People talk about it</div>
+        <div className={classes.donTBelieveUsPeopleTalkAboutIt}>Find out what our social media team can do for you:</div>
         <div className={classes.weHaveConsideredOurSolutionsTo}>
-          We have considered our solutions to support every stage of your growth. We are the fastest and easiest way to
-          launch SaaS showcase for our customers.
+        "Discover the unparalleled potential of our social media team, dedicated to transforming your online presence effortlessly. Our experts specialize in delivering top-notch content, including high-quality videos that require minimal effort from you. With a commitment to simplicity and speed, we highlight the essence of your brand swiftly, ensuring not just ease but exceptional results. Elevate your online game with us – where quality meets convenience."
         </div>
       </div>
       <Button_StateNormalTypePrimary

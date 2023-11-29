@@ -20,7 +20,7 @@
   align-items: start;
   gap: 32px;
   z-index: 3;
-  margin-top: 2250px;
+  margin-top: 2100px;
   margin-left: -500px;
 }
 .title {
@@ -66,6 +66,14 @@
   mask-position: 0px 0px;
   -webkit-mask-size: 380px 410px;
   mask-size: 380px 410px;
+}
+.bg {
+  position: absolute;
+  left:95%;
+  top: 2100PX;
+  width:45px;
+  height: 535px;
+  background-color: #000000;
 }
 
 
@@ -163,7 +171,9 @@
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
-
+  .bg {
+   display: none;
+  }
   .getStartedNow {
     color: #083c2f;
     font-size: 16px;
@@ -186,8 +196,8 @@
     align-items: start;
     gap: 32px;
     z-index: 3;
-    margin-top: 3050px;
-    margin-left: -360px;
+    margin-top: 2950px;
+    margin-left:30px;
   }
   .title {
     width: min-content;
@@ -221,8 +231,8 @@
   }
   .video {
     position: absolute;
-    right: 20px;
-    top: 3450px; 
+    right:0;
+    top: 630px; 
     width: 180px; 
     height: 252px; 
     border-radius: 8px;
@@ -239,7 +249,7 @@
   /* Additional styles for the second video to adjust its position */
   .video + .video {
     /* Adjust the top position and other styles for the second video */
-    left: 20px;  /* Adjust the top position as needed */
+    left: 0;  /* Adjust the top position as needed */
     /* Add any other necessary styles for the second video */
   }
 }

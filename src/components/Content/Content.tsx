@@ -165,13 +165,12 @@ export const Content: FC<Props> = memo(function Content(props = {}) {
       <div className={classes.title}>
         <div className={classes.title2}>
           <div className={classes.tag}>
-            <div className={classes.bUILDINGBETTERSAASWEBSITE}>BUILDING BETTER SAAS WEBSITE</div>
+            <div className={classes.bUILDINGBETTERSAASWEBSITE}>PLANS THAT FIT YOUR NEED</div>
           </div>
-          <div className={classes.chooseOnYourBudget}>Choose on your budget </div>
+          <div className={classes.chooseOnYourBudget}>Select your budget </div>
         </div>
         <div className={classes.weHaveConsideredOurSolutionsTo}>
-          We have considered our solutions to support every stage of your personal growth. We are the fastest and
-          easiest way to launch an attractive.
+         Customize you cost: Pocket friendly social media videos for every budget. Quality promotion without compromise!
         </div>
       </div>
     </>

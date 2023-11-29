@@ -5,15 +5,15 @@ import resets from '../_resets.module.css';
 import { Button_StateNormalTypePrimary } from './Button_StateNormalTypePrimary/Button_StateNormalTypePrimary';
 import { Ellipse19Icon } from './Ellipse19Icon.js';
 import classes from './Hero.module.css';
-import { IconOutlineArrowRight } from './IconOutlineArrowRight/IconOutlineArrowRight';
-import { IconOutlineCheckCircle } from './IconOutlineCheckCircle/IconOutlineCheckCircle';
 import { IconOutlinePlusCircle } from './IconOutlinePlusCircle/IconOutlinePlusCircle';
 import { IconOutlinePlusCircleIcon } from './IconOutlinePlusCircleIcon.js';
 import { ImageIcon2 } from './ImageIcon2.js';
 import { ImageIcon3 } from './ImageIcon3.js';
 import { ImageIcon } from './ImageIcon.js';
 import { VectorIcon } from './VectorIcon.js';
-
+import maher from '/assets/maher.jpg';
+import chaima from '/assets/chaima.jpg';
+import amal from '/assets/amal.jpg';
 interface Props {
   className?: string;
   hide?: {
@@ -38,7 +38,7 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
           <VectorIcon className={classes.icon3} />
         </div>
         <div className={classes.YouMadeItSoSimp}>
-          Our team will help you tell a compelling story of your business.
+          Our team will create captivating videos that tell your story and elevate your brand.
         </div>
       </div>
       <div className={classes.bg3}></div>
@@ -46,36 +46,36 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
         <div className={classes._1}>
           <div className={classes.profile}>
             <div className={classes.image}>
-              <ImageIcon className={classes.icon4} />
+              <img src={maher} className={classes.icon4} />
             </div>
-            <div className={classes.freddy}>Freddy</div>
+            <div className={classes.freddy}>Maher</div>
           </div>
           <button className={classes.button2}>
-            <div className={classes.marketing}>Marketing</div>
+            <div className={classes.marketing}>Project Manager</div>
           </button>
         </div>
         <div className={classes.line205}></div>
         <div className={classes._2}>
           <div className={classes.profile2}>
             <div className={classes.image2}>
-              <ImageIcon2 className={classes.icon5} />
+              <img src={amal} className={classes.icon5} />
             </div>
-            <div className={classes.fiona}>Fiona</div>
+            <div className={classes.fiona}>Amal</div>
           </div>
           <button className={classes.button3}>
-            <div className={classes.design}>Design</div>
+            <div className={classes.design}>Business Partnership</div>
           </button>
         </div>
         <div className={classes.line206}></div>
         <div className={classes._3}>
           <div className={classes.profile3}>
             <div className={classes.ellipse19}>
-              <Ellipse19Icon className={classes.icon6} />
+              <img src={chaima} className={classes.icon6} />
             </div>
-            <div className={classes.juliana}>Juliana</div>
+            <div className={classes.juliana}>Chaima</div>
           </div>
           <button className={classes.button4}>
-            <div className={classes.finance}>Finance</div>
+            <div className={classes.finance}>Social Media Manager</div>
           </button>
         </div>
       </div>
@@ -83,36 +83,13 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
       <div className={classes.bg4}></div>
       <div className={classes.profile4}>
         <div className={classes.image3}>
-          <ImageIcon3 className={classes.icon7} />
+          <img src={maher} className={classes.icon7} />
         </div>
         <div className={classes.text2}>
-          <div className={classes.codyFisher}>Cody Fisher</div>
-          <div className={classes.weProvideYouEverythingYouNeedF}>We provide you everything you need for any SAAS.</div>
+          <div className={classes.codyFisher}>Maher Khelifi</div>
+          <div className={classes.weProvideYouEverythingYouNeedF}>"Crafting Excellence: Your Vision, Our Expertise – Elevating Video Production with Precision"</div>
         </div>
-        <Button_StateNormalTypePrimary
-          className={classes.button}
-          swap={{
-            iconOutlineCheckCircle: (
-              <IconOutlinePlusCircle
-                className={classes.iconOutlinePlusCircle}
-                classes={{ icon: classes.icon }}
-                swap={{
-                  icon: (
-                    <div className={classes.icon}>
-                      <IconOutlinePlusCircleIcon className={classes.icon2} />
-                    </div>
-                  ),
-                }}
-              />
-            ),
-          }}
-          hide={{
-            iconOutlineArrowRight: true,
-          }}
-          text={{
-            getStartedNow: <div className={classes.getStartedNow}>Add to List</div>,
-          }}
-        />
+        
       </div>
       <div className={classes.text3}>
         <div className={classes.mainTitle}>
@@ -122,7 +99,7 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
           <div className={classes.title}>
             <div className={classes.connectWithCustomersSmartly}>Create personalized videos for your restaurant.</div>
             <div className={classes.nexoProvidesYouEverythingYouNe}>
-              We are a passionate team of cretives, food entheusiasts, and storytellers who laverages the power of AI to help you tell your story.
+              Discover our social media team. We specialize in creating videos for you, bringing your culinary creations to life. Let us exhibit the essence of your dishes and showcase the unique experience your restaurant offers. 
             </div>
           </div>
         </div>

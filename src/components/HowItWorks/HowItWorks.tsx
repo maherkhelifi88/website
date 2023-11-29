@@ -18,7 +18,8 @@ interface Props {
 /* @figmaId 70:3876 */
 export const HowItWorks: FC<Props> = memo(function HowItWorks(props = {}) {
   return (
-    <>
+    <> <div className={classes.bg}></div>
+    <div className={classes.bg2}></div>
       <div className={classes._1}>
         <div className={classes.no}>
           <div className={classes.ellipse962}>
@@ -29,8 +30,7 @@ export const HowItWorks: FC<Props> = memo(function HowItWorks(props = {}) {
         <div className={classes.text}>
           <div className={classes.uploadYourVideos}>Upload your videos</div>
           <div className={classes.creatingAccountToOurWebsiteAnd}>
-            Creating account to our website and use it for your required time. We always ready to give you support all
-            the time.
+            Maximize your impact. Easily upload and showcase your videos with our app.
           </div>
         </div>
       </div>
@@ -44,8 +44,7 @@ export const HowItWorks: FC<Props> = memo(function HowItWorks(props = {}) {
         <div className={classes.text2}>
           <div className={classes.getOurExpertsFeeback}>Get our experts feeback</div>
           <div className={classes.creatingAccountToOurWebsiteAnd2}>
-            Creating account to our website and use it for your required time. We always ready to give you support all
-            the time.
+           Unlock success: gain expert feedback. We are here for you always. Your reliable support with a single tap.
           </div>
         </div>
       </div>
@@ -57,10 +56,9 @@ export const HowItWorks: FC<Props> = memo(function HowItWorks(props = {}) {
           <div className={classes._32}>03</div>
         </div>
         <div className={classes.text3}>
-          <div className={classes.receiveNewSocialContent}>Receive new social content</div>
+          <div className={classes.receiveNewSocialContent}>Receive professional content</div>
           <div className={classes.creatingAccountToOurWebsiteAnd3}>
-            Creating account to our website and use it for your required time. We always ready to give you support all
-            the time.
+          Level up your brand. Access Top-tier social media content NOW!
           </div>
         </div>
       </div>

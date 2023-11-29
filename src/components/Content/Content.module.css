@@ -707,7 +707,7 @@
   .card {
     position: absolute;
     left: 20px;
-    top: 5112px;
+    top: 5212px;
     width: 100%;
     height: min-content;
     align-items: flex-start;
@@ -1113,7 +1113,7 @@
   .title {
     position: absolute;
     left: 10px;
-    top: 4856px;
+    top: 4956px;
     width: min-content;
     height: min-content;
     flex-direction: column;

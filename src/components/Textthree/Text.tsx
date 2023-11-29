@@ -6,8 +6,8 @@ import { Button_StateNormalTypePrimary } from './Button_StateNormalTypePrimary/B
 import classes from './Text.module.css';
 
 // Import your video assets
-import Video1 from '/assets/Canlis.mp4';
-import Video2 from '/assets/Tavolata.mp4';
+import Video1 from '/assets/Flintcreek.mp4';
+import Video2 from '/assets/Noi.mp4';
 
 interface Props {
   className?: string;
@@ -21,10 +21,10 @@ export const Textthree: FC<Props> = memo(function Text(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       <div className={classes.title}>
-        <div className={classes.donTBelieveUsPeopleTalkAboutIt}>Don’t believe us? People talk about it</div>
+        <div className={classes.donTBelieveUsPeopleTalkAboutIt}>Why are we your best solution ?</div>
         <div className={classes.weHaveConsideredOurSolutionsTo}>
-          We have considered our solutions to support every stage of your growth. We are the fastest and easiest way to
-          launch SaaS showcase for our customers.
+        "Why choose us? It's simple – create an account, upload easy phone-made videos, and watch your business grow with enticing social media content. 
+        Highlighting your food and drink pairings, we attract customers effortlessly. Join us for an easy, effective boost!"
         </div>
       </div>
       <Button_StateNormalTypePrimary
@@ -43,7 +43,7 @@ export const Textthree: FC<Props> = memo(function Text(props = {}) {
         autoPlay
         loop
         muted
-        src={Video1} // Replace with the path to your first video
+        src={Video1}
       ></video>
 
       {/* Video 2 */}
@@ -52,7 +52,7 @@ export const Textthree: FC<Props> = memo(function Text(props = {}) {
         autoPlay
         loop
         muted
-        src={Video2} // Replace with the path to your second video
+        src={Video2}
       ></video>
     </div>
   );

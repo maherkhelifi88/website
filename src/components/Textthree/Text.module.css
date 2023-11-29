@@ -20,7 +20,7 @@
   align-items: start;
   gap: 32px;
   z-index: 3;
-  margin-top: 2850px;
+  margin-top: 2750px;
   margin-left: -500px;
 }
 .title {
@@ -189,8 +189,8 @@
   align-items: start;
   gap: 32px;
   z-index: 3;
-  margin-top: 3750px;
-  margin-left: -360px;
+  margin-top: 3880px;
+  margin-left: 30px;
 }
 .title {
   width: min-content;
@@ -224,8 +224,8 @@
 }
 .video {
   position: absolute;
-  right: 20px;
-  top: 4150px; 
+  right: 0;
+  top: 470px; 
   width: 180px; 
   height: 252px; 
   border-radius: 8px;
@@ -242,7 +242,7 @@
 /* Additional styles for the second video to adjust its position */
 .video + .video {
   /* Adjust the top position and other styles for the second video */
-  left: 20px; /* Adjust the top position as needed */
+  left: 0; /* Adjust the top position as needed */
   /* Add any other necessary styles for the second video */
 }
 
