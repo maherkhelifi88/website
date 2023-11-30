@@ -1,0 +1,348 @@
+.container {
+  position: relative;
+  margin-top: 10%;
+  align-items: center;
+  flex-direction: column;
+  margin-left: -40%;
+  width: 100px;
+}
+
+.container2 {
+  position: relative;
+  margin-top: 10%;
+  align-items: left;
+  flex-direction: column;
+ 
+}
+
+
+.about {
+  color: #083c2f;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -1px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+.ifYouAreRunningAdsToYourShopif {
+  color: #083c2f;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: 847px;
+  height: min-content;
+  flex-direction: column;
+}
+
+.loremIpsumDolorSitAmetConsecte {
+  width: 641px;
+  height: min-content;
+  flex-direction: column;
+}
+
+.list {
+  font-size: 18px;
+}
+
+.list ::marker {
+  color: #083c2f;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+}
+
+.textBlock {
+  color: #083c2f;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+}
+
+.textBlock2 {
+  margin-top: 0;
+  color: #083c2f;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+}
+
+.textBlock3 {
+  margin-top: 0;
+  color: #083c2f;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+}
+
+.quamInterdumEgetAmetTellusAdip {
+  color: #083c2f;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: 856px;
+  height: min-content;
+  flex-direction: column;
+}
+
+.title {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.hiRestaurantName {
+  background-image: linear-gradient(180deg, #083c2fff 0%, #083c2f82 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 72px;
+  line-height: 108%;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -4px;
+  width: 924px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.april212023 {
+  color: #3c4a47;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: 842px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image {
+  position: relative;
+  width: 856px;
+  height: 472px;
+  place-content: center;
+  padding: 301px 340px;
+  border-radius: 16px;
+  background-color: #ffeded;
+  background-image:
+    /* webpackIgnore: true */
+    url('/assets/image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.screenshot2023118At10391 {
+  position: relative;
+  
+  width: 238px;
+  height: 465px;
+  background-image:/* webpackIgnore: true */ url('/assets/screenshot2023118At10391.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.screenshot2023118At10401 {
+  position: relative;
+  
+  width: 226px;
+  height: 465px;
+  background-image:/* webpackIgnore: true */ url('/assets/screenshot2023118At10401.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.screenshot2023118At10392 {
+  position: relative;
+  width: 238px;
+  height: 465px;
+  background-image:/* webpackIgnore: true */ url('/assets/screenshot2023118At10392.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.videos{
+  margin-left: 5%;
+  margin-top: 10%;
+ gap:30px;
+
+}
+._3 {
+  position: relative;
+  width: 863px;
+  height: 193px;
+}
+.rectangle4635 {
+  left: 0;
+  right: 0;
+  top: 17.6166%;
+  bottom: 0;
+  width: 863px;
+  height: 159px;
+  outline: solid 1px #ffffff;
+  outline-offset: -1px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.rectangle463 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 36.1702%;
+  bottom: 0;
+  width: 863px;
+  height: 60px;
+  outline: solid 1px #ffffff;
+  outline-offset: -1px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+
+.aboutTheRestaurant {
+  color: #083c2f;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  position: absolute;
+  left: 0.1159%;
+  right: 81.8076%;
+  top: 0;
+  bottom: 87.5648%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._5 {
+  position: relative;
+  width: 863px;
+  height: 94px;
+}
+.uploadVideos {
+  color: #083c2f;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  position: absolute;
+  left: 0.1159%;
+  right: 87.4855%;
+  top: 0;
+  bottom: 74.4681%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.button.button {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  color: black;
+  width: 863px;
+ background-color: #c9f269;
+}
+
+.getStartedNow {
+  color:#083c2f;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  text-align: start;
+  align-items: flex-start;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.CTA {
+  width: 1200px;
+  margin-top: 70px;
+  position:relative;
+  height: min-content;
+  place-content: space-between;
+  align-items: center;
+  padding: 32px 40px;
+  border-radius: 16px;
+  background-color: #083c2f;
+
+}
+
+.title {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.scheduleAFreeConsultation {
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 125%;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.weHaveConsideredOurSolutionsTo {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: 577px;
+  height: min-content;
+  flex-direction: column;
+}
