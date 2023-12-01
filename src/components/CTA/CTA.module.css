@@ -145,7 +145,7 @@
     
   }
   .root {
-    width: 90%;
+    width: 350px;
     height: 250px;
     place-content: space-between;
     align-items: center;

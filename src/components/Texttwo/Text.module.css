@@ -217,7 +217,7 @@
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     letter-spacing: -2px;
-    width: 352px;
+    width: 342px;
     height: min-content;
     flex-direction: column;
   }
