@@ -21,7 +21,6 @@ export const Home: FC<Props> = memo(function Home(props = {}) {
       <Text />
       <Texttwo />
       <Textthree />
-      <Content/>
       <Header />
       <CTA />
       <Hero />

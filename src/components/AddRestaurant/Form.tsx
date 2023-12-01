@@ -47,7 +47,6 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-
   const handleSubmit = async () => {
     const data = new FormData();
   // Append text fields to FormData
