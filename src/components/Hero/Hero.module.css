@@ -1090,7 +1090,7 @@
     }
     .bg {
       position: absolute;
-      width:120%;
+      width:100%;
       height: 1300px;
       background-color: #f0f5f4;
     }
@@ -1099,7 +1099,7 @@
       position: absolute;
       left: 100px;
       top: 650px;
-      width: 220px;
+      width: 200px;
       height: 532px;
       border-radius: 8px;
       -webkit-mask-repeat: no-repeat;
@@ -1134,7 +1134,7 @@
       position: absolute;
       left: 60px;
       top: 1050px;
-      width: 300px;
+      width: 280px;
       height: 120px;
       border-radius: 8px;
       background-color: #ffc48d;
@@ -1174,7 +1174,7 @@
       position: absolute;
       left: 270px;
       top: 763px;
-      width: 170px;
+      width: 150px;
       height: 150px;
       border-radius: 8px;
       background-color: #fff;
@@ -1182,7 +1182,7 @@
     }
     .list {
       position: absolute;
-      left: 280px;
+      left: 275px;
       top: 793px;
       width: min-content;
       height: min-content;
@@ -1191,7 +1191,7 @@
       gap: 8.9301px;
     }
     ._1 {
-      width: 140.1822px;
+      width: 130.1822px;
       height: min-content;
       place-content: space-between;
       align-items: center;
@@ -1214,7 +1214,7 @@
     }
     .freddy {
       color: #083c2f;
-      font-size: 8.5678px;
+      font-size: 7.5678px;
       line-height: 13.0975px;
       font-weight: 600;
       font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
@@ -1236,7 +1236,7 @@
     }
     .marketing {
       color: #083c2f;
-      font-size: 9px;
+      font-size: 8px;
       line-height: 13.0975px;
       font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
         'Liberation Sans', sans-serif;
@@ -1250,7 +1250,7 @@
     }
     .line205 {
       opacity: 0.5;
-      width: 181.7797px;
+      width: 130.7797px;
       max-width: 100%;
       height: 0;
       max-height: 100%;
@@ -1258,7 +1258,7 @@
       margin-bottom: -0.5953px;
     }
     ._2 {
-      width: 140.1822px;
+      width: 130.1822px;
       height: min-content;
       place-content: space-between;
       align-items: center;
@@ -1281,7 +1281,7 @@
     }
     .fiona {
       color: #083c2f;
-      font-size: 8.5678px;
+      font-size: 7.5678px;
       line-height: 13.0975px;
       font-weight: 600;
       font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
@@ -1303,7 +1303,7 @@
     }
     .design {
       color: #083c2f;
-      font-size: 9px;
+      font-size: 8px;
       line-height: 13.0975px;
       font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
         'Liberation Sans', sans-serif;
@@ -1317,7 +1317,7 @@
     }
     .line206 {
       opacity: 0.5;
-      width: 181.7797px;
+      width: 130.7797px;
       max-width: 100%;
       height: 0;
       max-height: 100%;
@@ -1325,7 +1325,7 @@
       margin-bottom: -0.5953px;
     }
     ._3 {
-      width: 140.1822px;
+      width: 130.1822px;
       height: min-content;
       place-content: space-between;
       align-items: center;
@@ -1348,7 +1348,7 @@
     }
     .juliana {
       color: #083c2f;
-      font-size: 8.5678px;
+      font-size: 7.5678px;
       line-height: 13.0975px;
       font-weight: 600;
       font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
@@ -1370,7 +1370,7 @@
     }
     .finance {
       color: #083c2f;
-      font-size: 9px;
+      font-size: 7px;
       line-height: 13.0975px;
       font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
         'Liberation Sans', sans-serif;
