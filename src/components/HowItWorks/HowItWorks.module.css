@@ -655,7 +655,7 @@
   }
   ._1 {
     position: absolute;
-    left: 35px;
+    left: 7%;
     top: 1400px;
     width: min-content;
     height: 244.3534px;
@@ -741,7 +741,7 @@
   }
   ._2 {
     position: absolute;
-    left: 35px;
+    left: 7%;
     top: 1700px;
     width: min-content;
     height: 244.3534px;
@@ -827,7 +827,7 @@
   }
   ._3 {
     position: absolute;
-    left: 35px;
+    left:7%;
     top: 2000px;
     width: min-content;
     height: 244.3534px;
@@ -927,14 +927,14 @@
   }
   .howKanteenWorks {
     color: #083c2f;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 58px;
     font-weight: 600;
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     letter-spacing: -2px;
     position: absolute;
-    left: 15px;
+    left: 2%;
     top: 1300px;
     width: 400px;
     height: 57px;
