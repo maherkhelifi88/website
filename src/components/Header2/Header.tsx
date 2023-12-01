@@ -26,7 +26,7 @@ export const Header: FC<Props> = memo(function Header(props = {}) {
 
   return (
     <Navbar expand="lg" className={`${resets.storybrainResets} ${classes.root}`}>
-      <Navbar.Brand className={classes.logo}>
+      <Navbar.Brand href='/' className={classes.logo}>
         <OriginalLogo_TypeMain />
       </Navbar.Brand>
       <Navbar.Toggle onClick={toggleMenu} aria-controls="basic-navbar-nav" />
