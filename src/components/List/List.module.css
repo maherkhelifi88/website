@@ -214,7 +214,7 @@
     margin-top: 2000px;
   }
   ._1 {
-    width: min-content;
+    width: 340px;
     height: min-content;
     flex-direction: column;
     padding: 32px;
@@ -273,7 +273,7 @@
     flex-direction: column;
   }
   ._2 {
-    width: min-content;
+    width: 340px;
     height: min-content;
     flex-direction: column;
     padding: 32px;

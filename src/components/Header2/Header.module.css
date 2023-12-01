@@ -79,7 +79,7 @@
     left:0px;
   }
   .root {
-    width: 100px;
+    width: 0;
     height: min-content;
     place-content: space-between;
     align-items: center;

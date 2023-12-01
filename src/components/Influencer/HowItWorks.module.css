@@ -308,14 +308,14 @@
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 100%;
+    width: 105%;
     height: 1000px;
     background-color: #f0f5f4;
   }
   .image {
     position: absolute;
-    left:58.38px;
-    top: 670px;
+    left:10%;
+    top: 690px;
     width: 300px !important;
     height: 300px  !important;
     border-radius: 16px;
@@ -347,7 +347,7 @@
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     letter-spacing: -2px;
-    width: 505px;
+    width: 300px;
     height: min-content;
     flex-direction: column;
   }

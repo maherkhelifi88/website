@@ -21,53 +21,6 @@ export const Footer: FC<Props> = memo(function Footer(props = {}) {
       <div className={classes.bg}></div>
       <div className={classes.copyright2023FinestDevsAllRigh}>Copyright © 2023 The Leap. All Rights Reserved</div>
       <div className={classes.line4}></div>
-      <div className={classes.col}>
-        <div className={classes.col1}>
-          <OriginalLogo_TypeDark />
-          <div className={classes.welcomeToAPlaceOfRefinementAnd}>
-          Elevating social media with speed precision &amp; efficiency.
-          </div>
-        </div>
-        <div className={classes.col10}>
-        <div className={classes.col2}>
-          <div className={classes.company}>Company</div>
-          <div className={classes.list}>
-            <div className={classes.about}>About</div>
-            <div className={classes.pricing}>Pricing</div>
-            <div className={classes.blog}>Blog</div>
-            <div className={classes.careers}>Careers</div>
-          </div>
-        </div>
-        <div className={classes.col3}>
-          <div className={classes.product}>Product</div>
-          <div className={classes.list2}>
-            <div className={classes.saasCompany}>Saas Company</div>
-            <div className={classes.marketplace}>Marketplace</div>
-            <div className={classes.aPI}>API</div>
-          </div>
-        </div>
-        </div>
-        <div className={classes.col11}>
-        <div className={classes.col4}>
-          <div className={classes.resources}>Resources</div>
-          <div className={classes.list3}>
-            <div className={classes.helpCenter}>Help Center</div>
-            <div className={classes.partnerProgram}>Partner Program</div>
-            <div className={classes.whatIsSaaS}>What is SaaS?</div>
-            <div className={classes.saaSComparison}>SaaS Comparison</div>
-          </div>
-        </div>
-        <div className={classes.col5}>
-          <div className={classes.support}>Support</div>
-          <div className={classes.list4}>
-            <div className={classes.community}>Community</div>
-            <div className={classes.knowledgeBase}>Knowledge Base</div>
-            <div className={classes.academy}>Academy</div>
-            <div className={classes.newsletter}>Newsletter</div>
-          </div>
-        </div>
-        </div>
-      </div>
       <div className={classes.cTA}>
         <div className={classes.title}>
           <div className={classes.getStartedWithNexo}>Get Started With Kanteen</div>

@@ -5,7 +5,7 @@ import resets from '../_resets.module.css';
 import { Button_StateNormalTypePrimary } from './Button_StateNormalTypePrimary/Button_StateNormalTypePrimary';
 import classes from './Text.module.css';
 import image1 from '/assets/mez.jpg';
-import image2 from '/assets/mezcal.jpg';
+import image2 from '/assets/MEZCAL.jpeg';
 interface Props {
   className?: string;
   hide?: {
@@ -15,6 +15,9 @@ interface Props {
 }
 //2nd dont believe us 
 export const Texttwo: FC<Props> = memo(function Text(props = {}) {
+  const handleButtonClick = () => {
+    window.location.href = 'https://calendly.com/chaima-zine';
+  };
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       <div className={classes.bg}></div>
@@ -25,6 +28,7 @@ export const Texttwo: FC<Props> = memo(function Text(props = {}) {
         </div>
       </div>
       <Button_StateNormalTypePrimary
+      onClick={handleButtonClick}
         hide={{
           iconOutlineCheckCircle: true,
           iconOutlineArrowRight: true,
@@ -34,12 +38,7 @@ export const Texttwo: FC<Props> = memo(function Text(props = {}) {
         }}
       />
 
-      {/* Video 1 */}
-      <img
-        className={classes.video}
-        src={image1} // Replace with the path to your first video
-      ></img>
-
+      
       {/* Video 2 */}
       <img
         className={classes.video}

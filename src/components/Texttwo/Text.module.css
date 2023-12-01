@@ -55,9 +55,9 @@
 }
 .video {
   position: absolute;
-  right: 5%;
+  right: 15%;
   top: 2100px; /* Adjust the top position as needed */
-  width: 380px; /* Adjust the width as needed */
+  width: 480px; /* Adjust the width as needed */
   height: 532px; /* Adjust the height as needed */
   border-radius: 8px;
   -webkit-mask-repeat: no-repeat;
@@ -73,7 +73,7 @@
   top: 2100PX;
   width:45px;
   height: 535px;
-  background-color: #000000;
+  background-color: #622113;
 }
 
 

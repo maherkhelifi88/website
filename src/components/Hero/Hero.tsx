@@ -24,12 +24,15 @@ interface Props {
 }
 /* @figmaId 7715:2402 */
 export const Hero: FC<Props> = memo(function Hero(props = {}) {
+  const handleButtonClick = () => {
+    window.location.href = 'https://calendly.com/chaima-zine';
+  };
   return (
     <>
      <div className="main-container">
        <div className={classes.bg}></div>
       <video autoPlay muted loop className={classes.video}>
-        <source src="/assets/Nue.mp4" type="video/mp4" />
+        <source src="/assets/vid.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className={classes.bg2}></div>
@@ -104,6 +107,7 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
           </div>
         </div>
         <Button_StateNormalTypePrimary
+          onClick={handleButtonClick}
           hide={{
             iconOutlineCheckCircle: true,
             iconOutlineArrowRight: true,

@@ -18,16 +18,20 @@ interface Props {
 }
 //1st dont believe us 
 export const Text: FC<Props> = memo(function Text(props = {}) {
+  const handleButtonClick = () => {
+    window.location.href = 'https://calendly.com/chaima-zine';
+  };
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       
       <div className={classes.title}>
         <div className={classes.donTBelieveUsPeopleTalkAboutIt}>Who are we?</div>
         <div className={classes.weHaveConsideredOurSolutionsTo}>
-       " We are a team of passionate professionals and food enthousiasts, expert social media managers ready to elevate your business. Our mission is to help you grow a faithful and unmatched community, taking your brand to the next level."
+       " We are a team of passionate professionals and food enthousiasts, expert Social Media managers ready to elevate your business. Our mission is to help you grow a faithful and unmatched community, taking your brand to the next level."
         </div>
       </div>
       <Button_StateNormalTypePrimary
+        onClick={handleButtonClick}
         hide={{
           iconOutlineCheckCircle: true,
           iconOutlineArrowRight: true,

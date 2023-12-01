@@ -18,6 +18,9 @@ interface Props {
 }
 //3rd dont believe us 
 export const Textthree: FC<Props> = memo(function Text(props = {}) {
+  const handleButtonClick = () => {
+    window.location.href = 'https://calendly.com/chaima-zine';
+  };
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       <div className={classes.title}>
@@ -28,6 +31,7 @@ export const Textthree: FC<Props> = memo(function Text(props = {}) {
         </div>
       </div>
       <Button_StateNormalTypePrimary
+        onClick={handleButtonClick}
         hide={{
           iconOutlineCheckCircle: true,
           iconOutlineArrowRight: true,

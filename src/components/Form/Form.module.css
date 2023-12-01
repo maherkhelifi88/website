@@ -364,7 +364,7 @@
 
 
   .button.button {
-    width: 363px;
+    width: 313px;
     background-color: #c9f269;
   }
   .getStartedNow {
@@ -386,7 +386,7 @@
     position: absolute;
     left: 20px;
     top: 1130px;
-    width: 400px;
+    width: 300px;
     height: min-content;
     flex-direction: column;
     align-items: flex-start;
@@ -395,7 +395,7 @@
   }
   ._1 {
     position: relative;
-    width: 363px;
+    width: 313px;
     height: 94px;
   }
   .rectangle463 {
@@ -404,7 +404,7 @@
     right: 0;
     top: 36.1702%;
     bottom: 0;
-    width: 163px;
+    width: 153px;
     height: 60px;
     outline: solid 1px #ffffff;
     outline-offset: -1px;
@@ -448,7 +448,7 @@
   }
   ._4 {
     position: relative;
-    width: 363px;
+    width: 313px;
     height: 94px;
   }
   
@@ -489,7 +489,7 @@
   }
   ._6 {
     position: relative;
-    width: 363px;
+    width: 313px;
     height: 94px;
   }
   
@@ -530,7 +530,7 @@
   }
   ._2 {
     position: relative;
-    width: 363px;
+    width: 313px;
     height: 94px;
   }
   
@@ -571,7 +571,7 @@
   }
   ._3 {
     position: relative;
-    width: 363px;
+    width: 313px;
     height: 193px;
   }
   .rectangle4635 {
@@ -580,7 +580,7 @@
     right: 0;
     top: 17.6166%;
     bottom: 0;
-    width: 363px;
+    width: 313px;
     height: 159px;
     outline: solid 1px #ffffff;
     outline-offset: -1px;
@@ -624,7 +624,7 @@
   }
   ._5 {
     position: relative;
-    width: 363px;
+    width: 313px;
     height: 94px;
   }
   .rectangle4636 {
@@ -683,16 +683,16 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 58px;
     font-weight: 600;
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     letter-spacing: -2px;
     position: absolute;
-    left: 20px;
+    left: 05%;
     top: 1010px;
-    max-width: 450px; /* Added */
+    max-width: 400px; /* Added */
     height: auto; /* Adjusted */
     text-align: center;
     align-items: center;
@@ -706,14 +706,14 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 58px;
     font-weight: 600;
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     letter-spacing: -2px;
     position: absolute;
-    left: 150px;
+    left: 140px;
     top: 1050px;
     max-width: 400px; /* Added */
     height: auto; /* Adjusted */
