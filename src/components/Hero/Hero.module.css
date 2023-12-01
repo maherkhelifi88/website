@@ -1091,7 +1091,7 @@
     .bg {
       position: absolute;
       width:100%;
-      height: 1300px;
+      height: 1250px;
       background-color: #f0f5f4;
     }
     
@@ -1172,7 +1172,7 @@
     }
     .bg3 {
       position: absolute;
-      left: 270px;
+      left: 240px;
       top: 763px;
       width: 150px;
       height: 150px;
@@ -1182,7 +1182,7 @@
     }
     .list {
       position: absolute;
-      left: 275px;
+      left: 245px;
       top: 793px;
       width: min-content;
       height: min-content;
@@ -1391,7 +1391,7 @@
         'Liberation Sans', sans-serif;
       letter-spacing: -0.1786px;
       position: absolute;
-      left: 301.86px;
+      left: 270.86px;
       top: 768.8601px;
       width: min-content;
       height: min-content;

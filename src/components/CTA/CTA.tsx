@@ -1,6 +1,6 @@
 import { memo } from 'react';
 import type { FC } from 'react';
-
+import { useNavigate } from 'react-router-dom';
 import resets from '../_resets.module.css';
 import { Button_StateNormalTypeSecondar } from './Button_StateNormalTypeSecondar/Button_StateNormalTypeSecondar';
 import classes from './CTA.module.css';
@@ -14,6 +14,10 @@ interface Props {
 }
 /* Schedule a free consultation */
 export const CTA: FC<Props> = memo(function CTA(props = {}) {
+ 
+  const handleButtonClick = () => {
+    window.location.href = 'https://calendly.com/chaima-zine';
+  };
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       <div className={classes.title}>
@@ -23,6 +27,7 @@ export const CTA: FC<Props> = memo(function CTA(props = {}) {
         </div>
       </div>
       <Button_StateNormalTypeSecondar
+      onClick={handleButtonClick}
         hide={{
           iconOutlineCheckCircle: true,
           iconOutlineArrowRight: true,

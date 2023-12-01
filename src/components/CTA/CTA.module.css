@@ -145,7 +145,7 @@
     
   }
   .root {
-    width: 75%;
+    width: 70%;
     height: 250px;
     place-content: space-between;
     align-items: center;
@@ -153,8 +153,8 @@
     border-radius: 16px;
     background-color: #c9f269;
     z-index: 5;
-    margin-top: 4640px;
-    margin-left: -13%;
+    margin-top: 4660px;
+    margin-left: -10%;
     flex-direction: column;
     align-items: center; 
   }
@@ -168,7 +168,7 @@
   }
   .scheduleAFreeConsultation {
     color: #083c2f;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 100%;
     font-weight: 600;
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
@@ -188,7 +188,7 @@
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     letter-spacing: -0.3px;
-    width: 350px;
+    width: 330px;
     height: min-content;
     flex-direction: column;
    

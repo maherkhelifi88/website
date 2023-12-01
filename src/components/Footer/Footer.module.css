@@ -468,24 +468,24 @@
   .col {
     position: absolute;
     left: 20px;
-    top: 5323px;
+    top: 5353px;
     width: min-content;
     height: min-content;
     align-items: flex-start;
-    gap: 128px;
+    gap: 108px;
     flex-direction: column;
   }
   .col1 {
     display : none;
   }
   .col10 {
-    gap: 128px;
+    gap: 90px;
     align-items: center;
     flex-direction: row;
     margin-top: -50px;
   }
   .col11 {
-    gap: 128px;
+    gap: 90px;
     align-items: center;
     flex-direction: row;
     margin-top: -50px;
@@ -791,7 +791,7 @@
   }
   .cTA {
     position: absolute;
-    left: 10px;
+    left:3%;
     top:5000px;
     width: min-content;
     height: min-content;
@@ -810,7 +810,7 @@
   }
   .getStartedWithNexo {
     color: #fff;
-    font-size: 38px;
+    font-size: 30px;
     line-height: 58px;
     font-weight: 600;
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
@@ -830,7 +830,7 @@
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     letter-spacing: -0.3px;
-    width: 400px;
+    width: 350px;
     height: min-content;
     text-align: center;
     align-items: center;
