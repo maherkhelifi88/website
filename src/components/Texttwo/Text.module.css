@@ -236,7 +236,7 @@
     position: absolute;
     right:0;
     top: 640px; 
-    width: 180px; 
+    width:320px; 
     height: 252px; 
     border-radius: 8px;
     -webkit-mask-repeat: no-repeat;
@@ -253,7 +253,7 @@
   /* Additional styles for the second video to adjust its position */
   .video + .video {
     /* Adjust the top position and other styles for the second video */
-    left: 0;  /* Adjust the top position as needed */
+    left: -50%;  /* Adjust the top position as needed */
     /* Add any other necessary styles for the second video */
   }
 }
