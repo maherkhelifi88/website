@@ -307,11 +307,7 @@
 
 /* Mobile-specific styles */
 @media screen and (max-width: 700px) {
-  .bg {
-    width: 1600px;
-    height: 934px;
-    background-color: #fff;
-  }
+ 
   .questions {
     display: flex;
     flex-direction: column;

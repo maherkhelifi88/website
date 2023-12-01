@@ -435,7 +435,7 @@
     position: absolute;
     left: 0;
     top: 4368px;
-    width: 120%;
+    width: 100%;
     height: 858px;
     background-color: #083c2f;
   }
@@ -472,20 +472,20 @@
     width: min-content;
     height: min-content;
     align-items: flex-start;
-    gap: 128px;
+    gap: 108px;
     flex-direction: column;
   }
   .col1 {
     display : none;
   }
   .col10 {
-    gap: 128px;
+    gap: 90px;
     align-items: center;
     flex-direction: row;
     margin-top: -50px;
   }
   .col11 {
-    gap: 128px;
+    gap: 90px;
     align-items: center;
     flex-direction: row;
     margin-top: -50px;
@@ -791,7 +791,7 @@
   }
   .cTA {
     position: absolute;
-    left: 10px;
+    left: 3%;
     top:4400px;
     width: min-content;
     height: min-content;
