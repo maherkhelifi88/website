@@ -31,23 +31,7 @@ export const Header: FC<Props> = memo(function Header(props = {}) {
       </Navbar.Brand>
       <Navbar.Toggle onClick={toggleMenu} aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className={`ml-auto ${classes.menu}`}>
-          <Nav.Link href="/" className={classes.home}>
-            Home
-          </Nav.Link>
-          <Nav.Link href="#link" className={classes.about}>
-            About
-          </Nav.Link>
-          <Nav.Link href="/influencer" className={classes.product}>
-            Product
-          </Nav.Link>
-          <Nav.Link href="#link" className={classes.pages}>
-            Pages
-          </Nav.Link>
-          <Nav.Link href="#link" className={classes.contact}>
-            Contact
-          </Nav.Link>
-        </Nav>
+        
         <div className={classes.button2}>
           <Button_StateNormalTypeSmall
             className={classes.button}
