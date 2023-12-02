@@ -40,7 +40,7 @@ export const Header: FC<Props> = memo(function Header(props = {}) {
               iconOutlineArrowRight: true,
             }}
           />
-          <div className={classes.logIn}>Log In</div>
+         
         </div>
       </Navbar.Collapse>
     </Navbar>
