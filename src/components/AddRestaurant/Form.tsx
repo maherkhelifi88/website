@@ -22,17 +22,15 @@ interface Props {
     iconOutlineArrowRight?: boolean;
   };
 }
-/* @figmaId 159:2474 */
+
 export const Form: FC<Props> = memo(function Form(props = {}) {
-  const [formData, setFormData] = useState<IState>({
-    name: '',
-    about: '',
-    customerLove: '',
-    opportunities: '',
-    videoParagraph: '',
-    videos: [],
-    image: null
-  });
+
+  const [name, setName] = useState('');
+  const [about, setAbout] = useState('');
+  const [customerLove, setCustomerLove] = useState('');
+  const [opportunities, setOpportunities] = useState('');
+  const [videoParagraph, setVideoParagraph] = useState('');
+  const [videos, setVideos] = useState<string[]>([]);
   const [isSubmittedSuccessfully, setIsSubmittedSuccessfully] = useState(false);
   const [openSnackbar, setOpenSnackbar] = useState(false);
   const [image, setimage] = useState<File | null>(null);
@@ -42,39 +40,34 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
       setimage(e.target.files[0]);
     }
   };
-  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
-    //console.log(e.target.name, e.target.value); // this line for debugging
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+  const handleChangeVideos = (e: ChangeEvent<HTMLInputElement>) => {
+    setVideos([...videos, e.target.value]);
   };
-
   const handleSubmit = async () => {
+ 
     const data = new FormData();
-  // Append text fields to FormData
-  Object.keys(formData).forEach(key => {
-    const formKey = key as keyof IState; // Type assertion
-    if (formKey !== 'videos' && formKey !== 'image') {
-      data.append(formKey, formData[formKey]);
+    data.append('name', name);
+    data.append('about', about);
+    data.append('customerLove', customerLove);
+    data.append('opportunities', opportunities);
+    data.append('videoParagraph', videoParagraph);
+    data.append('videos', JSON.stringify(videos));
+    if (image) {
+      data.append('image', image);
     }
-  });
-  // Special handling for 'videos'
-  // Assuming it's an array of strings, convert to JSON string
-  if (formData.videos.length) {
-    data.append('videos', JSON.stringify(formData.videos));
+  // Log FormData entries
+  for (var pair of data.entries()) {
+    console.log(pair[0] + ', ' + pair[1]);
   }
 
-  // Append selected image if it exists
-  if (formData.image) {
-    data.append('image', formData.image);
-  }
 
   console.log(data)
   try {
-    const response = await axios.post('http://localhost:3001/api/restaurant', data, {
-      headers: {
-        'Content-Type': 'multipart/form-data'
-      }
+    const response = await fetch('http://localhost:3001/api/restaurant/', {
+      method: 'POST',
+      body: data, // No need to set 'Content-Type' header when using FormData
     });
-    console.log(response.data);
+    console.log(response);
     setIsSubmittedSuccessfully(true);
     setOpenSnackbar(true);
   } catch (error) {
@@ -107,7 +100,7 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
             label="e.g. Tavolata"
             id="fullWidth"
             name="name"
-            onChange={handleChange}
+            onChange={(event) => setName(event.target.value)}
             className={classes.rectangle463} />
         </div>
         <div className={classes._4}>
@@ -118,7 +111,7 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
             rows={5}
             defaultValue="About"
             name="about"
-            onChange={handleChange}
+            onChange={(event) => setAbout(event.target.value)}
             className={classes.rectangle4635}
           />
           <div className={classes.about}>About</div>
@@ -130,7 +123,7 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
             multiline
             rows={5}
             name="customerLove"
-            onChange={handleChange}
+            onChange={(event) => setCustomerLove(event.target.value)}
             defaultValue="What Customers Love"
             className={classes.rectangle4635}
           />
@@ -143,7 +136,7 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
             multiline
             rows={5}
             name="opportunities"
-            onChange={handleChange}
+            onChange={(event) => setOpportunities(event.target.value)}
             defaultValue="Opportunities for imporvement"
             className={classes.rectangle4635}
           />
@@ -156,7 +149,7 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
             multiline
             rows={5}
             name="videoParagraph"
-            onChange={handleChange}
+            onChange={(event) => setVideoParagraph(event.target.value)}
             defaultValue="Video strategy"
             className={classes.rectangle4635}
           />
@@ -168,7 +161,7 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
             label="Search for videos / Add iCloud Shared link"
             id="fullWidth"
             name="videos"
-            onChange={handleChange}
+            onChange={handleChangeVideos}
             className={classes.rectangle463} />
           <div className={classes.uploadVideos}>Upload videos</div>
 
