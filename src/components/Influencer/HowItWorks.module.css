@@ -913,3 +913,613 @@
   }
   
 }
+
+@media screen and (min-width: 760px) and (max-width: 1010px) {
+
+  .bg {
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    background-color: #f0f5f4;
+  }
+  .image {
+    position: absolute;
+    left: 250.38px;
+    top: 570px;
+    width: 300.51px;
+    height: 300px;
+    place-content: center;
+    border-radius: 16px;
+    background-image:/* webpackIgnore: true */ url('/assets/image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .text {
+    position: absolute;
+    left: 70.1626px;
+    top: 150px;
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .title {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .heyJenLetSCreateMagic {
+    color: #083c2f;
+    font-size: 36px;
+    line-height: 58px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -2px;
+    width: 505px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .weHaveConsideredOurSolutionsTo {
+    color: #3c4a47;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 479px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .steps {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  ._1 {
+    width: min-content;
+    height: min-content;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .no {
+    position: relative;
+    width: 50px;
+    height: 50px;
+  }
+  .ellipse962 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    overflow: visible;
+  }
+  .icon {
+    width: 100%;
+    height: 100%;
+  }
+  ._12 {
+    color: #083c2f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 30%;
+    right: 28%;
+    top: 22%;
+    bottom: 22%;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .text2 {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .submitBusinessVideos {
+    color: #083c2f;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .uploadTheVideosYouHaveTakenOnY {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 676px;
+    height: min-content;
+    flex-direction: column;
+  }
+  ._2 {
+    width: min-content;
+    height: min-content;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .no2 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+  }
+  .ellipse9622 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    overflow: visible;
+  }
+  .icon2 {
+    width: 100%;
+    height: 100%;
+  }
+  ._22 {
+    color: #083c2f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 28%;
+    right: 26%;
+    top: 22%;
+    bottom: 22%;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .text3 {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .fillUpBusinessDetails {
+    color: #083c2f;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .provideUsWithInformationAboutT {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 676px;
+    height: min-content;
+    flex-direction: column;
+  }
+  ._3 {
+    width: min-content;
+    height: min-content;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .no3 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+  }
+  .ellipse9623 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    overflow: visible;
+  }
+  .icon3 {
+    width: 100%;
+    height: 100%;
+  }
+  ._32 {
+    color: #083c2f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 26%;
+    right: 26%;
+    top: 22%;
+    bottom: 22%;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .text4 {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .reviewYourKanteenContent {
+    color: #083c2f;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .takeALookAtTheContentWeHaveCre {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 676px;
+    height: min-content;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1010px) and (max-width: 1030px) {
+
+  .bg {
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    background-color: #f0f5f4;
+  }
+  .image {
+    position: absolute;
+    left: 550.38px;
+    top: 270px;
+    width: 400.51px;
+    height: 400px;
+    place-content: center;
+    border-radius: 16px;
+    background-image:/* webpackIgnore: true */ url('/assets/image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .text {
+    position: absolute;
+    left: 70.1626px;
+    top: 230px;
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .title {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .heyJenLetSCreateMagic {
+    color: #083c2f;
+    font-size: 36px;
+    line-height: 58px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -2px;
+    width: 505px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .weHaveConsideredOurSolutionsTo {
+    color: #3c4a47;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 479px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .steps {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  ._1 {
+    width: min-content;
+    height: min-content;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .no {
+    position: relative;
+    width: 50px;
+    height: 50px;
+  }
+  .ellipse962 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    overflow: visible;
+  }
+  .icon {
+    width: 100%;
+    height: 100%;
+  }
+  ._12 {
+    color: #083c2f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 30%;
+    right: 28%;
+    top: 22%;
+    bottom: 22%;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .text2 {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .submitBusinessVideos {
+    color: #083c2f;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .uploadTheVideosYouHaveTakenOnY {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 276px;
+    height: min-content;
+    flex-direction: column;
+  }
+  ._2 {
+    width: min-content;
+    height: min-content;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .no2 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+  }
+  .ellipse9622 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    overflow: visible;
+  }
+  .icon2 {
+    width: 100%;
+    height: 100%;
+  }
+  ._22 {
+    color: #083c2f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 28%;
+    right: 26%;
+    top: 22%;
+    bottom: 22%;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .text3 {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .fillUpBusinessDetails {
+    color: #083c2f;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .provideUsWithInformationAboutT {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 276px;
+    height: min-content;
+    flex-direction: column;
+  }
+  ._3 {
+    width: min-content;
+    height: min-content;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .no3 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+  }
+  .ellipse9623 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    overflow: visible;
+  }
+  .icon3 {
+    width: 100%;
+    height: 100%;
+  }
+  ._32 {
+    color: #083c2f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 26%;
+    right: 26%;
+    top: 22%;
+    bottom: 22%;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .text4 {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .reviewYourKanteenContent {
+    color: #083c2f;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .takeALookAtTheContentWeHaveCre {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 276px;
+    height: min-content;
+    flex-direction: column;
+  }
+}

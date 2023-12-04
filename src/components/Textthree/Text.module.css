@@ -166,7 +166,7 @@
 }
 
 /* Media query for mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 750px) {
 .getStartedNow {
   color: #083c2f;
   font-size: 16px;
@@ -245,5 +245,177 @@
   left: 0; /* Adjust the top position as needed */
   /* Add any other necessary styles for the second video */
 }
+
+}
+
+@media screen and (min-width: 760px) and (max-width: 1010px) {
+
+
+  .getStartedNow {
+    color: #083c2f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    text-align: start; 
+    align-items: flex-start; 
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .root {
+    position: absolute;
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: start;
+    gap: 32px;
+    z-index: 3;
+    margin-top: 2730px;
+    margin-left: 5%;
+  }
+  .title {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .donTBelieveUsPeopleTalkAboutIt {
+    color: #083c2f;
+    font-size: 38px;
+    line-height: 58px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -2px;
+    width: 400px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .weHaveConsideredOurSolutionsTo {
+    color: #3c4a47;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 300px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .video {
+    position: absolute;
+    right: -85%;
+    top: -7%; /* Adjust the top position as needed */
+    width: 200px; /* Adjust the width as needed */
+    height: 532px; /* Adjust the height as needed */
+    border-radius: 8px;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: 0px 0px;
+    mask-position: 0px 0px;
+    -webkit-mask-size: 380px 410px;
+    mask-size: 380px 410px;
+  }
+  
+  
+  
+  /* Additional styles for the second video to adjust its position */
+  .video + .video {
+    /* Adjust the top position and other styles for the second video */
+    left: 80%; /* Adjust the top position as needed */
+    /* Add any other necessary styles for the second video */
+  }
+
+
+}
+
+@media screen and (min-width: 1010px) and (max-width: 1030px) {
+
+
+  .getStartedNow {
+    color: #083c2f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    text-align: start; 
+    align-items: flex-start; 
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .root {
+    position: absolute;
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: start;
+    gap: 32px;
+    z-index: 3;
+    margin-top: 2730px;
+    margin-left: 5%;
+  }
+  .title {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .donTBelieveUsPeopleTalkAboutIt {
+    color: #083c2f;
+    font-size: 38px;
+    line-height: 58px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -2px;
+    width: 400px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .weHaveConsideredOurSolutionsTo {
+    color: #3c4a47;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 300px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .video {
+    position: absolute;
+    right: -120%;
+    top: -7%; /* Adjust the top position as needed */
+    width: 200px; /* Adjust the width as needed */
+    height: 532px; /* Adjust the height as needed */
+    border-radius: 8px;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: 0px 0px;
+    mask-position: 0px 0px;
+    -webkit-mask-size: 380px 410px;
+    mask-size: 380px 410px;
+  }
+  
+  
+  
+  /* Additional styles for the second video to adjust its position */
+  .video + .video {
+    /* Adjust the top position and other styles for the second video */
+    left: 90%; /* Adjust the top position as needed */
+    /* Add any other necessary styles for the second video */
+  }
+
 
 }

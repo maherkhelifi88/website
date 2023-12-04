@@ -65,6 +65,10 @@
   white-space: nowrap;
   flex-direction: column;
 }
+
+
+
+
 @media screen and (max-width: 1260px) {
 /* Existing styles for larger screens */
 .button.button {
@@ -172,6 +176,73 @@
   }
 }
 
+@media screen and (min-width: 760px) and (max-width: 1000px)  {
+  .button.button {
+    left:230.8936%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    align-self: flex-start;
+  }
+  .logo{
+    left:0px;
+  }
+  .root {
+    width: 0px;
+    height: min-content;
+    place-content: space-between;
+    align-items: center;
+    z-index: 2;
+    margin-top: 25px;
+    margin-left: -25px;
+  }
+  .menu {
+    display:none;
+  }
+  .logIn {
+    display: none;
+  }
+  .button2 {
+    position: relative;
+    width: 235px;
+    height: 48px;
+    right: 50px;
+  }
+}
+
+@media screen and (min-width: 1010px) and (max-width: 1030px)  {
+  .button.button {
+    left:320.8936%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    align-self: flex-start;
+  }
+  .logo{
+    left:0px;
+  }
+  .root {
+    width: 0px;
+    height: min-content;
+    place-content: space-between;
+    align-items: center;
+    z-index: 2;
+    margin-top: 25px;
+    margin-left: -25px;
+  }
+  .menu {
+    display:none;
+  }
+  .logIn {
+    display: none;
+  }
+  .button2 {
+    position: relative;
+    width: 235px;
+    height: 48px;
+    right: 50px;
+  }
+}
 
 
 

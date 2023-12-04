@@ -44,7 +44,7 @@ export const FAQ: FC<Props> = memo(function FAQ(props = {}) {
               It is a long established fact that a reader a distracted by the readable content page.
             </div>
           </div>
-          <div className={classes.line64}></div>
+          <div className={classes.line67}></div>
         </div>
         <div className={classes.row2}>
           <div className={classes._2}>
@@ -70,7 +70,7 @@ export const FAQ: FC<Props> = memo(function FAQ(props = {}) {
               or when your next billing for the period begins here.
             </div>
           </div>
-          <div className={classes.line66}></div>
+          <div className={classes.line68}></div>
         </div>
       </div>
       <div className={classes.commonQuestionsAnswers}>Common questions </div>

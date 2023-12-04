@@ -6,8 +6,9 @@
   bottom: 0;
   align-self: flex-start;
 }
+
 .root {
-  position:relative;
+  position: relative;
   width: 1196px;
   height: min-content;
   place-content: space-between;
@@ -16,6 +17,7 @@
   margin-top: 25px;
   margin-left: 20px;
 }
+
 .menu {
   width: min-content;
   height: min-content;
@@ -23,6 +25,7 @@
   align-items: center;
   gap: 35px;
 }
+
 .home,
 .about,
 .product,
@@ -40,11 +43,13 @@
   white-space: nowrap;
   flex-direction: column;
 }
+
 .button2 {
   position: relative;
   width: 225px;
   height: 48px;
 }
+
 .logIn {
   color: #083c2f;
   font-size: 16px;
@@ -75,9 +80,11 @@
     bottom: 0;
     align-self: flex-start;
   }
-  .logo{
-    left:0px;
+
+  .logo {
+    left: 0px;
   }
+
   .root {
     width: 0;
     height: min-content;
@@ -87,12 +94,15 @@
     margin-top: 25px;
     margin-left: -18px;
   }
+
   .menu {
-    display:none;
+    display: none;
   }
+
   .logIn {
     display: none;
   }
+
   .button2 {
     position: relative;
     width: 235px;
@@ -104,14 +114,16 @@
 
 
 @media screen and (min-width: 2001px) {
+
   /* Existing styles for larger screens */
   .button.button {
-    left: 284.8936%;
+    left: 81.8936%;
     right: 0;
     top: 0;
     bottom: 0;
     align-self: flex-start;
   }
+
   .root {
     width: 2096px;
     height: min-content;
@@ -119,8 +131,9 @@
     align-items: center;
     z-index: 2;
     margin-top: 25px;
-    margin-left:60px;
+    margin-left: 60px;
   }
+
   .menu {
     width: min-content;
     height: min-content;
@@ -129,6 +142,7 @@
     gap: 42px;
     margin-left: -1200px;
   }
+
   .home,
   .about,
   .product,
@@ -146,11 +160,13 @@
     white-space: nowrap;
     flex-direction: column;
   }
+
   .button2 {
     position: relative;
     width: 235px;
     height: 48px;
   }
+
   .logIn {
     color: #083c2f;
     font-size: 16px;
@@ -171,5 +187,83 @@
     white-space: nowrap;
     flex-direction: column;
   }
-  
+
+}
+
+@media screen and (min-width: 760px) and (max-width: 1000px) {
+  .button.button {
+    left: 230.8936%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    align-self: flex-start;
   }
+
+  .logo {
+    left: 0px;
+  }
+
+  .root {
+    width: 0px;
+    height: min-content;
+    place-content: space-between;
+    align-items: center;
+    z-index: 2;
+    margin-top: 25px;
+    margin-left: 0px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .logIn {
+    display: none;
+  }
+
+  .button2 {
+    position: relative;
+    width: 235px;
+    height: 48px;
+    right: 50px;
+  }
+}
+
+@media screen and (min-width: 1010px) and (max-width: 1030px) {
+  .button.button {
+    left: 320.8936%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    align-self: flex-start;
+  }
+
+  .logo {
+    left: 0px;
+  }
+
+  .root {
+    width: 0px;
+    height: min-content;
+    place-content: space-between;
+    align-items: center;
+    z-index: 2;
+    margin-top: 25px;
+    margin-left: -0px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .logIn {
+    display: none;
+  }
+
+  .button2 {
+    position: relative;
+    width: 235px;
+    height: 48px;
+    right: 50px;
+  }
+}
