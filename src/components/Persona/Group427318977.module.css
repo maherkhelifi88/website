@@ -180,7 +180,6 @@
   top: 0;
   bottom: 0;
   border-radius: 16px;
-  background-image:/* webpackIgnore: true */ url('/assets/f0eb01a7774b433188739dba0afa232.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -263,6 +262,20 @@
   position: absolute;
   left: 67px;
   top: 1079px;
+  width: 266px;
+  height: min-content;
+  flex-direction: column;
+}
+.themesNote {
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  position: absolute;
+  left: 67px;
+  top: 2539px;
   width: 266px;
   height: min-content;
   flex-direction: column;

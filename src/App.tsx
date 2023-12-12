@@ -19,7 +19,7 @@ export const App: FC<Props> = memo(function App(props = {}) {
           <Route path="/influencer" element={<Influencer/>} />
           <Route path="/restaurant" element={<Restaurant/>} />
           <Route path="/addRestaurant" element={<AddRestaurant/>} />
-          <Route path="/persona" element={<Persona/>} />
+          <Route path="/persona/:id" element={<Persona/>} />
         </Routes>
       </Router>
     </div>
