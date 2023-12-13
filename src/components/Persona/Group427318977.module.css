@@ -11,50 +11,54 @@
   position: absolute;
   left: 0;
   top: 0;
-  width:100%;
-  height: 3500px;
+  width: 100%;
+  height: 3800px;
   background-color: #000000;
 }
+
 .button_refresh_Dowload_delete2.button_refresh_Dowload_delete2 {
   left: 415px;
   top: 1276px;
 }
+
 .button_refresh_Dowload_delete3.button_refresh_Dowload_delete3 {
   left: 760px;
   top: 1279px;
 }
+
 .button_refresh_Dowload_delete4.button_refresh_Dowload_delete4 {
   left: 1120px;
   top: 1276px;
 }
+
 .dALLE202312810358CreateAPromot {
   transform-origin: top left;
   position: absolute;
   left: 521.793px;
   top: 738px;
-  width: 167px;
+  width: 187px;
   height: 351.5807px;
-  border-radius: 16px;
-  background-image:/* webpackIgnore: true */ url('/assets/dALLE202312810358CreateAPromot.jpg');
+  border-radius: 20px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   transform: matrix(0.9783, 0.2071, -0.2071, 0.9783, 0, 0);
 }
+
 .dALLE2023128103642CreateAPromo {
   transform-origin: top left;
   position: absolute;
   left: 361px;
   top: 793.9926px;
-  width: 167px;
+  width: 187px;
   height: 352.9773px;
-  border-radius: 16px;
-  background-image:/* webpackIgnore: true */ url('/assets/dALLE2023128103642CreateAPromo.jpg');
+  border-radius: 20px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   transform: matrix(0.9815, -0.1916, 0.1916, 0.9815, 0, 0);
 }
+
 .theBottleHouse {
   color: #fff;
   font-size: 72px;
@@ -70,6 +74,7 @@
   height: min-content;
   flex-direction: column;
 }
+
 .videoIdeas {
   position: absolute;
   left: 67px;
@@ -78,6 +83,7 @@
   height: min-content;
   flex-direction: column;
 }
+
 .textBlock {
   background-image: linear-gradient(180deg, #ffff 0%, #00af8382 100%);
   background-position: center;
@@ -93,6 +99,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -4px;
 }
+
 .textBlock2 {
   margin-top: 0;
   background-image: linear-gradient(180deg, #ffff 0%, #00af8382 100%);
@@ -109,62 +116,63 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -4px;
 }
+
 .image {
   transform-origin: top left;
   position: absolute;
   left: 903.4463px;
   top: 761px;
-  width: 167px;
+  width: 187px;
   height: 363px;
-  border-radius: 16px;
-  background-image:/* webpackIgnore: true */ url('/assets/image.jpg');
+  border-radius: 20px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   transform: matrix(0.9467, 0.322, -0.322, 0.9467, 0, 0);
 }
+
 .image2 {
   transform-origin: top left;
   position: absolute;
   left: 721px;
   top: 810px;
-  width: 167px;
+  width: 187px;
   height: 363px;
-  border-radius: 16px;
-  background-image:/* webpackIgnore: true */ url('/assets/image2.jpg');
+  border-radius: 20px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   transform: matrix(0.9858, -0.1678, 0.1678, 0.9858, 0, 0);
 }
+
 .image20 {
   transform-origin: top left;
   position: absolute;
   left: 1275.8906px;
   top: 766px;
-  width: 167px;
+  width: 187px;
   height: 363px;
-  border-radius: 16px;
-  background-image:/* webpackIgnore: true */ url('/assets/image20.jpg');
+  border-radius: 20px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   transform: matrix(0.9467, 0.322, -0.322, 0.9467, 0, 0);
 }
+
 .image19 {
   transform-origin: top left;
   position: absolute;
   left: 1100px;
   top: 796.0156px;
-  width: 167px;
+  width: 187px;
   height: 363px;
-  border-radius: 16px;
-  background-image:/* webpackIgnore: true */ url('/assets/image19.jpg');
+  border-radius: 20px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   transform: matrix(0.9858, -0.1678, 0.1678, 0.9858, 0, 0);
 }
+
 .video_idea {
   position: absolute;
   left: 726px;
@@ -173,6 +181,7 @@
   height: 522px;
   align-items: flex-start;
 }
+
 .f0eb01a7774b433188739dba0afa23 {
   position: absolute;
   left: 0;
@@ -184,6 +193,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .rectangle34624112 {
   position: absolute;
   left: 0;
@@ -196,6 +206,7 @@
   background-repeat: no-repeat;
   background-size: auto;
 }
+
 .dateNight {
   position: absolute;
   left: 8.3019%;
@@ -205,6 +216,7 @@
   justify-content: center;
   flex-direction: column;
 }
+
 .textBlock3 {
   background-image: linear-gradient(180deg, #ffff 0%, #ffffff87 100%);
   background-position: center;
@@ -220,6 +232,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -1px;
 }
+
 .textBlock4 {
   margin-top: 0;
   background-image: linear-gradient(180deg, #ffff 0%, #ffffff87 100%);
@@ -236,6 +249,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -1px;
 }
+
 .christmasThemedVideosWithXmasT {
   color: #fff;
   font-size: 18px;
@@ -252,6 +266,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 .themesPartiesHappyHours {
   color: #fff;
   font-size: 18px;
@@ -266,6 +281,7 @@
   height: min-content;
   flex-direction: column;
 }
+
 .themesNote {
   color: #fff;
   font-size: 18px;
@@ -280,6 +296,15 @@
   height: min-content;
   flex-direction: column;
 }
+
+.themesStar {
+  position: absolute;
+  left: 467px;
+  top: 3319px;
+  width: 150px;
+  height: 50px;
+}
+
 .personaIdeas {
   position: absolute;
   left: 67px;
@@ -288,6 +313,7 @@
   height: min-content;
   flex-direction: column;
 }
+
 .textBlock5 {
   background-image: linear-gradient(180deg, #ffff 0%, #00af8382 100%);
   background-position: center;
@@ -303,6 +329,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -4px;
 }
+
 .textBlock6 {
   margin-top: 0;
   background-image: linear-gradient(180deg, #ffff 0%, #00af8382 100%);
@@ -319,6 +346,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -4px;
 }
+
 .newDesignBrief {
   position: absolute;
   left: 66px;
@@ -327,6 +355,16 @@
   height: min-content;
   flex-direction: column;
 }
+
+.rateEx {
+  position: absolute;
+  left: 66px;
+  top: 3310px;
+  width: 266px;
+  height: min-content;
+  flex-direction: column;
+}
+
 .textBlock7 {
   background-image: linear-gradient(180deg, #ffff 0%, #00af8382 100%);
   background-position: center;
@@ -342,6 +380,23 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -4px;
 }
+
+.textBlockrate {
+  background-image: linear-gradient(180deg, #ffff 0%, #00af8382 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 32px;
+  line-height: 108%;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -4px;
+}
+
 .textBlock8 {
   margin-top: 0;
   background-image: linear-gradient(180deg, #ffff 0%, #00af8382 100%);
@@ -358,6 +413,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -4px;
 }
+
 .textBlock9 {
   margin-top: 0;
   background-image: linear-gradient(180deg, #ffff 0%, #00af8382 100%);
@@ -374,6 +430,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -4px;
 }
+
 .videoLibrary {
   position: absolute;
   left: 68px;
@@ -382,6 +439,7 @@
   height: min-content;
   flex-direction: column;
 }
+
 .textBlock10 {
   background-image: linear-gradient(180deg, #ffff 0%, #00af8382 100%);
   background-position: center;
@@ -397,6 +455,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -4px;
 }
+
 .textBlock11 {
   margin-top: 0;
   background-image: linear-gradient(180deg, #ffff 0%, #00af8382 100%);
@@ -413,6 +472,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -4px;
 }
+
 .themesPartiesHappyHours2 {
   color: #fff;
   font-size: 18px;
@@ -427,6 +487,7 @@
   height: min-content;
   flex-direction: column;
 }
+
 .educationalVideosLearnAndTry {
   color: #fff;
   font-size: 18px;
@@ -443,18 +504,21 @@
   align-items: center;
   flex-direction: column;
 }
+
 .rectangle4255 {
   position: absolute;
   left: 394px;
-  top: 3261px;
+  top: 3561px;
   width: 251px;
   height: 70px;
   overflow: visible;
 }
+
 .icon {
   width: 100%;
   height: 100%;
 }
+
 .submit {
   color: #083c2f;
   font-size: 16px;
@@ -465,7 +529,7 @@
   letter-spacing: -0.3px;
   position: absolute;
   left: 493px;
-  top: 3284px;
+  top: 3584px;
   width: min-content;
   height: min-content;
   text-align: center;
@@ -473,6 +537,7 @@
   white-space: nowrap;
   flex-direction: column;
 }
+
 .rectangle34624121 {
   position: absolute;
   left: 1135px;
@@ -481,10 +546,12 @@
   height: 70px;
   overflow: visible;
 }
+
 .icon2 {
   width: 100%;
   height: 100%;
 }
+
 .addMore {
   color: #083c2f;
   font-size: 16px;
@@ -503,6 +570,7 @@
   white-space: nowrap;
   flex-direction: column;
 }
+
 .myAudienceIs {
   color: #fff;
   font-size: 30px;
@@ -521,6 +589,7 @@
   white-space: nowrap;
   flex-direction: column;
 }
+
 .iWantAVideoThatFocusesOn {
   color: #fff;
   font-size: 30px;
@@ -539,14 +608,16 @@
   white-space: nowrap;
   flex-direction: column;
 }
+
 .container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
+  align-items: flex-start;
 }
+
 .line314 {
   position: absolute;
-  left: 690px;
+  left: 530px;
   top: 2852px;
   width: 400px;
   height: 0;
@@ -554,9 +625,10 @@
   border-bottom: solid 1px #fff;
   margin-bottom: -1px;
 }
+
 .line315 {
   position: absolute;
-  left: 494px;
+  left: 380px;
   top: 2949px;
   width: 400px;
   height: 0;
@@ -564,6 +636,7 @@
   border-bottom: solid 1px #fff;
   margin-bottom: -1px;
 }
+
 .and {
   color: #fff;
   font-size: 30px;
@@ -582,9 +655,10 @@
   white-space: nowrap;
   flex-direction: column;
 }
+
 .line316 {
   position: relative;
-  left: -300px;
+  left: -430px;
   top: 3050px;
   width: 350px;
   height: 0;
@@ -592,6 +666,7 @@
   border-bottom: solid 1px #fff;
   margin-bottom: -1px;
 }
+
 .iWantToShow {
   color: #fff;
   font-size: 30px;
@@ -610,9 +685,10 @@
   white-space: nowrap;
   flex-direction: column;
 }
+
 .line317 {
   position: absolute;
-  left: -480px;
+  left: -600px;
   top: 3153px;
   width: 300px;
   height: 0;
@@ -620,6 +696,7 @@
   border-bottom: solid 1px #fff;
   margin-bottom: -1px;
 }
+
 .screenshot2023118At10391 {
   position: absolute;
   left: 398px;
@@ -630,6 +707,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .screenshot2023118At10401 {
   position: absolute;
   left: 653px;
@@ -640,6 +718,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .ellipse963 {
   position: absolute;
   left: 706px;
@@ -648,10 +727,12 @@
   height: 96px;
   overflow: visible;
 }
+
 .icon3 {
   width: 100%;
   height: 100%;
 }
+
 .polygon2 {
   position: absolute;
   left: 739px;
@@ -660,10 +741,12 @@
   height: 45.119px;
   overflow: visible;
 }
+
 .icon4 {
   width: 100%;
   height: 100%;
 }
+
 .ellipse964 {
   position: absolute;
   left: 482px;
@@ -672,10 +755,12 @@
   height: 96px;
   overflow: visible;
 }
+
 .icon5 {
   width: 100%;
   height: 100%;
 }
+
 .polygon3 {
   position: absolute;
   left: 515px;
@@ -684,10 +769,12 @@
   height: 45.119px;
   overflow: visible;
 }
+
 .icon6 {
   width: 100%;
   height: 100%;
 }
+
 .screenshot2023118At10392 {
   position: absolute;
   left: 896px;
@@ -698,6 +785,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .screenshot2023118At10402 {
   position: absolute;
   left: 1151px;
@@ -708,6 +796,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .ellipse965 {
   position: absolute;
   left: 1204px;
@@ -716,10 +805,12 @@
   height: 96px;
   overflow: visible;
 }
+
 .icon7 {
   width: 100%;
   height: 100%;
 }
+
 .ellipse966 {
   position: absolute;
   left: 980px;
@@ -728,10 +819,12 @@
   height: 96px;
   overflow: visible;
 }
+
 .icon8 {
   width: 100%;
   height: 100%;
 }
+
 .polygon5 {
   position: absolute;
   left: 1013px;
@@ -740,10 +833,12 @@
   height: 45.119px;
   overflow: visible;
 }
+
 .icon9 {
   width: 100%;
   height: 100%;
 }
+
 .wineClubWorkYourWinePaletteWit {
   color: #fff;
   font-size: 18px;
@@ -760,6 +855,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 .aboutSection {
   background-image: linear-gradient(180deg, #ffff 0%, #00af8382 100%);
   background-position: center;
@@ -781,6 +877,7 @@
   height: min-content;
   flex-direction: column;
 }
+
 .rectangle34624117 {
   position: absolute;
   left: 436px;
@@ -792,6 +889,7 @@
   border-radius: 20px;
   background-color: #2aebec00;
 }
+
 .rectangle34624118 {
   position: absolute;
   left: 578px;
@@ -803,6 +901,7 @@
   border-radius: 20px;
   background-color: #2aebec00;
 }
+
 .wineBar {
   color: #2aebec;
   font-size: 18px;
@@ -817,6 +916,7 @@
   white-space: nowrap;
   flex-direction: column;
 }
+
 .smallPlates {
   color: #2aebec;
   font-size: 18px;
@@ -831,6 +931,7 @@
   white-space: nowrap;
   flex-direction: column;
 }
+
 .rectangle34624122 {
   position: absolute;
   left: 752px;
@@ -842,6 +943,7 @@
   border-radius: 20px;
   background-color: #2aebec00;
 }
+
 .happyHour {
   color: #2aebec;
   font-size: 18px;
@@ -856,6 +958,7 @@
   white-space: nowrap;
   flex-direction: column;
 }
+
 .rectangle34624123 {
   position: absolute;
   left: 926px;
@@ -867,6 +970,7 @@
   border-radius: 20px;
   background-color: #2aebec00;
 }
+
 .orangeWine {
   color: #2aebec;
   font-size: 18px;
@@ -881,6 +985,7 @@
   white-space: nowrap;
   flex-direction: column;
 }
+
 .star1 {
   position: absolute;
   left: 70px;
@@ -889,10 +994,12 @@
   height: 29px;
   overflow: visible;
 }
+
 .icon10 {
   width: 100%;
   height: 100%;
 }
+
 .star2 {
   position: absolute;
   left: 104px;
@@ -901,10 +1008,12 @@
   height: 29px;
   overflow: visible;
 }
+
 .icon11 {
   width: 100%;
   height: 100%;
 }
+
 .star3 {
   position: absolute;
   left: 138px;
@@ -913,10 +1022,12 @@
   height: 29px;
   overflow: visible;
 }
+
 .icon12 {
   width: 100%;
   height: 100%;
 }
+
 .star4 {
   position: absolute;
   left: 172px;
@@ -925,10 +1036,12 @@
   height: 29px;
   overflow: visible;
 }
+
 .icon13 {
   width: 100%;
   height: 100%;
 }
+
 .star5 {
   position: absolute;
   left: 70px;
@@ -937,10 +1050,12 @@
   height: 29px;
   overflow: visible;
 }
+
 .icon14 {
   width: 100%;
   height: 100%;
 }
+
 .star6 {
   position: absolute;
   left: 104px;
@@ -949,10 +1064,12 @@
   height: 29px;
   overflow: visible;
 }
+
 .icon15 {
   width: 100%;
   height: 100%;
 }
+
 .star7 {
   position: absolute;
   left: 138px;
@@ -961,10 +1078,12 @@
   height: 29px;
   overflow: visible;
 }
+
 .icon16 {
   width: 100%;
   height: 100%;
 }
+
 .star8 {
   position: absolute;
   left: 172px;
@@ -973,10 +1092,12 @@
   height: 29px;
   overflow: visible;
 }
+
 .icon17 {
   width: 100%;
   height: 100%;
 }
+
 .google {
   color: #fff;
   font-size: 12px;
@@ -992,6 +1113,7 @@
   white-space: nowrap;
   flex-direction: column;
 }
+
 .yelp {
   color: #fff;
   font-size: 12px;
@@ -1007,6 +1129,7 @@
   white-space: nowrap;
   flex-direction: column;
 }
+
 .editedDec7th2023 {
   color: #fff;
   font-size: 18px;
@@ -1021,6 +1144,7 @@
   height: min-content;
   flex-direction: column;
 }
+
 .seattleBasedWineServingSpotItS {
   position: absolute;
   left: 433px;
@@ -1029,12 +1153,14 @@
   height: min-content;
   flex-direction: column;
 }
+
 .labelWrapper {
   font-size: 18px;
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   flex-shrink: 1;
 }
+
 .label {
   color: #fff;
   font-size: 18px;
@@ -1043,6 +1169,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -0.3px;
 }
+
 .label2 {
   color: #fff;
   font-size: 18px;
@@ -1052,6 +1179,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -0.3px;
 }
+
 .label3 {
   color: #fff;
   font-size: 18px;
@@ -1060,6 +1188,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -0.3px;
 }
+
 .textBlock12 {
   margin-top: 0;
   color: #fff;
@@ -1069,6 +1198,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -0.3px;
 }
+
 .textBlock13 {
   margin-top: 0;
   color: #fff;
@@ -1078,6 +1208,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -0.3px;
 }
+
 .textBlock14 {
   margin-top: 0;
   color: #fff;
@@ -1087,6 +1218,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -0.3px;
 }
+
 .textBlock15 {
   margin-top: 0;
   color: #fff;

@@ -16,6 +16,8 @@ import { Star6Icon } from './Star6Icon.js';
 import { Star7Icon } from './Star7Icon.js';
 import { Star8Icon } from './Star8Icon.js';
 import { Video_idea } from './Video_idea/Video_idea';
+import Rating from '@mui/material/Rating';
+
 
 const WhiteTextField = styled(TextField)({
   backgroundColor: 'white',
@@ -45,6 +47,7 @@ interface Feedback {
 }
 
 interface Persona {
+  _id: string;
   name: string;
   image: string[];
   status: string;
@@ -59,6 +62,12 @@ interface Persona {
 export const Group427318977: FC<Props> = memo(function Group427318977(props = {}) {
   const [persona, setPersona] = useState<Persona | null>(null);
   const { id } = useParams<{ id: string }>();
+  const [audience, setAudience] = useState('');
+  const [focusOn, setFocusOn] = useState('');
+  const [and, setAnd] = useState('');
+  const [show, setShow] = useState('');
+  const [rate, setRate] = useState(5);
+
 
   useEffect(() => {
     if (id) {
@@ -75,7 +84,40 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
   }, [id]);
 
 
+  const handleSubmit = async () => {
+    if (!persona) {
+      console.error('Persona is null, cannot submit');
+      return;
+    }
+    const briefData = {
+      audience,
+      focusOn,
+      and,
+      show,
+      restaurant_id: persona._id,
+      name: persona.name,
+      rate,
+    };
 
+    try {
+      const response = await fetch('http://localhost:3001/api/brief/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(briefData),
+      });
+
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+
+      const data = await response.json();
+      console.log('Brief saved:', data);
+    } catch (error) {
+      console.error('Error while saving brief:', error);
+    }
+  };
   return (
     <>
       {persona ? (
@@ -83,20 +125,62 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
 
 
           <div className={classes.bg}></div>
-          <div className={classes.dALLE202312810358CreateAPromot}></div>
-          <div className={classes.dALLE2023128103642CreateAPromo}></div>
+
+          <Rating name="size-large" 
+          defaultValue={rate}
+            className={classes.themesStar}
+            onChange={(event, newValue) => {
+              setRate(newValue ?? 5); // Replace 0 with your default value
+            }}
+            size="large"
+            sx={{
+              '& .MuiRating-iconFilled': {
+                color: 'gold', // or any other color
+              },
+              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                color: 'transparent',
+                stroke: 'white', // Border color
+                strokeWidth: 0.7,
+              }
+            }}
+          />
+          <video autoPlay muted loop className={classes.dALLE202312810358CreateAPromot}>
+            <source src={persona.videos[0]} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <video autoPlay muted loop className={classes.dALLE2023128103642CreateAPromo}>
+            <source src={persona.videos[1]} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+
+
+
           <div className={classes.theBottleHouse}>{persona.name}</div>
           <div className={classes.videoIdeas}>
             <div className={classes.textBlock}>Video</div>
             <div className={classes.textBlock2}>Ideas</div>
           </div>
-          <div className={classes.image}>
 
 
-          </div>
-          <div className={classes.image2}></div>
-          <div className={classes.image20}></div>
-          <div className={classes.image19}></div>
+          <video autoPlay muted loop className={classes.image}>
+            <source src={persona.videos[0]} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <video autoPlay muted loop className={classes.image2}>
+            <source src={persona.videos[1]} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+
+          <video autoPlay muted loop className={classes.image20}>
+            <source src={persona.videos[0]} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <video autoPlay muted loop className={classes.image19}>
+            <source src={persona.videos[1]} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+
+
           <Video_idea />
           <div className={classes.video_idea}>
             <div
@@ -122,6 +206,8 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
           <div className={classes.christmasThemedVideosWithXmasT}>Christmas themed videos with Xmas themed drinks</div>
           <div className={classes.themesPartiesHappyHours}>Themes, parties, happy hours</div>
           <div className={classes.themesNote}>Note: Click on the video to download!</div>
+
+
           <div className={classes.personaIdeas}>
             <div className={classes.textBlock5}>Persona</div>
             <div className={classes.textBlock6}>Ideas</div>
@@ -130,6 +216,11 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
             <div className={classes.textBlock7}>New </div>
             <div className={classes.textBlock8}>Design </div>
             <div className={classes.textBlock9}>Brief</div>
+          </div>
+
+          <div className={classes.rateEx}>
+            <div className={classes.textBlockrate}>Rate your Experience with us : </div>
+
           </div>
           <div className={classes.videoLibrary}>
             <div className={classes.textBlock10}>Video </div>
@@ -140,49 +231,57 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
           <div className={classes.rectangle4255}>
             <Rectangle4255Icon className={classes.icon} />
           </div>
-          <button className={classes.submit}>Submit</button>
+
           <div className={classes.rectangle34624121}>
             <Rectangle34624121Icon className={classes.icon2} />
           </div>
           <button className={classes.addMore}>add more</button>
           <div className={classes.myAudienceIs}>My audience is</div>
           <div className={classes.iWantAVideoThatFocusesOn}>I want a video that focuses on </div>
+          
+            <div className="container">
+              <WhiteTextField
+                onChange={(e) => setAudience(e.target.value)}
+                className={classes.line314}
+                variant="standard"
+                multiline
+                name='audience'
+                focused
+                maxRows={4}
+              />
+              <WhiteTextField
+                onChange={(e) => setFocusOn(e.target.value)}
+                className={classes.line315}
+                variant="standard"
+                multiline
+                name='focusOn'
+                focused
+                maxRows={4}
+              />
+              <div className={classes.and}>and </div>
+              <WhiteTextField
+                onChange={(e) => setAnd(e.target.value)}
+                className={classes.line316}
+                variant="standard"
+                multiline
+                name='and'
+                focused
+                maxRows={4}
+              />
+              <div className={classes.iWantToShow}>I want to show</div>
 
-          <div className="container">
-            <WhiteTextField
-              className={classes.line314}
-              variant="standard"
-              multiline
-              focused
-              maxRows={4}
-            />
-            <WhiteTextField
-              className={classes.line315}
-              variant="standard"
-              multiline
-              focused
-              maxRows={4}
-            />
-            <div className={classes.and}>and </div>
-            <WhiteTextField
-              className={classes.line316}
-              variant="standard"
-              multiline
-              focused
-              maxRows={4}
-            />
-            <div className={classes.iWantToShow}>I want to show</div>
-
-            <WhiteTextField
-              className={classes.line317}
-              variant="standard"
-              multiline
-              focused
-              maxRows={3}
-            />
-
-          </div>
-
+              <WhiteTextField
+                onChange={(e) => setShow(e.target.value)}
+                className={classes.line317}
+                variant="standard"
+                multiline
+                name='show'
+                focused
+                maxRows={3}
+              />
+              <button onClick={handleSubmit} className={classes.submit}>Submit</button>
+            </div>
+         
           <a href={persona.videos[0]} target="_blank" rel="noopener noreferrer">
             <video autoPlay muted loop className={classes.screenshot2023118At10391}>
               <source src={persona.videos[0]} type="video/mp4" />
@@ -190,24 +289,24 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
             </video>
           </a>
           <a href={persona.videos[1]} target="_blank" rel="noopener noreferrer">
-          <video autoPlay muted loop className={classes.screenshot2023118At10401}>
-            <source src={persona.videos[1]} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+            <video autoPlay muted loop className={classes.screenshot2023118At10401}>
+              <source src={persona.videos[1]} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </a>
           <a href={persona.videos[0]} target="_blank" rel="noopener noreferrer">
-          <video autoPlay muted loop className={classes.screenshot2023118At10392}>
-            <source src={persona.videos[0]} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+            <video autoPlay muted loop className={classes.screenshot2023118At10392}>
+              <source src={persona.videos[0]} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </a>
           <div className={classes.screenshot2023118At10402}></div>
 
           <a href={persona.videos[1]} target="_blank" rel="noopener noreferrer">
-          <video autoPlay muted loop className={classes.screenshot2023118At10402}>
-            <source src={persona.videos[1]} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+            <video autoPlay muted loop className={classes.screenshot2023118At10402}>
+              <source src={persona.videos[1]} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </a>
 
           <div className={classes.wineClubWorkYourWinePaletteWit}>
