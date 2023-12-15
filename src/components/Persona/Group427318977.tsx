@@ -71,7 +71,7 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
 
   useEffect(() => {
     if (id) {
-      fetch(`http://localhost:3001/api/persona/${id}`)
+      fetch(`https://leapback-d796b66e0016.herokuapp.com/api/persona/${id}`)
         .then(response => {
           if (!response.ok) {
             throw new Error('Network response was not ok');
@@ -100,7 +100,7 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
     };
 
     try {
-      const response = await fetch('http://localhost:3001/api/brief/', {
+      const response = await fetch('https://leapback-d796b66e0016.herokuapp.com/api/brief/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
