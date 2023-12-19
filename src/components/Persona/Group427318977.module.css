@@ -12,7 +12,7 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 3800px;
+  height: 3000px;
   background-color: #000000;
 }
 
@@ -34,29 +34,30 @@
 .dALLE202312810358CreateAPromot {
   transform-origin: top left;
   position: absolute;
-  left: 521.793px;
-  top: 738px;
-  width: 187px;
-  height: 351.5807px;
+  left: 400px;
+  top: 718px;
   border-radius: 20px;
+  background-position: center;
+  width: 231px;
+  height: 481px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: matrix(0.9783, 0.2071, -0.2071, 0.9783, 0, 0);
+ 
 }
 
 .dALLE2023128103642CreateAPromo {
   transform-origin: top left;
   position: absolute;
-  left: 361px;
-  top: 793.9926px;
-  width: 187px;
-  height: 352.9773px;
+  left: 680px;
+  top: 718px;
   border-radius: 20px;
+  background-position: center;
+  width: 231px;
+  height: 481px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: matrix(0.9815, -0.1916, 0.1916, 0.9815, 0, 0);
 }
 
 .theBottleHouse {
@@ -120,59 +121,32 @@
 .image {
   transform-origin: top left;
   position: absolute;
-  left: 903.4463px;
-  top: 761px;
-  width: 187px;
-  height: 363px;
+  left: 960px;
+  top: 718px;
   border-radius: 20px;
+  background-position: center;
+  width: 231px;
+  height: 481px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: matrix(0.9467, 0.322, -0.322, 0.9467, 0, 0);
+ 
 }
 
 .image2 {
   transform-origin: top left;
   position: absolute;
-  left: 721px;
-  top: 810px;
-  width: 187px;
-  height: 363px;
+  left: 1240px;
+  top: 718px;
   border-radius: 20px;
+  background-position: center;
+  width: 231px;
+  height: 481px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: matrix(0.9858, -0.1678, 0.1678, 0.9858, 0, 0);
-}
 
-.image20 {
-  transform-origin: top left;
-  position: absolute;
-  left: 1275.8906px;
-  top: 766px;
-  width: 187px;
-  height: 363px;
-  border-radius: 20px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: matrix(0.9467, 0.322, -0.322, 0.9467, 0, 0);
 }
-
-.image19 {
-  transform-origin: top left;
-  position: absolute;
-  left: 1100px;
-  top: 796.0156px;
-  width: 187px;
-  height: 363px;
-  border-radius: 20px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: matrix(0.9858, -0.1678, 0.1678, 0.9858, 0, 0);
-}
-
 .video_idea {
   position: absolute;
   left: 726px;
@@ -181,6 +155,92 @@
   height: 522px;
   align-items: flex-start;
 }
+
+
+
+
+.root {
+  position: absolute;
+  left: 408px;
+  top: 1519px;
+  width: 265px;
+  height: 522px;
+  align-items: flex-start;
+}
+.f0eb01a7774b433188739dba0afa23 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 16px;
+  background-image:/* webpackIgnore: true */ url('/assets/f0eb01a7774b433188739dba0afa23.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle34624112 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 16px;
+  background-image: linear-gradient(180deg, #0000 0%, #000f 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.naturalWineLovers {
+  position: absolute;
+  left: 8.3019%;
+  right: 33.0483%;
+  top: 69.1571%;
+  bottom: 16.3748%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.textBlock19 {
+  background-image: linear-gradient(180deg, #ffff 0%, #ffffff87 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -1px;
+}
+.textBlock20 {
+  margin-top: 0;
+  background-image: linear-gradient(180deg, #ffff 0%, #ffffff87 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -1px;
+}
+
+
+
+
+
+
+
+
 
 .f0eb01a7774b433188739dba0afa23 {
   position: absolute;
@@ -304,6 +364,94 @@
   width: 150px;
   height: 50px;
 }
+
+.themesStar1 {
+  position: absolute;
+  left: 440px;
+  top: 1259px;
+  width: 150px;
+  height: 50px;
+}
+
+.themesStar2 {
+  position: absolute;
+  left: 570px;
+  top: 1259px;
+  width: 150px;
+  height: 50px;
+}
+
+.themesStar3 {
+  position: absolute;
+  left: 710px;
+  top: 1259px;
+  width: 150px;
+  height: 50px;
+}
+.themesStar4 {
+position: absolute;
+  left: 840px;
+  top: 1259px;
+  width: 150px;
+  height: 50px;
+}
+.themesStar5 {
+  position: absolute;
+  left: -140px;
+  top: 1999px;
+  width: 150px;
+  height: 50px;
+  z-index: 3;
+}
+
+.themesStar6 {
+  position: absolute;
+  left: 50px;
+  top: 1999px;
+  width: 150px;
+  height: 50px;
+  z-index: 3;
+}
+
+.themesStar7 {
+  position: absolute;
+  left: -29rem;
+  top: 2699px;
+  width: 150px;
+  height: 50px;
+  z-index: 3;
+}
+
+.themesStar8 {
+  position: absolute;
+  left: -21rem;
+  top: 2699px;
+  width: 150px;
+  height: 50px;
+  z-index: 3;
+}
+
+
+.themesStar9 {
+  position: absolute;
+  left: -12.5rem;
+  top: 2699px;
+  width: 150px;
+  height: 50px;
+  z-index: 3;
+}
+
+
+.themesStar10 {
+  position: absolute;
+  left: -4.5rem;
+  top: 2699px;
+  width: 150px;
+  height: 50px;
+  z-index: 3;
+}
+
+
 
 .personaIdeas {
   position: absolute;
@@ -496,7 +644,23 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -0.3px;
   position: absolute;
-  left: 1110px;
+  left: 970px;
+  top: 1181px;
+  width: 206px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.educationalVideosLearnAndTry1 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  position: absolute;
+  left: 1250px;
   top: 1181px;
   width: 206px;
   height: min-content;
@@ -508,7 +672,7 @@
 .rectangle4255 {
   position: absolute;
   left: 394px;
-  top: 3561px;
+  top: 2831px;
   width: 251px;
   height: 70px;
   overflow: visible;
@@ -528,41 +692,8 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -0.3px;
   position: absolute;
-  left: 493px;
-  top: 3584px;
-  width: min-content;
-  height: min-content;
-  text-align: center;
-  align-items: center;
-  white-space: nowrap;
-  flex-direction: column;
-}
-
-.rectangle34624121 {
-  position: absolute;
-  left: 1135px;
-  top: 2708px;
-  width: 251px;
-  height: 70px;
-  overflow: visible;
-}
-
-.icon2 {
-  width: 100%;
-  height: 100%;
-}
-
-.addMore {
-  color: #083c2f;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 600;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  letter-spacing: -0.3px;
-  position: absolute;
-  left: 1226px;
-  top: 2731px;
+  left: 468px;
+  top: 2854px;
   width: min-content;
   height: min-content;
   text-align: center;
@@ -699,7 +830,7 @@
 
 .screenshot2023118At10391 {
   position: absolute;
-  left: 398px;
+  left: 400px;
   top: 2228px;
   width: 231px;
   height: 481px;
@@ -710,7 +841,7 @@
 
 .screenshot2023118At10401 {
   position: absolute;
-  left: 653px;
+  left: 680px;
   top: 2228px;
   width: 231px;
   height: 481px;
@@ -777,7 +908,7 @@
 
 .screenshot2023118At10392 {
   position: absolute;
-  left: 896px;
+  left: 960px;
   top: 2228px;
   width: 231px;
   height: 481px;
@@ -788,7 +919,7 @@
 
 .screenshot2023118At10402 {
   position: absolute;
-  left: 1151px;
+  left: 1240px;
   top: 2228px;
   width: 231px;
   height: 481px;
@@ -847,7 +978,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -0.3px;
   position: absolute;
-  left: 760px;
+  left: 680px;
   top: 1181px;
   width: 206px;
   height: min-content;

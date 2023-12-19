@@ -6,15 +6,7 @@ import { Button_StateNormalTypePrimary } from './Button_StateNormalTypePrimary/B
 import classes from './Form.module.css';
 import axios from 'axios';
 import MuiAlert from '@mui/material/Alert';
-interface IState {
-  name: string;
-  about: string;
-  customerLove: string;
-  opportunities: string;
-  videoParagraph: string;
-  videos: string[];
-  image: File | null;
-}
+
 interface Props {
   className?: string;
   hide?: {
@@ -33,39 +25,48 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
   const [videos, setVideos] = useState<string[]>([]);
   const [isSubmittedSuccessfully, setIsSubmittedSuccessfully] = useState(false);
   const [openSnackbar, setOpenSnackbar] = useState(false);
-  const [image, setimage] = useState<File | null>(null);
+  const [image, setimage] = useState('');
 
   const onChangeImage = (e: ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
-      setimage(e.target.files[0]);
+      const file = e.target.files[0];
+      const reader = new FileReader();
+  
+      reader.readAsDataURL(file);
+      reader.onload = () => {
+        const imageString = reader.result;
+        if (typeof imageString === 'string') {
+          setimage(imageString);
+        } else {
+          // Handle the case where imageString is not a string
+          console.error("Failed to load the image as a base64 string");
+        }
+      };
     }
   };
   const handleChangeVideos = (e: ChangeEvent<HTMLInputElement>) => {
-    setVideos([...videos, e.target.value]);
+    setVideos([e.target.value]);
   };
   const handleSubmit = async () => {
  
-    const data = new FormData();
-    data.append('name', name);
-    data.append('about', about);
-    data.append('customerLove', customerLove);
-    data.append('opportunities', opportunities);
-    data.append('videoParagraph', videoParagraph);
-    data.append('videos', JSON.stringify(videos));
-    if (image) {
-      data.append('image', image);
+    const data ={
+      name,
+      about,
+      customerLove,
+      opportunities,
+      videoParagraph,
+      videos,
+      image,
     }
-  // Log FormData entries
-  for (var pair of data.entries()) {
-    console.log(pair[0] + ', ' + pair[1]);
-  }
-
 
   console.log(data)
   try {
     const response = await fetch('http://localhost:3001/api/restaurant/', {
       method: 'POST',
-      body: data, // No need to set 'Content-Type' header when using FormData
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
     });
     console.log(response);
     setIsSubmittedSuccessfully(true);
