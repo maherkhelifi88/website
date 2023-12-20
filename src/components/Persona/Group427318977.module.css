@@ -34,7 +34,7 @@
 .dALLE202312810358CreateAPromot {
   transform-origin: top left;
   position: absolute;
-  left: 400px;
+  left: 350px;
   top: 718px;
   border-radius: 20px;
   background-position: center;
@@ -49,7 +49,7 @@
 .dALLE2023128103642CreateAPromo {
   transform-origin: top left;
   position: absolute;
-  left: 680px;
+  left: 630px;
   top: 718px;
   border-radius: 20px;
   background-position: center;
@@ -121,7 +121,7 @@
 .image {
   transform-origin: top left;
   position: absolute;
-  left: 960px;
+  left: 910px;
   top: 718px;
   border-radius: 20px;
   background-position: center;
@@ -136,7 +136,7 @@
 .image2 {
   transform-origin: top left;
   position: absolute;
-  left: 1240px;
+  left: 1190px;
   top: 718px;
   border-radius: 20px;
   background-position: center;
@@ -318,7 +318,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -0.3px;
   position: absolute;
-  left: 409px;
+  left: 360px;
   top: 1174px;
   width: 206px;
   height: min-content;
@@ -367,7 +367,7 @@
 
 .themesStar1 {
   position: absolute;
-  left: 440px;
+  left: 390px;
   top: 1259px;
   width: 150px;
   height: 50px;
@@ -375,7 +375,7 @@
 
 .themesStar2 {
   position: absolute;
-  left: 570px;
+  left: 520px;
   top: 1259px;
   width: 150px;
   height: 50px;
@@ -383,14 +383,14 @@
 
 .themesStar3 {
   position: absolute;
-  left: 710px;
+  left: 660px;
   top: 1259px;
   width: 150px;
   height: 50px;
 }
 .themesStar4 {
 position: absolute;
-  left: 840px;
+  left: 790px;
   top: 1259px;
   width: 150px;
   height: 50px;
@@ -406,7 +406,7 @@ position: absolute;
 
 .themesStar6 {
   position: absolute;
-  left: 50px;
+  left: 40px;
   top: 1999px;
   width: 150px;
   height: 50px;
@@ -415,7 +415,7 @@ position: absolute;
 
 .themesStar7 {
   position: absolute;
-  left: -29rem;
+  left: -32rem;
   top: 2699px;
   width: 150px;
   height: 50px;
@@ -424,7 +424,7 @@ position: absolute;
 
 .themesStar8 {
   position: absolute;
-  left: -21rem;
+  left: -24rem;
   top: 2699px;
   width: 150px;
   height: 50px;
@@ -434,7 +434,7 @@ position: absolute;
 
 .themesStar9 {
   position: absolute;
-  left: -12.5rem;
+  left: -15.5rem;
   top: 2699px;
   width: 150px;
   height: 50px;
@@ -444,9 +444,9 @@ position: absolute;
 
 .themesStar10 {
   position: absolute;
-  left: -4.5rem;
+  left: -7.5rem;
   top: 2699px;
-  width: 150px;
+  width: 100px;
   height: 50px;
   z-index: 3;
 }
@@ -644,7 +644,7 @@ position: absolute;
     'Liberation Sans', sans-serif;
   letter-spacing: -0.3px;
   position: absolute;
-  left: 970px;
+  left: 925px;
   top: 1181px;
   width: 206px;
   height: min-content;
@@ -660,7 +660,7 @@ position: absolute;
     'Liberation Sans', sans-serif;
   letter-spacing: -0.3px;
   position: absolute;
-  left: 1250px;
+  left: 1205px;
   top: 1181px;
   width: 206px;
   height: min-content;
@@ -830,7 +830,7 @@ position: absolute;
 
 .screenshot2023118At10391 {
   position: absolute;
-  left: 400px;
+  left: 350px;
   top: 2228px;
   width: 231px;
   height: 481px;
@@ -841,7 +841,7 @@ position: absolute;
 
 .screenshot2023118At10401 {
   position: absolute;
-  left: 680px;
+  left: 630px;
   top: 2228px;
   width: 231px;
   height: 481px;
@@ -908,7 +908,7 @@ position: absolute;
 
 .screenshot2023118At10392 {
   position: absolute;
-  left: 960px;
+  left: 910px;
   top: 2228px;
   width: 231px;
   height: 481px;
@@ -919,7 +919,7 @@ position: absolute;
 
 .screenshot2023118At10402 {
   position: absolute;
-  left: 1240px;
+  left: 1190px;
   top: 2228px;
   width: 231px;
   height: 481px;
@@ -978,7 +978,7 @@ position: absolute;
     'Liberation Sans', sans-serif;
   letter-spacing: -0.3px;
   position: absolute;
-  left: 680px;
+  left: 640px;
   top: 1181px;
   width: 206px;
   height: min-content;
@@ -1117,149 +1117,6 @@ position: absolute;
   flex-direction: column;
 }
 
-.star1 {
-  position: absolute;
-  left: 70px;
-  top: 447px;
-  width: 29px;
-  height: 29px;
-  overflow: visible;
-}
-
-.icon10 {
-  width: 100%;
-  height: 100%;
-}
-
-.star2 {
-  position: absolute;
-  left: 104px;
-  top: 447px;
-  width: 29px;
-  height: 29px;
-  overflow: visible;
-}
-
-.icon11 {
-  width: 100%;
-  height: 100%;
-}
-
-.star3 {
-  position: absolute;
-  left: 138px;
-  top: 447px;
-  width: 29px;
-  height: 29px;
-  overflow: visible;
-}
-
-.icon12 {
-  width: 100%;
-  height: 100%;
-}
-
-.star4 {
-  position: absolute;
-  left: 172px;
-  top: 447px;
-  width: 29px;
-  height: 29px;
-  overflow: visible;
-}
-
-.icon13 {
-  width: 100%;
-  height: 100%;
-}
-
-.star5 {
-  position: absolute;
-  left: 70px;
-  top: 493px;
-  width: 29px;
-  height: 29px;
-  overflow: visible;
-}
-
-.icon14 {
-  width: 100%;
-  height: 100%;
-}
-
-.star6 {
-  position: absolute;
-  left: 104px;
-  top: 493px;
-  width: 29px;
-  height: 29px;
-  overflow: visible;
-}
-
-.icon15 {
-  width: 100%;
-  height: 100%;
-}
-
-.star7 {
-  position: absolute;
-  left: 138px;
-  top: 493px;
-  width: 29px;
-  height: 29px;
-  overflow: visible;
-}
-
-.icon16 {
-  width: 100%;
-  height: 100%;
-}
-
-.star8 {
-  position: absolute;
-  left: 172px;
-  top: 493px;
-  width: 29px;
-  height: 29px;
-  overflow: visible;
-}
-
-.icon17 {
-  width: 100%;
-  height: 100%;
-}
-
-.google {
-  color: #fff;
-  font-size: 12px;
-  line-height: 108%;
-  font-weight: 600;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  position: absolute;
-  left: 217px;
-  top: 455px;
-  width: min-content;
-  height: min-content;
-  white-space: nowrap;
-  flex-direction: column;
-}
-
-.yelp {
-  color: #fff;
-  font-size: 12px;
-  line-height: 108%;
-  font-weight: 600;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  position: absolute;
-  left: 217px;
-  top: 500px;
-  width: min-content;
-  height: min-content;
-  white-space: nowrap;
-  flex-direction: column;
-}
 
 .editedDec7th2023 {
   color: #fff;
