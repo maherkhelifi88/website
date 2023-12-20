@@ -5,6 +5,55 @@
   border-radius: 5.5226px;
   background-color: #7f8c89;
 }
+
+.image {
+  transform-origin: top left;
+  position: absolute;
+  left: 797px;
+  top: 290.3682px;
+  width: 227.8981px;
+  height: 495.3713px;
+  padding: 241px 120px;
+  border-radius: 16px;
+  background-color: #ffeded;
+  background-image:/* webpackIgnore: true */ url('/assets/imageH.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  transform: matrix(0.9763, -0.2166, 0.2166, 0.9763, 0, 0);
+}
+.image21 {
+  transform-origin: top left;
+  position: absolute;
+  left: 1219.6133px;
+  top: 250px;
+  width: 227.8981px;
+  height: 495.3713px;
+  border-radius: 16px;
+  background-image:/* webpackIgnore: true */ url('/assets/image21.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(0.9467, 0.322, -0.322, 0.9467, 0, 0);
+}
+
+.dALLE2023128103642CreateAPromo {
+  transform-origin: top left;
+  position: absolute;
+  left: 1003.334px;
+  top: 241px;
+  width: 227.8981px;
+  height: 481.6937px;
+  border-radius: 16px;
+  background-image:/* webpackIgnore: true */ url('/assets/dALLE2023128103642CreateAPromo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(0.9993, 0.0381, -0.0381, 0.9993, 0, 0);
+}
+
+
 .iconOutlinePlusCircle.iconOutlinePlusCircle {
   width: 11.0452px;
   height: 11.0452px;

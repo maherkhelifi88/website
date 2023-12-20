@@ -18,7 +18,11 @@ interface Props {
 /* @figmaId 70:3876 */
 export const HowItWorks: FC<Props> = memo(function HowItWorks(props = {}) {
   return (
-    <> <div className={classes.bg}></div>
+    <> 
+    
+    {/** 
+    
+    <div className={classes.bg}></div>
     <div className={classes.bg2}></div>
       <div className={classes._1}>
         <div className={classes.no}>
@@ -62,7 +66,7 @@ export const HowItWorks: FC<Props> = memo(function HowItWorks(props = {}) {
           </div>
         </div>
       </div>
-     
+     */}
       
       <div className={classes.howKanteenWorks}>How Kanteen works?</div>
     </>

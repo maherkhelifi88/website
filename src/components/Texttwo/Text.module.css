@@ -20,8 +20,8 @@
   align-items: start;
   gap: 32px;
   z-index: 3;
-  margin-top: 2100px;
-  margin-left: -500px;
+  margin-top: 1800px;
+  margin-left: -475px;
 }
 .title {
   width: min-content;
@@ -76,6 +76,24 @@
   background-color: #622113;
 }
 
+
+.image {
+
+  position: absolute;
+  width: 400px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+  place-content: center;
+  left : 55rem;
+  border-radius: 16px;
+  background-color: #ffeded;
+  background-image:
+    /* webpackIgnore: true */
+    url('/assets/image3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
 
 
 /* Additional styles for the second video to adjust its position */
@@ -434,21 +452,6 @@
 
 @media screen and (min-width:1400px) and (max-width: 1455px) {
 
-  .getStartedNow {
-    color: #083c2f;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 600;
-    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-      'Liberation Sans', sans-serif;
-    letter-spacing: -0.3px;
-    width: min-content;
-    height: min-content;
-    text-align: start; 
-    align-items: flex-start; 
-    white-space: nowrap;
-    flex-direction: column;
-  }
   .root {
     width: min-content;
     height: min-content;
@@ -456,7 +459,7 @@
     align-items: start;
     gap: 32px;
     z-index: 3;
-    margin-top: 2100px;
+    margin-top: 1700px;
     margin-left: -480px;
   }
   .title {

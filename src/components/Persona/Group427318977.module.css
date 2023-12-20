@@ -422,6 +422,7 @@ position: absolute;
   z-index: 3;
 }
 
+
 .themesStar8 {
   position: absolute;
   left: -24rem;
@@ -461,6 +462,7 @@ position: absolute;
   height: min-content;
   flex-direction: column;
 }
+
 
 .textBlock5 {
   background-image: linear-gradient(180deg, #ffff 0%, #00af8382 100%);

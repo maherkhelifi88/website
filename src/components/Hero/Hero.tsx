@@ -31,10 +31,16 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
     <>
       <div className="main-container">
         <div className={classes.bg}></div>
+
+        {/** 
+
         <video autoPlay muted loop className={classes.video}>
           <source src="/assets/vid.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+
+
+
         <div className={classes.bg2}></div>
         <div className={classes.text}>
           <div className={classes.vector}>
@@ -93,7 +99,14 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
             <div className={classes.weProvideYouEverythingYouNeedF}>"Crafting Excellence: Your Vision, Our Expertise – Elevating Video Production with Precision"</div>
           </div>
 
-        </div>
+        </div>*/}
+
+        <div className={classes.image}></div>
+        <div className={classes.image21}></div>
+        <div className={classes.dALLE2023128103642CreateAPromo}></div>
+
+
+
         <div className={classes.text3}>
           <div className={classes.mainTitle}>
             <div className={classes.tag}>

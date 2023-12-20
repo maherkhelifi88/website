@@ -24,10 +24,9 @@ export const Textthree: FC<Props> = memo(function Text(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       <div className={classes.title}>
-        <div className={classes.donTBelieveUsPeopleTalkAboutIt}>Why are we your best solution ?</div>
+        <div className={classes.donTBelieveUsPeopleTalkAboutIt}>Download your content</div>
         <div className={classes.weHaveConsideredOurSolutionsTo}>
-        "Why choose us? It's simple – create an account, upload easy phone-made videos, and watch your business grow with enticing social media content. 
-        Highlighting your food and drink pairings, we attract customers effortlessly. Join us for an easy, effective boost!"
+        Download the videos crafted for you through our AI technology, overseen by our expert team. We value your feedback and would appreciate any suggestions for improvements for future creations.
         </div>
       </div>
       <Button_StateNormalTypePrimary
@@ -40,8 +39,8 @@ export const Textthree: FC<Props> = memo(function Text(props = {}) {
           getStartedNow: <div className={classes.getStartedNow}>Get Started For Free</div>,
         }}
       />
-
-      {/* Video 1 */}
+  <div className={classes.image}></div>
+      {/* Video 1
       <video
         className={classes.video}
         autoPlay
@@ -50,14 +49,14 @@ export const Textthree: FC<Props> = memo(function Text(props = {}) {
         src={Video1}
       ></video>
 
-      {/* Video 2 */}
+      {/* Video 2 
       <video
         className={classes.video}
         autoPlay
         loop
         muted
         src={Video2}
-      ></video>
+      ></video>*/}
     </div>
   );
 });

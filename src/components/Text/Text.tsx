@@ -25,9 +25,9 @@ export const Text: FC<Props> = memo(function Text(props = {}) {
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       
       <div className={classes.title}>
-        <div className={classes.donTBelieveUsPeopleTalkAboutIt}>Who are we?</div>
+        <div className={classes.donTBelieveUsPeopleTalkAboutIt}>Upload your videos</div>
         <div className={classes.weHaveConsideredOurSolutionsTo}>
-       " We are a team of passionate professionals and food enthousiasts, expert Social Media managers ready to elevate your business. Our mission is to help you grow a faithful and unmatched community, taking your brand to the next level."
+        This step involves selecting and uploading visual content (videos and photos) of your venue. These visuals should ideally showcase the ambiance, products, services, customer interactions, or any special features. Quality visuals are crucial as they play a significant role in engaging potential customers on social media platforms.
         </div>
       </div>
       <Button_StateNormalTypePrimary
@@ -41,7 +41,10 @@ export const Text: FC<Props> = memo(function Text(props = {}) {
         }}
       />
 
-      {/* Video 1 */}
+
+
+           <div className={classes.image}></div>
+      {/* Video 1 
       <video
         className={classes.video}
         autoPlay
@@ -50,14 +53,14 @@ export const Text: FC<Props> = memo(function Text(props = {}) {
         src={Video1} // Replace with the path to your first video
       ></video>
 
-      {/* Video 2 */}
+      {/* Video 2 
       <video
         className={classes.video}
         autoPlay
         loop
         muted
         src={Video2} // Replace with the path to your second video
-      ></video>
+      ></video>*/}
     </div>
   );
 });

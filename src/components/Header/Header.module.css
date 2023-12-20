@@ -14,7 +14,7 @@
   align-items: center;
   z-index: 2;
   margin-top: 25px;
-  margin-left: -540px;
+  margin-left: -640px;
 }
 .menu {
   width: min-content;
@@ -66,7 +66,18 @@
   flex-direction: column;
 }
 
+@media screen and (min-width:1400px) and (max-width: 1455px) {
 
+  .root {
+    width: 1070px;
+    height: min-content;
+    place-content: space-between;
+    align-items: center;
+    z-index: 2;
+    margin-top: 25px;
+    margin-left:-35%;
+  }
+}
 
 
 @media screen and (max-width: 1260px) {

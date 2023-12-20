@@ -20,11 +20,10 @@ export const Texttwo: FC<Props> = memo(function Text(props = {}) {
   };
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
-      <div className={classes.bg}></div>
       <div className={classes.title}>
-        <div className={classes.donTBelieveUsPeopleTalkAboutIt}>Find out what our social media team can do for you:</div>
+        <div className={classes.donTBelieveUsPeopleTalkAboutIt}>Chat with our marketing  experts</div>
         <div className={classes.weHaveConsideredOurSolutionsTo}>
-        "Discover the unparalleled potential of our social media team, dedicated to transforming your online presence effortlessly. Our experts specialize in delivering top-notch content, including high-quality videos that require minimal effort from you. With a commitment to simplicity and speed, we highlight the essence of your brand swiftly, ensuring not just ease but exceptional results. Elevate your online game with us – where quality meets convenience."
+        Our team will request information about your business or venue. This description should encompass key elements such as the type of business, its location, unique features, services provided, and any other aspects that distinguish your venue. Providing this information assists in devising a customized promotional strategy that accentuates the most attractive features of your business.
         </div>
       </div>
       <Button_StateNormalTypePrimary
@@ -37,14 +36,14 @@ export const Texttwo: FC<Props> = memo(function Text(props = {}) {
           getStartedNow: <div className={classes.getStartedNow}>Get Started For Free</div>,
         }}
       />
-
+  <div className={classes.image}></div>
       
-      {/* Video 2 */}
+      {/* Video 2
       <img
         className={classes.video}
        
         src={image2} // Replace with the path to your second video
-      ></img>
+      ></img> */}
     </div>
   );
 });

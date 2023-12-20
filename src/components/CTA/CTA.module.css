@@ -22,7 +22,7 @@
   border-radius: 16px;
   background-color: #c9f269;
   z-index: 5;
-  margin-top: 3400px;
+  margin-top: 2900px;
   margin-left: -1300px;
 }
 .title {
@@ -58,6 +58,7 @@
   height: min-content;
   flex-direction: column;
 }
+
 
 
 @media screen and (max-width: 1260px) {
@@ -126,8 +127,6 @@
 
 }
 
-
-/* Media query for mobile devices */
 @media (max-width: 750px) {
   .getStartedNow {
     color: #fff;
@@ -393,25 +392,11 @@
   }
 }
 
-@media screen and (min-width:1400px) and (max-width: 1455px) {
+@media screen and (min-width:1400px) and (max-width: 1465px) {
 
-  .getStartedNow {
-    color: #fff;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 600;
-    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-      'Liberation Sans', sans-serif;
-    letter-spacing: -0.3px;
-    width: min-content;
-    height: min-content;
-    text-align: start;
-    align-items: flex-start;
-    white-space: nowrap;
-    flex-direction: column;
-  }
+  
   .root {
-    width: 120%;
+    width: 90%;
     height: min-content;
     place-content: space-between;
     align-items: center;
@@ -419,8 +404,8 @@
     border-radius: 16px;
     background-color: #c9f269;
     z-index: 5;
-    margin-top: 3400px;
-    margin-left: -1200px;
+    margin-top: 2700px;
+    margin-left: -1140px;
   }
   .title {
     width: min-content;

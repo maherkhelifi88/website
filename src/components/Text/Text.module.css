@@ -28,8 +28,8 @@
   align-items: start;
   gap: 32px;
   z-index: 3;
-  margin-top: 1650px;
-  margin-left: 150px;
+  margin-top: 1250px;
+  margin-left: 200px;
 }
 .title {
   width: min-content;
@@ -64,7 +64,7 @@
 .video {
   position: absolute;
   right: 5%; /* Position on the right */
-  top: 1500px; /* Adjust the top position as needed */
+  top: 1200px; /* Adjust the top position as needed */
   width: 380px; /* Adjust the width as needed */
   height: 532px; /* Adjust the height as needed */
   border-radius: 8px;
@@ -76,6 +76,23 @@
   mask-size: 380px 410px;
 }
 
+.image {
+  margin-top: -2rem;
+  position: absolute;
+  width: 400px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+  place-content: center;
+  left : 55rem;
+  border-radius: 16px;
+  background-color: #ffeded;
+  background-image:
+    /* webpackIgnore: true */
+    url('/assets/image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
 
 
 /* Additional styles for the second video to adjust its position */
@@ -84,7 +101,6 @@
   left:700px; /* Adjust the top position as needed */
   /* Add any other necessary styles for the second video */
 }
-
 
 @media screen and (max-width: 1260px) {
 
@@ -433,29 +449,6 @@
 
 @media screen and (min-width:1400px) and (max-width: 1455px) {
 
-  .getStartedNow {
-    color: #083c2f;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 600;
-    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-      'Liberation Sans', sans-serif;
-    letter-spacing: -0.3px;
-    width: min-content;
-    height: min-content;
-    text-align: start; 
-    align-items: flex-start; 
-    white-space: nowrap;
-    flex-direction: column;
-  }
-  .bg {
-    position: absolute;
-    left: 0;
-    top: 1470PX;
-    width:100%;
-    height: 600px;
-    background-color: #f3e4ce;
-  }
   .root {
     width: min-content;
     height: min-content;
@@ -463,8 +456,8 @@
     align-items: start;
     gap: 32px;
     z-index: 3;
-    margin-top: 1650px;
-    margin-left: 5%;
+    margin-top: 1250px;
+    margin-left: 13%;
   }
   .title {
     width: min-content;
