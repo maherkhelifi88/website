@@ -349,12 +349,13 @@
 
 
 /* Mobile-specific styles */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 760px) {
 
 
   .button.button {
     width: 363px;
     background-color: #c9f269;
+    margin-top: -50%;
   }
   .getStartedNow {
     color: #083c2f;
@@ -370,16 +371,17 @@
     align-items: end;
     white-space: nowrap;
     flex-direction: column;
+    top:-200%;
   }
   .box {
     position: absolute;
-    left: 20px;
-    top: 1130px;
-    width: 504px;
+    left: 12.5rem;
+    top: 250px;
+    width: 380px;
     height: min-content;
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
+    gap: 90px;
     border-radius: 16px;
   }
   ._1 {
@@ -412,6 +414,24 @@
     right: 84.1251%;
     top: 55.3191%;
     bottom: 19.1489%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .about {
+    color: #083c2f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 0.1159%;
+    right: 80.3013%;
+    top: -80px;
+    bottom: 84.4681%;
     width: min-content;
     height: min-content;
     white-space: nowrap;
@@ -481,7 +501,11 @@
     width: 363px;
     height: 94px;
   }
-  
+  ._7 {
+    position: relative;
+    width: 400px;
+    height: 60px;
+  }
   .eGMarkJones3 {
     color: #3c4a47;
     font-size: 16px;
@@ -510,7 +534,7 @@
     position: absolute;
     left: 0.1159%;
     right: 90.6141%;
-    top: 0;
+    top: -85%;
     bottom: 74.4681%;
     width: min-content;
     height: min-content;
@@ -551,7 +575,7 @@
     position: absolute;
     left: 0.1159%;
     right: 95.1333%;
-    top: 0;
+    top: -85%;
     bottom: 74.4681%;
     width: min-content;
     height: min-content;
@@ -567,7 +591,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 17.6166%;
+    top: -50.6166%;
     bottom: 0;
     width: 363px;
     height: 159px;
@@ -604,13 +628,14 @@
     position: absolute;
     left: 0.1159%;
     right: 81.8076%;
-    top: 0;
+    top: -85%;
     bottom: 87.5648%;
     width: min-content;
     height: min-content;
     white-space: nowrap;
     flex-direction: column;
   }
+
   ._5 {
     position: relative;
     width: 363px;
@@ -657,12 +682,36 @@
     position: absolute;
     left: 0.1159%;
     right: 87.4855%;
-    top: 0;
+    top: -220%;
     bottom: 74.4681%;
     width: min-content;
     height: min-content;
     white-space: nowrap;
     flex-direction: column;
+  }
+  .rectangle4633 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -150.1702%;
+    bottom: 0;
+    width: 363px;
+    height: 60px;
+    outline: solid 1px #e3e5ea;
+    outline-offset: -1px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+
+  .rectangle46311 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -150.6166%;
+    bottom: 0;
+    width:200px;
+    height: 50px;
+  
   }
   .newRestaurantCoverageRequest {
     background-image: linear-gradient(180deg, #083c2fff 0%, #083c2f82 100%);
@@ -680,8 +729,8 @@
     letter-spacing: -2px;
     position: absolute;
     left: 20px;
-    top: 1010px;
-    max-width: 450px; /* Added */
+    top:-150px;
+    max-width: 300px; /* Added */
     height: auto; /* Adjusted */
     text-align: center;
     align-items: center;
@@ -702,9 +751,9 @@
       'Liberation Sans', sans-serif;
     letter-spacing: -2px;
     position: absolute;
-    left: 150px;
-    top: 1050px;
-    max-width: 400px; /* Added */
+    left: 0;
+    top:-200px;
+    max-width: 300px; /* Added */
     height: auto; /* Adjusted */
     text-align: center;
     align-items: center;

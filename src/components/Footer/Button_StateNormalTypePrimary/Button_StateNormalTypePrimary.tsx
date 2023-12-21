@@ -17,11 +17,13 @@ interface Props {
   text?: {
     getStartedNow?: ReactNode;
   };
+  onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
 /* @figmaId 70:60 */
 export const Button_StateNormalTypePrimary: FC<Props> = memo(function Button_StateNormalTypePrimary(props = {}) {
   return (
-    <button className={`${resets.storybrainResets} ${classes.root}`}>
+    <button className={`${resets.storybrainResets} ${classes.root}`}
+    onClick={props.onClick} >
       {!props.hide?.iconOutlineCheckCircle && (
         <IconOutlineCheckCircle
           className={classes.iconOutlineCheckCircle}

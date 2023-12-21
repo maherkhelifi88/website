@@ -16,7 +16,7 @@ interface Props {
 export const CTA: FC<Props> = memo(function CTA(props = {}) {
  
   const handleButtonClick = () => {
-    window.location.href = 'https://calendly.com/chaima-zine';
+    window.open('https://calendly.com/benromdhaneeya', '_blank');
   };
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>

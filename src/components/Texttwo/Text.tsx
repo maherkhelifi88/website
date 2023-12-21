@@ -16,7 +16,7 @@ interface Props {
 //2nd dont believe us 
 export const Texttwo: FC<Props> = memo(function Text(props = {}) {
   const handleButtonClick = () => {
-    window.location.href = 'https://calendly.com/chaima-zine';
+    window.open('https://calendly.com/benromdhaneeya', '_blank');
   };
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
@@ -33,7 +33,7 @@ export const Texttwo: FC<Props> = memo(function Text(props = {}) {
           iconOutlineArrowRight: true,
         }}
         text={{
-          getStartedNow: <div className={classes.getStartedNow}>Get Started For Free</div>,
+          getStartedNow: <div className={classes.getStartedNow}>Contact Our Experts</div>,
         }}
       />
   <div className={classes.image}></div>

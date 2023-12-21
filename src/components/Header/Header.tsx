@@ -22,7 +22,7 @@ export const Header: FC<Props> = memo(function Header(props = {}) {
   const navigate = useNavigate();
 
   const handleOpen = (event: React.MouseEvent<HTMLButtonElement>) => {
-    navigate('/influencer');
+    navigate('/addRestaurant');
   };
   const handleOpen1 = (event: React.MouseEvent<HTMLButtonElement>) => {
     navigate('/');

@@ -4,7 +4,7 @@ import type { FC } from 'react';
 import resets from '../_resets.module.css';
 import { Button_StateNormalTypePrimary } from './Button_StateNormalTypePrimary/Button_StateNormalTypePrimary';
 import classes from './Text.module.css';
-
+import { useNavigate } from 'react-router-dom';
 // Import your video assets
 import Video1 from '/assets/Canlis.mp4';
 import Video2 from '/assets/Tavolata.mp4';
@@ -21,6 +21,10 @@ export const Text: FC<Props> = memo(function Text(props = {}) {
   const handleButtonClick = () => {
     window.location.href = 'https://calendly.com/chaima-zine';
   };
+  const navigate = useNavigate();
+  const handleOpen = (event: React.MouseEvent<HTMLButtonElement>) => {
+    navigate('/addRestaurant');
+  };
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       
@@ -31,7 +35,7 @@ export const Text: FC<Props> = memo(function Text(props = {}) {
         </div>
       </div>
       <Button_StateNormalTypePrimary
-        onClick={handleButtonClick}
+          onClick={handleOpen}
         hide={{
           iconOutlineCheckCircle: true,
           iconOutlineArrowRight: true,

@@ -15,7 +15,7 @@ export const AddRestaurant: FC<Props> = memo(function AddRestaurant(props = {}) 
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       <Header />
       <Form/>
-      <Footer />
+      
     </div>
   );
 });

@@ -4,7 +4,7 @@ import type { FC } from 'react';
 import resets from '../_resets.module.css';
 import { Button_StateNormalTypePrimary } from './Button_StateNormalTypePrimary/Button_StateNormalTypePrimary';
 import classes from './Text.module.css';
-
+import { useNavigate } from 'react-router-dom';
 // Import your video assets
 import Video1 from '/assets/Flintcreek.mp4';
 import Video2 from '/assets/Noi.mp4';
@@ -18,8 +18,14 @@ interface Props {
 }
 //3rd dont believe us 
 export const Textthree: FC<Props> = memo(function Text(props = {}) {
+
+  const navigate = useNavigate();
+
+  const handleOpen = (event: React.MouseEvent<HTMLButtonElement>) => {
+    navigate('/persona/65819b2408c8409fdcf4d629');
+  };
   const handleButtonClick = () => {
-    window.location.href = 'https://calendly.com/chaima-zine';
+    window.location.href = 'http://localhost:5173/persona/65819b2408c8409fdcf4d629';
   };
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
@@ -30,13 +36,13 @@ export const Textthree: FC<Props> = memo(function Text(props = {}) {
         </div>
       </div>
       <Button_StateNormalTypePrimary
-        onClick={handleButtonClick}
+        onClick={handleOpen}
         hide={{
           iconOutlineCheckCircle: true,
           iconOutlineArrowRight: true,
         }}
         text={{
-          getStartedNow: <div className={classes.getStartedNow}>Get Started For Free</div>,
+          getStartedNow: <div className={classes.getStartedNow}>Get Your Videos</div>,
         }}
       />
   <div className={classes.image}></div>

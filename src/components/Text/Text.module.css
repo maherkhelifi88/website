@@ -189,7 +189,7 @@
 }
 
 /* Media query for mobile devices */
-@media (max-width: 750px) {
+@media (max-width: 760px) {
 
   .getStartedNow {
     color: #083c2f;
@@ -213,9 +213,27 @@
     align-items: start;
     gap: 32px;
     z-index: 3;
-    margin-top: 2280px;
+    margin-top: 1380px;
     margin-left: 35px;
   }
+  .image {
+    margin-top: 35rem;
+    position: absolute;
+    width: 370px; /* Adjust the width as needed */
+    height: 370px; /* Adjust the height as needed */
+    place-content: center;
+    left : 0rem;
+    border-radius: 16px;
+    background-color: #ffeded;
+    background-image:
+      /* webpackIgnore: true */
+      url('/assets/image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
   .title {
     width: min-content;
     height: min-content;

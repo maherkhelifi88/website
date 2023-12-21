@@ -25,7 +25,7 @@ interface Props {
 /* @figmaId 7715:2402 */
 export const Hero: FC<Props> = memo(function Hero(props = {}) {
   const handleButtonClick = () => {
-    window.location.href = 'https://calendly.com/chaima-zine';
+    window.open('https://calendly.com/benromdhaneeya', '_blank');
   };
   return (
     <>
@@ -101,7 +101,15 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
 
         </div>*/}
 
-        <div className={classes.image}></div>
+        <div className={classes.image}>
+        
+        <video autoPlay muted loop >
+          <source src="/assets/vid.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+
+        </div>
         <div className={classes.image21}></div>
         <div className={classes.dALLE2023128103642CreateAPromo}></div>
 
@@ -113,9 +121,9 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
               <div className={classes.contentCreation}>Content Creation</div>
             </div>
             <div className={classes.title}>
-              <div className={classes.connectWithCustomersSmartly}>Create personalized videos for your restaurant.</div>
+              <div className={classes.connectWithCustomersSmartly}>AI-Powered Video Creator for your Restaurant</div>
               <div className={classes.nexoProvidesYouEverythingYouNe}>
-                Discover our social media team. We specialize in creating videos for you, bringing your culinary creations to life. Let us exhibit the essence of your dishes and showcase the unique experience your restaurant offers.
+              Our Al Content Creator Transforms Your Phone Videos into Captivating Stories for Your Restaurant's Social Media.
               </div>
             </div>
           </div>

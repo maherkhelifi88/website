@@ -61,7 +61,7 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
 
   console.log(data)
   try {
-    const response = await fetch('http://localhost:3001/api/restaurant/', {
+    const response = await fetch('https://leapback-d796b66e0016.herokuapp.com/api/restaurant/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -143,6 +143,7 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
           />
           <div className={classes.email}>Opportunities for imporvement</div>
         </div>
+        <br></br>
         <div className={classes._3}>
 
           <TextField
@@ -163,7 +164,7 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
             id="fullWidth"
             name="videos"
             onChange={handleChangeVideos}
-            className={classes.rectangle463} />
+            className={classes.rectangle4633} />
           <div className={classes.uploadVideos}>Upload videos</div>
 
         </div>
@@ -190,7 +191,8 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
             getStartedNow: <div className={classes.getStartedNow}>Submit</div>,
           }}
         />
-
+<br></br>
+<br></br>
 {isSubmittedSuccessfully && (
           <Snackbar open={openSnackbar} autoHideDuration={6000} onClose={handleCloseSnackbar}>
             <MuiAlert onClose={handleCloseSnackbar} severity="success" sx={{ width: '100%' }}>
@@ -199,7 +201,10 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
           </Snackbar>
         )}
       </div>
-
+<br></br>
+<br></br>
+<br></br>
+<br></br>
     </>
   );
 });
