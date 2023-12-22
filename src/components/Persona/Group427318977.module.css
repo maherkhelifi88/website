@@ -369,7 +369,6 @@
   position: absolute;
   left: 390px;
   top: 1259px;
-  width: 150px;
   height: 50px;
 }
 
@@ -377,7 +376,6 @@
   position: absolute;
   left: 520px;
   top: 1259px;
-  width: 150px;
   height: 50px;
 }
 
@@ -385,21 +383,18 @@
   position: absolute;
   left: 660px;
   top: 1259px;
-  width: 150px;
   height: 50px;
 }
 .themesStar4 {
 position: absolute;
   left: 790px;
   top: 1259px;
-  width: 150px;
   height: 50px;
 }
 .themesStar5 {
   position: absolute;
   left: -140px;
   top: 1999px;
-  width: 150px;
   height: 50px;
   z-index: 3;
 }
@@ -408,7 +403,6 @@ position: absolute;
   position: absolute;
   left: 40px;
   top: 1999px;
-  width: 150px;
   height: 50px;
   z-index: 3;
 }
@@ -417,7 +411,6 @@ position: absolute;
   position: absolute;
   left: -32rem;
   top: 2699px;
-  width: 150px;
   height: 50px;
   z-index: 3;
 }
@@ -427,7 +420,6 @@ position: absolute;
   position: absolute;
   left: -24rem;
   top: 2699px;
-  width: 150px;
   height: 50px;
   z-index: 3;
 }
@@ -437,7 +429,6 @@ position: absolute;
   position: absolute;
   left: -15.5rem;
   top: 2699px;
-  width: 150px;
   height: 50px;
   z-index: 3;
 }
@@ -447,7 +438,6 @@ position: absolute;
   position: absolute;
   left: -7.5rem;
   top: 2699px;
-  width: 100px;
   height: 50px;
   z-index: 3;
 }

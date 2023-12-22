@@ -160,34 +160,66 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
             <div className={classes.textBlock}>Video Ideas</div>
           </div>
 
-          <a href={persona.videosWalid[0].url} target="_blank" rel="noopener noreferrer">
-            <video autoPlay muted loop className={classes.dALLE202312810358CreateAPromot}>
-              <source src={persona.videosWalid[0].url} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </a>
+          {
+            persona.videosWalid && persona.videosWalid.length > 0 && (
+              <a href={persona.videosWalid[0].url} target="_blank" rel="noopener noreferrer">
+                <video autoPlay muted loop className={classes.dALLE202312810358CreateAPromot}>
+                  <source src={persona.videosWalid[0].url} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </a>
+            )
+          }
+{
+            persona.videosWalid && persona.videosWalid.length > 2 && (
           <video autoPlay muted loop className={classes.dALLE2023128103642CreateAPromo}>
             <source src={persona.videosWalid[1].url} type="video/mp4" />
             Your browser does not support the video tag.
-          </video>
+          </video>)
 
-          <video autoPlay muted loop className={classes.image}>
-            <source src={persona.videosWalid[2].url} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+}
+          {
+            persona.videosWalid && persona.videosWalid.length > 2 && (
+              <video autoPlay muted loop className={classes.image}>
+                <source src={persona.videosWalid[2].url} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            )
+          }
+          {
+            persona.videosWalid && persona.videosWalid.length > 3 && (
           <video autoPlay muted loop className={classes.image2}>
             <source src={persona.videosWalid[3].url} type="video/mp4" />
             Your browser does not support the video tag.
-          </video>
+          </video>)}
+
+
+          {
+            persona.image && persona.image.length > 0 && (
           <div className={classes.themesPartiesHappyHours2}>Themes, parties, happy hours</div>
-          <div className={classes.educationalVideosLearnAndTry}>Educational videos. learn and try! </div>
-          <div className={classes.educationalVideosLearnAndTry1}>Educational videos. learn and try! </div>
+            )}
+
+          {
+            persona.videosWalid && persona.videosWalid.length > 2 && (
+          <div className={classes.educationalVideosLearnAndTry}>Educational videos. learn and try! </div>)}
+          {
+            persona.videosWalid && persona.videosWalid.length > 3 && (
+          <div className={classes.educationalVideosLearnAndTry1}>Educational videos. learn and try! </div>)}
           <div className={classes.christmasThemedVideosWithXmasT}>Christmas themed videos with Xmas themed drinks</div>
+
           <div className={classes.themesPartiesHappyHours}>Themes, parties, happy hours</div>
+          {
+            persona.videosAmal && persona.videosAmal.length > 0 && (
           <div className={classes.themesNote}>Note: Click on the video to download!</div>
+            )}
+          {
+            persona.videosWalid && persona.videosWalid.length > 1 && (
           <div className={classes.wineClubWorkYourWinePaletteWit}>
             Wine club. work your wine palette with natural wine.{' '}
           </div>
+            )}
+          {
+            persona.videosWalid && persona.videosWalid.length > 0 && (
           <Rating name="size-large"
             defaultValue={rate1}
             className={classes.themesStar1}
@@ -205,7 +237,9 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
                 strokeWidth: 0.7,
               }
             }}
-          />
+          />)}
+          {
+            persona.videosWalid && persona.videosWalid.length > 1 && (
           <Rating name="size-large"
             defaultValue={rate2}
             className={classes.themesStar2}
@@ -223,7 +257,9 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
                 strokeWidth: 0.7,
               }
             }}
-          />
+          />)}
+          {
+            persona.videosWalid && persona.videosWalid.length > 2 && (
           <Rating name="size-large"
             defaultValue={rate3}
             className={classes.themesStar3}
@@ -242,7 +278,9 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
               }
             }}
           />
-
+            )}
+            {
+            persona.videosWalid && persona.videosWalid.length > 3 && (
           <Rating name="size-large"
             defaultValue={rate4}
             className={classes.themesStar4}
@@ -260,8 +298,9 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
                 strokeWidth: 0.7,
               }
             }}
-          />
-
+          />)}
+{
+            persona.image && persona.image.length > 0 && (
           <Rating name="size-large"
             defaultValue={rate5}
             className={classes.themesStar5}
@@ -280,7 +319,9 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
               }
             }}
           />
-
+            )}
+            {
+            persona.image && persona.image.length > 1 && (
           <Rating name="size-large"
             defaultValue={rate6}
             className={classes.themesStar6}
@@ -299,7 +340,9 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
               }
             }}
           />
-
+            )}
+{
+            persona.videosAmal && persona.videosAmal.length > 0 && (
           <Rating name="size-large"
             defaultValue={rate7}
             className={classes.themesStar7}
@@ -318,7 +361,10 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
               }
             }}
           />
+            )}
 
+{
+            persona.videosAmal && persona.videosAmal.length > 1 && (
           <Rating name="size-large"
             defaultValue={rate8}
             className={classes.themesStar8}
@@ -336,8 +382,9 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
                 strokeWidth: 0.7,
               }
             }}
-          />
-
+          />)}
+{
+            persona.videosAmal && persona.videosAmal.length > 2 && (
           <Rating name="size-large"
             defaultValue={rate9}
             className={classes.themesStar9}
@@ -356,7 +403,9 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
               }
             }}
           />
-
+            )}
+            {
+            persona.videosAmal && persona.videosAmal.length > 3 && (
           <Rating name="size-large"
             defaultValue={rate10}
             className={classes.themesStar10}
@@ -375,88 +424,105 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
               }
             }}
           />
-<div className={classes.video_idea}>
-<div
-  style={{
-    backgroundImage: persona.image && persona.image.length > 0
-      ? `url('${persona.image[0].url}')`
-      : "none"
-  }}
-  className={classes.f0eb01a7774b433188739dba0afa23}
->
-</div>
-<div className={classes.rectangle34624112}></div>
-<div className={classes.dateNight}>
-  <div className={classes.textBlock3}>Date </div>
-  <div className={classes.textBlock4}>Night</div>
-</div>
+            )}
+          <div className={classes.video_idea}>
+            <div
+              style={{
+                backgroundImage: persona.image && persona.image.length > 0
+                  ? `url('${persona.image[0].url}')`
+                  : "none"
+              }}
+              className={classes.f0eb01a7774b433188739dba0afa23}
+            >
+            </div>
+            <div className={classes.rectangle34624112}></div>
+            {
+            persona.image && persona.image.length > 0 && (
+            <div className={classes.dateNight}>
+              <div className={classes.textBlock3}>Date </div>
+              <div className={classes.textBlock4}>Night</div>
+            </div>
+            )}
+          </div>
 
-</div>
-
-<div className={`${resets.storybrainResets} ${classes.root}`}>
-<div
-  style={{
-    backgroundImage: persona.image && persona.image.length > 0
-      ? `url('${persona.image[1].url}')`
-      : "none"
-  }}
-  className={classes.f0eb01a7774b433188739dba0afa23}
-></div>
-<div className={classes.rectangle34624112}></div>
-<div className={classes.naturalWineLovers}>
-  <div className={classes.textBlock19}>Natural Wine</div>
-  <div className={classes.textBlock20}> Lovers</div>
-</div>
-</div>
-
-
+          <div className={`${resets.storybrainResets} ${classes.root}`}>
+            <div
+              style={{
+                backgroundImage: persona.image && persona.image.length > 0
+                  ? `url('${persona.image[1].url}')`
+                  : "none"
+              }}
+              className={classes.f0eb01a7774b433188739dba0afa23}
+            ></div>
+            <div className={classes.rectangle34624112}></div>
+            {
+            persona.image && persona.image.length > 0 && (
+            <div className={classes.naturalWineLovers}>
+              <div className={classes.textBlock19}>Natural Wine</div>
+              <div className={classes.textBlock20}> Lovers</div>
+            </div>)}
+          </div>
 
 
-<div className={classes.personaIdeas}>
-<div className={classes.textBlock5}>Persona Ideas</div>
-</div>
-<div className={classes.videoLibrary}>
-<div className={classes.textBlock10}>Video Library</div>
-</div>
-<div className={classes.rectangle4255}>
-<Rectangle4255Icon className={classes.icon} />
-</div>
 
-<div className="container">
+          {
+            persona.image && persona.image.length > 0 && (
+          <div className={classes.personaIdeas}>
+            <div className={classes.textBlock5}>Persona Ideas</div>
+          </div>)
+}
+          {
+            persona.videosAmal && persona.videosAmal.length > 0 && (
+          <div className={classes.videoLibrary}>
+            <div className={classes.textBlock10}>Video Library</div>
+          </div>)}
+          <div className={classes.rectangle4255}>
+            <Rectangle4255Icon className={classes.icon} />
+          </div>
 
-<button onClick={handleSubmit} className={classes.submit}>Submit review</button>
+          <div className="container">
 
-<Snackbar open={openAlert} autoHideDuration={6000} onClose={() => setOpenAlert(false)}>
-<Alert onClose={() => setOpenAlert(false)} severity="success" sx={{ width: '100%' }}>
-    Review submitted
-</Alert>
-</Snackbar>
-</div>
+            <button onClick={handleSubmit} className={classes.submit}>Submit review</button>
 
-<a href={persona.videosAmal[0].url} target="_blank" rel="noopener noreferrer">
-<video autoPlay muted loop className={classes.screenshot2023118At10391}>
-  <source src={persona.videosAmal[0].url} type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-</a>
-<a href={persona.videosAmal[1].url} target="_blank" rel="noopener noreferrer">
-<video autoPlay muted loop className={classes.screenshot2023118At10401}>
-  <source src={persona.videosAmal[1].url} type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-</a>
-<a href={persona.videosAmal[2].url} target="_blank" rel="noopener noreferrer">
-<video autoPlay muted loop className={classes.screenshot2023118At10392}>
-  <source src={persona.videosAmal[2].url} type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-</a>
-<a href={persona.videosAmal[3].url} target="_blank" rel="noopener noreferrer">
-<video autoPlay muted loop className={classes.screenshot2023118At10402}>
-  <source src={persona.videosAmal[3].url} type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-</a>
+            <Snackbar open={openAlert} autoHideDuration={6000} onClose={() => setOpenAlert(false)}>
+              <Alert onClose={() => setOpenAlert(false)} severity="success" sx={{ width: '100%' }}>
+                Review submitted
+              </Alert>
+            </Snackbar>
+          </div>
+          {
+            persona.videosAmal && persona.videosAmal.length > 0 && (
+          <a href={persona.videosAmal[0].url} target="_blank" rel="noopener noreferrer">
+            <video autoPlay muted loop className={classes.screenshot2023118At10391}>
+              <source src={persona.videosAmal[0].url} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </a>)}
+
+          {
+            persona.videosAmal && persona.videosAmal.length > 1 && (
+          <a href={persona.videosAmal[1].url} target="_blank" rel="noopener noreferrer">
+            <video autoPlay muted loop className={classes.screenshot2023118At10401}>
+              <source src={persona.videosAmal[1].url} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </a>)}
+          {
+            persona.videosAmal && persona.videosAmal.length > 2 && (
+          <a href={persona.videosAmal[2].url} target="_blank" rel="noopener noreferrer">
+            <video autoPlay muted loop className={classes.screenshot2023118At10392}>
+              <source src={persona.videosAmal[2].url} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </a>)}
+          {
+            persona.videosAmal && persona.videosAmal.length > 3 && (
+          <a href={persona.videosAmal[3].url} target="_blank" rel="noopener noreferrer">
+            <video autoPlay muted loop className={classes.screenshot2023118At10402}>
+              <source src={persona.videosAmal[3].url} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </a>)}
 
 
         </div>
