@@ -1299,7 +1299,7 @@ position: absolute;
     position: absolute;
     left: 66px;
     top: 94px;
-    width: 1226px;
+    width: 226px;
     height: min-content;
     flex-direction: column;
   }
@@ -1585,67 +1585,61 @@ position: absolute;
     flex-direction: column;
   }
   
-  .themesStar {
-    position: absolute;
-    left: 467px;
-    top: 3319px;
-    width: 150px;
-    height: 50px;
-  }
+
   
   .themesStar1 {
     position: absolute;
     left:30px;
     top: 1429px;
-    width: 150px;
+    width: 0;
     height: 50px;
   }
   
   .themesStar2 {
     position: absolute;
-    left: 95px;
+    left: 239px;
     top: 1429px;
-    width: 150px;
+    width:0;
     height: 50px;
   }
   
   .themesStar3 {
     position: absolute;
-    left: -265px;
+    left: 30px;
     top: 1829px;
-    width: 150px;
+    width: 0;
     height: 50px;
   }
   .themesStar4 {
   position: absolute;
-     left: -205px;
+     left: 239px;
     top: 1829px;
-    width: 150px;
+    width: 0;
     height: 50px;
   }
   .themesStar5 {
     position: absolute;
-    left: -570px;
+    left: 30px;
     top: 2299px;
-    width: 150px;
-    height: 50px;
+    width: 0;
+    height: 0;
     z-index: 3;
   }
   
   .themesStar6 {
     position: absolute;
-    left: -520px;
+    left: 230px;
     top: 2299px;
-    width: 150px;
+    width: 0;
     height: 50px;
     z-index: 3;
   }
   
   .themesStar7 {
     position: absolute;
-    left: -54.5rem;
+    left: 30px;
     top: 2799px;
-    width: 150px;
+    width: 0;
     height: 50px;
     z-index: 3;
   }
@@ -1653,9 +1647,9 @@ position: absolute;
   
   .themesStar8 {
     position: absolute;
-    left: -51.5rem;
+    left: 230px;
     top: 2799px;
-    width: 150px;
+    width:0;
     height: 50px;
     z-index: 3;
   }
@@ -1663,9 +1657,9 @@ position: absolute;
   
   .themesStar9 {
     position: absolute;
-    left: -73rem;
+    left: 30px;
     top: 3149px;
-    width: 150px;
+    width: 0;
     height: 50px;
     z-index: 3;
   }
@@ -1673,9 +1667,9 @@ position: absolute;
   
   .themesStar10 {
     position: absolute;
-    left: -70rem;
+    left: 239px;
     top: 3149px;
-    width: 100px;
+    width: 0;
     height: 50px;
     z-index: 3;
   }

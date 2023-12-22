@@ -139,10 +139,55 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
     <>
       {persona ? (
         <div >
-
-
           <div className={classes.bg}></div>
+          <div className={classes.theBottleHouse}>{persona.name}</div>
+          <div className={classes.aboutSection}>About Section</div>
+          <div className={classes.seattleBasedWineServingSpotItS}>
+            <p className={classes.labelWrapper}>
+              <span className={classes.label}>{persona.about}</span>
+            </p>
+          </div>
 
+          <div className={classes.rectangle34624117}></div>
+          <div className={classes.rectangle34624118}></div>
+          <div className={classes.wineBar}>wine bar</div>
+          <div className={classes.smallPlates}>small plates</div>
+          <div className={classes.rectangle34624122}></div>
+          <div className={classes.happyHour}>Happy hour</div>
+          <div className={classes.rectangle34624123}></div>
+          <div className={classes.orangeWine}>Orange wine</div>
+          <div className={classes.videoIdeas}>
+            <div className={classes.textBlock}>Video Ideas</div>
+          </div>
+
+          <a href={persona.videosWalid[0].url} target="_blank" rel="noopener noreferrer">
+            <video autoPlay muted loop className={classes.dALLE202312810358CreateAPromot}>
+              <source src={persona.videosWalid[0].url} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </a>
+          <video autoPlay muted loop className={classes.dALLE2023128103642CreateAPromo}>
+            <source src={persona.videosWalid[1].url} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+
+          <video autoPlay muted loop className={classes.image}>
+            <source src={persona.videosWalid[2].url} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <video autoPlay muted loop className={classes.image2}>
+            <source src={persona.videosWalid[3].url} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div className={classes.themesPartiesHappyHours2}>Themes, parties, happy hours</div>
+          <div className={classes.educationalVideosLearnAndTry}>Educational videos. learn and try! </div>
+          <div className={classes.educationalVideosLearnAndTry1}>Educational videos. learn and try! </div>
+          <div className={classes.christmasThemedVideosWithXmasT}>Christmas themed videos with Xmas themed drinks</div>
+          <div className={classes.themesPartiesHappyHours}>Themes, parties, happy hours</div>
+          <div className={classes.themesNote}>Note: Click on the video to download!</div>
+          <div className={classes.wineClubWorkYourWinePaletteWit}>
+            Wine club. work your wine palette with natural wine.{' '}
+          </div>
           <Rating name="size-large"
             defaultValue={rate1}
             className={classes.themesStar1}
@@ -330,139 +375,89 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
               }
             }}
           />
+<div className={classes.video_idea}>
+<div
+  style={{
+    backgroundImage: persona.image && persona.image.length > 0
+      ? `url('${persona.image[0].url}')`
+      : "none"
+  }}
+  className={classes.f0eb01a7774b433188739dba0afa23}
+>
+</div>
+<div className={classes.rectangle34624112}></div>
+<div className={classes.dateNight}>
+  <div className={classes.textBlock3}>Date </div>
+  <div className={classes.textBlock4}>Night</div>
+</div>
+
+</div>
+
+<div className={`${resets.storybrainResets} ${classes.root}`}>
+<div
+  style={{
+    backgroundImage: persona.image && persona.image.length > 0
+      ? `url('${persona.image[1].url}')`
+      : "none"
+  }}
+  className={classes.f0eb01a7774b433188739dba0afa23}
+></div>
+<div className={classes.rectangle34624112}></div>
+<div className={classes.naturalWineLovers}>
+  <div className={classes.textBlock19}>Natural Wine</div>
+  <div className={classes.textBlock20}> Lovers</div>
+</div>
+</div>
 
 
-          <div className={classes.theBottleHouse}>{persona.name}</div>
-          <div className={classes.videoIdeas}>
-            <div className={classes.textBlock}>Video Ideas</div>
-           
-          </div>
-          <a href={persona.videosWalid[0].url} target="_blank" rel="noopener noreferrer">
-            <video autoPlay muted loop className={classes.dALLE202312810358CreateAPromot}>
-              <source src={persona.videosWalid[0].url} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </a>
-          <video autoPlay muted loop className={classes.dALLE2023128103642CreateAPromo}>
-            <source src={persona.videosWalid[1].url} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-
-          <video autoPlay muted loop className={classes.image}>
-            <source src={persona.videosWalid[2].url} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <video autoPlay muted loop className={classes.image2}>
-            <source src={persona.videosWalid[3].url} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-
-          <div className={classes.video_idea}>
-            <div
-              style={{
-                backgroundImage: persona.image && persona.image.length > 0
-                  ? `url('${persona.image[0].url}')`
-                  : "none"
-              }}
-              className={classes.f0eb01a7774b433188739dba0afa23}
-            >
-            </div>
-            <div className={classes.rectangle34624112}></div>
-            <div className={classes.dateNight}>
-              <div className={classes.textBlock3}>Date </div>
-              <div className={classes.textBlock4}>Night</div>
-            </div>
-
-          </div>
-
-          <div className={`${resets.storybrainResets} ${classes.root}`}>
-            <div
-              style={{
-                backgroundImage: persona.image && persona.image.length > 0
-                  ? `url('${persona.image[1].url}')`
-                  : "none"
-              }}
-              className={classes.f0eb01a7774b433188739dba0afa23}
-            ></div>
-            <div className={classes.rectangle34624112}></div>
-            <div className={classes.naturalWineLovers}>
-              <div className={classes.textBlock19}>Natural Wine</div>
-              <div className={classes.textBlock20}> Lovers</div>
-            </div>
-          </div>
-
-          <div className={classes.christmasThemedVideosWithXmasT}>Christmas themed videos with Xmas themed drinks</div>
-          <div className={classes.themesPartiesHappyHours}>Themes, parties, happy hours</div>
-          <div className={classes.themesNote}>Note: Click on the video to download!</div>
 
 
-          <div className={classes.personaIdeas}>
-            <div className={classes.textBlock5}>Persona Ideas</div>
-          </div>
-          <div className={classes.videoLibrary}>
-            <div className={classes.textBlock10}>Video Library</div>
-          </div>
-          <div className={classes.themesPartiesHappyHours2}>Themes, parties, happy hours</div>
-          <div className={classes.educationalVideosLearnAndTry}>Educational videos. learn and try! </div>
-          <div className={classes.educationalVideosLearnAndTry1}>Educational videos. learn and try! </div>
-          <div className={classes.rectangle4255}>
-            <Rectangle4255Icon className={classes.icon} />
-          </div>
+<div className={classes.personaIdeas}>
+<div className={classes.textBlock5}>Persona Ideas</div>
+</div>
+<div className={classes.videoLibrary}>
+<div className={classes.textBlock10}>Video Library</div>
+</div>
+<div className={classes.rectangle4255}>
+<Rectangle4255Icon className={classes.icon} />
+</div>
 
-          <div className="container">
+<div className="container">
 
-            <button onClick={handleSubmit} className={classes.submit}>Submit review</button>
+<button onClick={handleSubmit} className={classes.submit}>Submit review</button>
 
-            <Snackbar open={openAlert} autoHideDuration={6000} onClose={() => setOpenAlert(false)}>
-            <Alert onClose={() => setOpenAlert(false)} severity="success" sx={{ width: '100%' }}>
-                Review submitted
-            </Alert>
-        </Snackbar>
-          </div>
+<Snackbar open={openAlert} autoHideDuration={6000} onClose={() => setOpenAlert(false)}>
+<Alert onClose={() => setOpenAlert(false)} severity="success" sx={{ width: '100%' }}>
+    Review submitted
+</Alert>
+</Snackbar>
+</div>
 
-          <a href={persona.videosAmal[0].url} target="_blank" rel="noopener noreferrer">
-            <video autoPlay muted loop className={classes.screenshot2023118At10391}>
-              <source src={persona.videosAmal[0].url} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </a>
-          <a href={persona.videosAmal[1].url} target="_blank" rel="noopener noreferrer">
-            <video autoPlay muted loop className={classes.screenshot2023118At10401}>
-              <source src={persona.videosAmal[1].url} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </a>
-          <a href={persona.videosAmal[2].url} target="_blank" rel="noopener noreferrer">
-            <video autoPlay muted loop className={classes.screenshot2023118At10392}>
-              <source src={persona.videosAmal[2].url} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </a>
-          <a href={persona.videosAmal[3].url} target="_blank" rel="noopener noreferrer">
-            <video autoPlay muted loop className={classes.screenshot2023118At10402}>
-              <source src={persona.videosAmal[3].url} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </a>
+<a href={persona.videosAmal[0].url} target="_blank" rel="noopener noreferrer">
+<video autoPlay muted loop className={classes.screenshot2023118At10391}>
+  <source src={persona.videosAmal[0].url} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+</a>
+<a href={persona.videosAmal[1].url} target="_blank" rel="noopener noreferrer">
+<video autoPlay muted loop className={classes.screenshot2023118At10401}>
+  <source src={persona.videosAmal[1].url} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+</a>
+<a href={persona.videosAmal[2].url} target="_blank" rel="noopener noreferrer">
+<video autoPlay muted loop className={classes.screenshot2023118At10392}>
+  <source src={persona.videosAmal[2].url} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+</a>
+<a href={persona.videosAmal[3].url} target="_blank" rel="noopener noreferrer">
+<video autoPlay muted loop className={classes.screenshot2023118At10402}>
+  <source src={persona.videosAmal[3].url} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+</a>
 
-       
-          <div className={classes.wineClubWorkYourWinePaletteWit}>
-            Wine club. work your wine palette with natural wine.{' '}
-          </div>
-          <div className={classes.aboutSection}>About Section</div>
-          <div className={classes.rectangle34624117}></div>
-          <div className={classes.rectangle34624118}></div>
-          <div className={classes.wineBar}>wine bar</div>
-          <div className={classes.smallPlates}>small plates</div>
-          <div className={classes.rectangle34624122}></div>
-          <div className={classes.happyHour}>Happy hour</div>
-          <div className={classes.rectangle34624123}></div>
-          <div className={classes.orangeWine}>Orange wine</div>
-          <div className={classes.seattleBasedWineServingSpotItS}>
-            <p className={classes.labelWrapper}>
-              <span className={classes.label}>{persona.about}</span>
-            </p>
-          </div>
 
         </div>
       ) : (
