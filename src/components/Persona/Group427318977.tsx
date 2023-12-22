@@ -334,10 +334,10 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
 
           <div className={classes.theBottleHouse}>{persona.name}</div>
           <div className={classes.videoIdeas}>
-            <div className={classes.textBlock}>Video</div>
-            <div className={classes.textBlock2}>Ideas</div>
+            <div className={classes.textBlock}>Video Ideas</div>
+           
           </div>
-          <a href={persona.videosAmal[0].url} target="_blank" rel="noopener noreferrer">
+          <a href={persona.videosWalid[0].url} target="_blank" rel="noopener noreferrer">
             <video autoPlay muted loop className={classes.dALLE202312810358CreateAPromot}>
               <source src={persona.videosWalid[0].url} type="video/mp4" />
               Your browser does not support the video tag.
@@ -397,12 +397,10 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
 
 
           <div className={classes.personaIdeas}>
-            <div className={classes.textBlock5}>Persona</div>
-            <div className={classes.textBlock6}>Ideas</div>
+            <div className={classes.textBlock5}>Persona Ideas</div>
           </div>
           <div className={classes.videoLibrary}>
-            <div className={classes.textBlock10}>Video </div>
-            <div className={classes.textBlock11}>Library</div>
+            <div className={classes.textBlock10}>Video Library</div>
           </div>
           <div className={classes.themesPartiesHappyHours2}>Themes, parties, happy hours</div>
           <div className={classes.educationalVideosLearnAndTry}>Educational videos. learn and try! </div>
@@ -447,6 +445,7 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
             </video>
           </a>
 
+       
           <div className={classes.wineClubWorkYourWinePaletteWit}>
             Wine club. work your wine palette with natural wine.{' '}
           </div>
@@ -459,15 +458,10 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
           <div className={classes.happyHour}>Happy hour</div>
           <div className={classes.rectangle34624123}></div>
           <div className={classes.orangeWine}>Orange wine</div>
-          <div className={classes.editedDec7th2023}>Edited Dec, 7th, 2023</div>
           <div className={classes.seattleBasedWineServingSpotItS}>
             <p className={classes.labelWrapper}>
               <span className={classes.label}>{persona.about}</span>
-
-
             </p>
-
-
           </div>
 
         </div>

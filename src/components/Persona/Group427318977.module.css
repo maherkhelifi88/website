@@ -1240,7 +1240,7 @@ position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    height: 3000px;
+    height: 3400px;
     background-color: #000000;
   }
   
@@ -1262,12 +1262,12 @@ position: absolute;
   .dALLE202312810358CreateAPromot {
     transform-origin: top left;
     position: absolute;
-    left: 350px;
-    top: 718px;
+    left: 30px;
+    top: 1150px;
     border-radius: 20px;
     background-position: center;
-    width: 231px;
-    height: 481px;
+    width: 151px;
+    height: 281px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1277,12 +1277,12 @@ position: absolute;
   .dALLE2023128103642CreateAPromo {
     transform-origin: top left;
     position: absolute;
-    left: 630px;
-    top: 718px;
+    left: 240px;
+    top: 1150px;
     border-radius: 20px;
     background-position: center;
-    width: 231px;
-    height: 481px;
+    width: 151px;
+    height: 281px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1306,8 +1306,8 @@ position: absolute;
   
   .videoIdeas {
     position: absolute;
-    left: 67px;
-    top: 902px;
+    left: 30px;
+    top: 1042px;
     width: 266px;
     height: min-content;
     flex-direction: column;
@@ -1321,7 +1321,7 @@ position: absolute;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 72px;
+    font-size: 52px;
     line-height: 108%;
     font-weight: 600;
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
@@ -1349,12 +1349,12 @@ position: absolute;
   .image {
     transform-origin: top left;
     position: absolute;
-    left: 910px;
-    top: 718px;
+    left: 30px;
+    top: 1550px;
     border-radius: 20px;
     background-position: center;
-    width: 231px;
-    height: 481px;
+    width: 151px;
+    height: 281px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1364,12 +1364,12 @@ position: absolute;
   .image2 {
     transform-origin: top left;
     position: absolute;
-    left: 1190px;
-    top: 718px;
+    left: 240px;
+    top: 1550px;
     border-radius: 20px;
     background-position: center;
-    width: 231px;
-    height: 481px;
+    width: 151px;
+    height: 281px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1377,10 +1377,10 @@ position: absolute;
   }
   .video_idea {
     position: absolute;
-    left: 726px;
-    top: 1519px;
-    width: 265px;
-    height: 522px;
+    left: 226px;
+    top: 2019px;
+    width: 151px;
+    height: 281px;
     align-items: flex-start;
   }
   
@@ -1389,10 +1389,10 @@ position: absolute;
   
   .root {
     position: absolute;
-    left: 408px;
-    top: 1519px;
-    width: 265px;
-    height: 522px;
+    left: 30px;
+    top: 2019px;
+    width: 151px;
+    height: 281px;
     align-items: flex-start;
   }
   .f0eb01a7774b433188739dba0afa23 {
@@ -1540,15 +1540,15 @@ position: absolute;
   
   .christmasThemedVideosWithXmasT {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     letter-spacing: -0.3px;
     position: absolute;
-    left: 360px;
-    top: 1174px;
-    width: 206px;
+    left: 35px;
+    top: 1460px;
+    width: 136px;
     height: min-content;
     text-align: center;
     align-items: center;
@@ -1563,8 +1563,8 @@ position: absolute;
       'Liberation Sans', sans-serif;
     letter-spacing: -0.3px;
     position: absolute;
-    left: 67px;
-    top: 1079px;
+    left: 37px;
+    top: 1099px;
     width: 266px;
     height: min-content;
     flex-direction: column;
@@ -1578,9 +1578,9 @@ position: absolute;
       'Liberation Sans', sans-serif;
     letter-spacing: -0.3px;
     position: absolute;
-    left: 67px;
-    top: 2539px;
-    width: 266px;
+    left: 30px;
+    top: 2439px;
+    width: 366px;
     height: min-content;
     flex-direction: column;
   }
@@ -1595,38 +1595,38 @@ position: absolute;
   
   .themesStar1 {
     position: absolute;
-    left: 390px;
-    top: 1259px;
+    left:30px;
+    top: 1429px;
     width: 150px;
     height: 50px;
   }
   
   .themesStar2 {
     position: absolute;
-    left: 520px;
-    top: 1259px;
+    left: 95px;
+    top: 1429px;
     width: 150px;
     height: 50px;
   }
   
   .themesStar3 {
     position: absolute;
-    left: 660px;
-    top: 1259px;
+    left: -265px;
+    top: 1829px;
     width: 150px;
     height: 50px;
   }
   .themesStar4 {
   position: absolute;
-    left: 790px;
-    top: 1259px;
+     left: -205px;
+    top: 1829px;
     width: 150px;
     height: 50px;
   }
   .themesStar5 {
     position: absolute;
-    left: -140px;
-    top: 1999px;
+    left: -570px;
+    top: 2299px;
     width: 150px;
     height: 50px;
     z-index: 3;
@@ -1634,8 +1634,8 @@ position: absolute;
   
   .themesStar6 {
     position: absolute;
-    left: 40px;
-    top: 1999px;
+    left: -520px;
+    top: 2299px;
     width: 150px;
     height: 50px;
     z-index: 3;
@@ -1643,8 +1643,8 @@ position: absolute;
   
   .themesStar7 {
     position: absolute;
-    left: -32rem;
-    top: 2699px;
+    left: -54.5rem;
+    top: 2799px;
     width: 150px;
     height: 50px;
     z-index: 3;
@@ -1653,8 +1653,8 @@ position: absolute;
   
   .themesStar8 {
     position: absolute;
-    left: -24rem;
-    top: 2699px;
+    left: -51.5rem;
+    top: 2799px;
     width: 150px;
     height: 50px;
     z-index: 3;
@@ -1663,8 +1663,8 @@ position: absolute;
   
   .themesStar9 {
     position: absolute;
-    left: -15.5rem;
-    top: 2699px;
+    left: -73rem;
+    top: 3149px;
     width: 150px;
     height: 50px;
     z-index: 3;
@@ -1673,8 +1673,8 @@ position: absolute;
   
   .themesStar10 {
     position: absolute;
-    left: -7.5rem;
-    top: 2699px;
+    left: -70rem;
+    top: 3149px;
     width: 100px;
     height: 50px;
     z-index: 3;
@@ -1684,9 +1684,9 @@ position: absolute;
   
   .personaIdeas {
     position: absolute;
-    left: 67px;
-    top: 1570px;
-    width: 266px;
+    left: 30px;
+    top: 1920px;
+    width: 366px;
     height: min-content;
     flex-direction: column;
   }
@@ -1700,7 +1700,7 @@ position: absolute;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 72px;
+    font-size: 52px;
     line-height: 108%;
     font-weight: 600;
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
@@ -1811,9 +1811,9 @@ position: absolute;
   
   .videoLibrary {
     position: absolute;
-    left: 68px;
+    left: 30px;
     top: 2363px;
-    width: 266px;
+    width: 366px;
     height: min-content;
     flex-direction: column;
   }
@@ -1826,7 +1826,7 @@ position: absolute;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 72px;
+    font-size: 52px;
     line-height: 108%;
     font-weight: 600;
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
@@ -1859,8 +1859,8 @@ position: absolute;
       'Liberation Sans', sans-serif;
     letter-spacing: -0.3px;
     position: absolute;
-    left: 67px;
-    top: 1747px;
+    left: 37px;
+    top: 1979px;
     width: 266px;
     height: min-content;
     flex-direction: column;
@@ -1868,15 +1868,15 @@ position: absolute;
   
   .educationalVideosLearnAndTry {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     letter-spacing: -0.3px;
     position: absolute;
-    left: 925px;
-    top: 1181px;
-    width: 206px;
+    left: 35px;
+    top: 1855px;
+    width: 136px;
     height: min-content;
     text-align: center;
     align-items: center;
@@ -1884,15 +1884,15 @@ position: absolute;
   }
   .educationalVideosLearnAndTry1 {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     letter-spacing: -0.3px;
     position: absolute;
-    left: 1205px;
-    top: 1181px;
-    width: 206px;
+    left: 250px;
+    top: 1855px;
+    width: 136px;
     height: min-content;
     text-align: center;
     align-items: center;
@@ -1901,8 +1901,8 @@ position: absolute;
   
   .rectangle4255 {
     position: absolute;
-    left: 394px;
-    top: 2831px;
+    left: 70px;
+    top: 3254px;
     width: 251px;
     height: 70px;
     overflow: visible;
@@ -1922,8 +1922,8 @@ position: absolute;
       'Liberation Sans', sans-serif;
     letter-spacing: -0.3px;
     position: absolute;
-    left: 468px;
-    top: 2854px;
+    left: 138px;
+    top: 3274px;
     width: min-content;
     height: min-content;
     text-align: center;
@@ -2060,10 +2060,11 @@ position: absolute;
   
   .screenshot2023118At10391 {
     position: absolute;
-    left: 350px;
-    top: 2228px;
-    width: 231px;
-    height: 481px;
+    left:30px;
+    top: 2500px;
+    width: 151px;
+    height: 281px;
+    border-radius: 20px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2071,10 +2072,11 @@ position: absolute;
   
   .screenshot2023118At10401 {
     position: absolute;
-    left: 630px;
-    top: 2228px;
-    width: 231px;
-    height: 481px;
+    left:230px;
+    top: 2500px;
+    width: 151px;
+    height: 281px;
+    border-radius: 20px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2138,10 +2140,11 @@ position: absolute;
   
   .screenshot2023118At10392 {
     position: absolute;
-    left: 910px;
-    top: 2228px;
-    width: 231px;
-    height: 481px;
+    left:30px;
+    top: 2850px;
+    width: 151px;
+    height: 281px;
+    border-radius: 20px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2149,10 +2152,11 @@ position: absolute;
   
   .screenshot2023118At10402 {
     position: absolute;
-    left: 1190px;
-    top: 2228px;
-    width: 231px;
-    height: 481px;
+    left:230px;
+    top: 2850px;
+    width: 151px;
+    height: 281px;
+    border-radius: 20px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2202,15 +2206,15 @@ position: absolute;
   
   .wineClubWorkYourWinePaletteWit {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     letter-spacing: -0.3px;
     position: absolute;
-    left: 640px;
-    top: 1181px;
-    width: 206px;
+    left: 240px;
+    top: 1460px;
+    width: 136px;
     height: min-content;
     text-align: center;
     align-items: center;
@@ -2225,24 +2229,24 @@ position: absolute;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 72px;
+    font-size: 52px;
     line-height: 108%;
     font-weight: 600;
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     letter-spacing: -4px;
     position: absolute;
-    left: 70px;
+    left: 30px;
     top: 267px;
-    width: 266px;
+    width: 366px;
     height: min-content;
     flex-direction: column;
   }
   
   .rectangle34624117 {
     position: absolute;
-    left: 436px;
-    top: 527px;
+    left: 26px;
+    top: 947px;
     width: 125px;
     height: 29px;
     outline: solid 1px #2aebec;
@@ -2253,8 +2257,8 @@ position: absolute;
   
   .rectangle34624118 {
     position: absolute;
-    left: 578px;
-    top: 527px;
+    left: 186px;
+    top: 947px;
     width: 168px;
     height: 29px;
     outline: solid 1px #2aebec;
@@ -2270,8 +2274,8 @@ position: absolute;
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     position: absolute;
-    left: 462px;
-    top: 531px;
+    left: 52px;
+    top: 951px;
     width: min-content;
     height: min-content;
     white-space: nowrap;
@@ -2285,8 +2289,8 @@ position: absolute;
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     position: absolute;
-    left: 603px;
-    top: 531px;
+    left: 227px;
+    top: 951px;
     width: min-content;
     height: min-content;
     white-space: nowrap;
@@ -2295,8 +2299,8 @@ position: absolute;
   
   .rectangle34624122 {
     position: absolute;
-    left: 752px;
-    top: 527px;
+    left: 26px;
+    top: 990px;
     width: 168px;
     height: 29px;
     outline: solid 1px #2aebec;
@@ -2312,8 +2316,8 @@ position: absolute;
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     position: absolute;
-    left: 777px;
-    top: 531px;
+    left: 56px;
+    top: 995px;
     width: min-content;
     height: min-content;
     white-space: nowrap;
@@ -2322,8 +2326,8 @@ position: absolute;
   
   .rectangle34624123 {
     position: absolute;
-    left: 926px;
-    top: 527px;
+    left: 226px;
+    top: 990px;
     width: 168px;
     height: 29px;
     outline: solid 1px #2aebec;
@@ -2339,8 +2343,8 @@ position: absolute;
     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     position: absolute;
-    left: 951px;
-    top: 531px;
+    left: 255px;
+    top: 995px;
     width: min-content;
     height: min-content;
     white-space: nowrap;
@@ -2365,9 +2369,9 @@ position: absolute;
   
   .seattleBasedWineServingSpotItS {
     position: absolute;
-    left: 433px;
-    top: 284px;
-    width: 912px;
+    left: 33px;
+    top: 344px;
+    width: 380px;
     height: min-content;
     flex-direction: column;
   }
