@@ -12,7 +12,7 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 3000px;
+  height: 2000px;
   background-color: #000000;
 }
 
@@ -664,7 +664,7 @@ position: absolute;
 .rectangle4255 {
   position: absolute;
   left: 394px;
-  top: 2831px;
+  top: 1831px;
   width: 251px;
   height: 70px;
   overflow: visible;
@@ -685,7 +685,7 @@ position: absolute;
   letter-spacing: -0.3px;
   position: absolute;
   left: 468px;
-  top: 2854px;
+  top: 1854px;
   width: min-content;
   height: min-content;
   text-align: center;
@@ -740,8 +740,8 @@ position: absolute;
 
 .line314 {
   position: absolute;
-  left: 530px;
-  top: 2852px;
+  left: 280px;
+  top: 1552px;
   width: 400px;
   height: 0;
   max-height: 100%;
@@ -1001,6 +1001,29 @@ position: absolute;
   flex-direction: column;
 }
 
+.aboutSection2 {
+  background-image: linear-gradient(180deg, #ffff 0%, #00af8382 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 72px;
+  line-height: 108%;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -4px;
+  position: absolute;
+  left: 70px;
+  top: 1507px;
+  width: 290px;
+  height: min-content;
+  flex-direction: column;
+}
+
+
 .rectangle34624117 {
   position: absolute;
   left: 436px;
@@ -1230,7 +1253,7 @@ position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    height: 3400px;
+    height: 2000px;
     background-color: #000000;
   }
   
@@ -1303,6 +1326,14 @@ position: absolute;
     flex-direction: column;
   }
   
+  .feedback {
+    position: absolute;
+    left: 0px;
+    top:0px;
+    width: 266px;
+    height: min-content;
+    flex-direction: column;
+  }
   .textBlock {
     background-image: linear-gradient(180deg, #ffff 0%, #00af8382 100%);
     background-position: center;
@@ -1885,8 +1916,8 @@ position: absolute;
   
   .rectangle4255 {
     position: absolute;
-    left: 70px;
-    top: 3254px;
+    left: 60px;
+    top: 1854px;
     width: 251px;
     height: 70px;
     overflow: visible;
@@ -1907,7 +1938,7 @@ position: absolute;
     letter-spacing: -0.3px;
     position: absolute;
     left: 138px;
-    top: 3274px;
+    top: 1874px;
     width: min-content;
     height: min-content;
     text-align: center;
@@ -1962,9 +1993,9 @@ position: absolute;
   
   .line314 {
     position: absolute;
-    left: 530px;
-    top: 2852px;
-    width: 400px;
+    left: 30px;
+    top: 1652px;
+    width: 300px;
     height: 0;
     max-height: 100%;
     border-bottom: solid 1px #fff;
@@ -2222,6 +2253,28 @@ position: absolute;
     position: absolute;
     left: 30px;
     top: 267px;
+    width: 366px;
+    height: min-content;
+    flex-direction: column;
+  }
+
+  .aboutSection2 {
+    background-image: linear-gradient(180deg, #ffff 0%, #00af8382 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 52px;
+    line-height: 108%;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -4px;
+    position: absolute;
+    left: 30px;
+    top: 1567px;
     width: 366px;
     height: min-content;
     flex-direction: column;

@@ -67,6 +67,7 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
   const [and, setAnd] = useState('');
   const [show, setShow] = useState('');
   const [rate, setRate] = useState(4);
+  const [feedbacks, setfeedbacks] = useState('');
   const [openAlert, setOpenAlert] = useState(false);
   const [rate1, setRate1] = useState(4);
   const [rate2, setRate2] = useState(4);
@@ -112,7 +113,7 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
       rate8,
       rate9,
       rate10,
-
+      feedbacks,
     };
 
     try {
@@ -132,7 +133,7 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
       console.log('Reviw Submitted:', data);
       setOpenAlert(true);
     } catch (error) {
-      console.error('Error while saving brief:', error);
+      console.error('Error while saving data:', error);
     }
   };
   return (
@@ -147,15 +148,15 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
               <span className={classes.label}>{persona.about}</span>
             </p>
           </div>
-
+          <div className={classes.aboutSection2}>Feedback </div>
           <div className={classes.rectangle34624117}></div>
           <div className={classes.rectangle34624118}></div>
-          <div className={classes.wineBar}>wine bar</div>
-          <div className={classes.smallPlates}>small plates</div>
+          <div className={classes.wineBar}>Marroco</div>
+          <div className={classes.smallPlates}>Mediterranean</div>
           <div className={classes.rectangle34624122}></div>
           <div className={classes.happyHour}>Happy hour</div>
           <div className={classes.rectangle34624123}></div>
-          <div className={classes.orangeWine}>Orange wine</div>
+          <div className={classes.orangeWine}>Wine bar</div>
           <div className={classes.videoIdeas}>
             <div className={classes.textBlock}>Video Ideas</div>
           </div>
@@ -170,14 +171,14 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
               </a>
             )
           }
-{
-            persona.videosWalid && persona.videosWalid.length > 2 && (
-          <video autoPlay muted loop className={classes.dALLE2023128103642CreateAPromo}>
-            <source src={persona.videosWalid[1].url} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>)
+          {
+            persona.videosWalid && persona.videosWalid.length > 1 && (
+              <video autoPlay muted loop className={classes.dALLE2023128103642CreateAPromo}>
+                <source src={persona.videosWalid[1].url} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>)
 
-}
+          }
           {
             persona.videosWalid && persona.videosWalid.length > 2 && (
               <video autoPlay muted loop className={classes.image}>
@@ -188,297 +189,322 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
           }
           {
             persona.videosWalid && persona.videosWalid.length > 3 && (
-          <video autoPlay muted loop className={classes.image2}>
-            <source src={persona.videosWalid[3].url} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>)}
+              <video autoPlay muted loop className={classes.image2}>
+                <source src={persona.videosWalid[3].url} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>)}
 
 
           {
             persona.image && persona.image.length > 0 && (
-          <div className={classes.themesPartiesHappyHours2}>Themes, parties, happy hours</div>
+              <div className={classes.themesPartiesHappyHours2}>Themes, parties, happy hours</div>
             )}
 
           {
             persona.videosWalid && persona.videosWalid.length > 2 && (
-          <div className={classes.educationalVideosLearnAndTry}>Educational videos. learn and try! </div>)}
+              <div className={classes.educationalVideosLearnAndTry}>Educational videos. learn and try! </div>)}
           {
             persona.videosWalid && persona.videosWalid.length > 3 && (
-          <div className={classes.educationalVideosLearnAndTry1}>Educational videos. learn and try! </div>)}
+              <div className={classes.educationalVideosLearnAndTry1}>Educational videos. learn and try! </div>)}
           <div className={classes.christmasThemedVideosWithXmasT}>Christmas themed videos with Xmas themed drinks</div>
 
           <div className={classes.themesPartiesHappyHours}>Themes, parties, happy hours</div>
           {
             persona.videosAmal && persona.videosAmal.length > 0 && (
-          <div className={classes.themesNote}>Note: Click on the video to download!</div>
+              <div className={classes.themesNote}>Note: Click on the video to download!</div>
             )}
           {
             persona.videosWalid && persona.videosWalid.length > 1 && (
-          <div className={classes.wineClubWorkYourWinePaletteWit}>
-            Wine club. work your wine palette with natural wine.{' '}
-          </div>
+              <div className={classes.wineClubWorkYourWinePaletteWit}>
+                Wine club. work your wine palette with natural wine.{' '}
+              </div>
             )}
           {
             persona.videosWalid && persona.videosWalid.length > 0 && (
-          <Rating name="size-large"
-            defaultValue={rate1}
-            className={classes.themesStar1}
-            onChange={(event, newValue) => {
-              setRate1(newValue ?? 5); // Replace 0 with your default value
-            }}
-            size="large"
-            sx={{
-              '& .MuiRating-iconFilled': {
-                color: 'gold', // or any other color
-              },
-              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                color: 'transparent',
-                stroke: 'white', // Border color
-                strokeWidth: 0.7,
-              }
-            }}
-          />)}
+              <Rating name="size-large"
+                defaultValue={rate1}
+                className={classes.themesStar1}
+                onChange={(event, newValue) => {
+                  setRate1(newValue ?? 5); // Replace 0 with your default value
+                }}
+                size="large"
+                sx={{
+                  '& .MuiRating-iconFilled': {
+                    color: 'gold', // or any other color
+                  },
+                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                    color: 'transparent',
+                    stroke: 'white', // Border color
+                    strokeWidth: 0.7,
+                  }
+                }}
+              />)}
           {
             persona.videosWalid && persona.videosWalid.length > 1 && (
-          <Rating name="size-large"
-            defaultValue={rate2}
-            className={classes.themesStar2}
-            onChange={(event, newValue) => {
-              setRate2(newValue ?? 5); // Replace 0 with your default value
-            }}
-            size="large"
-            sx={{
-              '& .MuiRating-iconFilled': {
-                color: 'gold', // or any other color
-              },
-              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                color: 'transparent',
-                stroke: 'white', // Border color
-                strokeWidth: 0.7,
-              }
-            }}
-          />)}
+              <Rating name="size-large"
+                defaultValue={rate2}
+                className={classes.themesStar2}
+                onChange={(event, newValue) => {
+                  setRate2(newValue ?? 5); // Replace 0 with your default value
+                }}
+                size="large"
+                sx={{
+                  '& .MuiRating-iconFilled': {
+                    color: 'gold', // or any other color
+                  },
+                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                    color: 'transparent',
+                    stroke: 'white', // Border color
+                    strokeWidth: 0.7,
+                  }
+                }}
+              />)}
           {
             persona.videosWalid && persona.videosWalid.length > 2 && (
-          <Rating name="size-large"
-            defaultValue={rate3}
-            className={classes.themesStar3}
-            onChange={(event, newValue) => {
-              setRate3(newValue ?? 5); // Replace 0 with your default value
-            }}
-            size="large"
-            sx={{
-              '& .MuiRating-iconFilled': {
-                color: 'gold', // or any other color
-              },
-              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                color: 'transparent',
-                stroke: 'white', // Border color
-                strokeWidth: 0.7,
-              }
-            }}
-          />
+              <Rating name="size-large"
+                defaultValue={rate3}
+                className={classes.themesStar3}
+                onChange={(event, newValue) => {
+                  setRate3(newValue ?? 5); // Replace 0 with your default value
+                }}
+                size="large"
+                sx={{
+                  '& .MuiRating-iconFilled': {
+                    color: 'gold', // or any other color
+                  },
+                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                    color: 'transparent',
+                    stroke: 'white', // Border color
+                    strokeWidth: 0.7,
+                  }
+                }}
+              />
             )}
-            {
+          {
             persona.videosWalid && persona.videosWalid.length > 3 && (
-          <Rating name="size-large"
-            defaultValue={rate4}
-            className={classes.themesStar4}
-            onChange={(event, newValue) => {
-              setRate4(newValue ?? 5); // Replace 0 with your default value
-            }}
-            size="large"
-            sx={{
-              '& .MuiRating-iconFilled': {
-                color: 'gold', // or any other color
-              },
-              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                color: 'transparent',
-                stroke: 'white', // Border color
-                strokeWidth: 0.7,
-              }
-            }}
-          />)}
-{
+              <Rating name="size-large"
+                defaultValue={rate4}
+                className={classes.themesStar4}
+                onChange={(event, newValue) => {
+                  setRate4(newValue ?? 5); // Replace 0 with your default value
+                }}
+                size="large"
+                sx={{
+                  '& .MuiRating-iconFilled': {
+                    color: 'gold', // or any other color
+                  },
+                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                    color: 'transparent',
+                    stroke: 'white', // Border color
+                    strokeWidth: 0.7,
+                  }
+                }}
+              />)}
+          {
             persona.image && persona.image.length > 0 && (
-          <Rating name="size-large"
-            defaultValue={rate5}
-            className={classes.themesStar5}
-            onChange={(event, newValue) => {
-              setRate5(newValue ?? 5); // Replace 0 with your default value
-            }}
-            size="large"
-            sx={{
-              '& .MuiRating-iconFilled': {
-                color: 'gold', // or any other color
-              },
-              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                color: 'transparent',
-                stroke: 'white', // Border color
-                strokeWidth: 0.7,
-              }
-            }}
-          />
+              <Rating name="size-large"
+                defaultValue={rate5}
+                className={classes.themesStar5}
+                onChange={(event, newValue) => {
+                  setRate5(newValue ?? 5); // Replace 0 with your default value
+                }}
+                size="large"
+                sx={{
+                  '& .MuiRating-iconFilled': {
+                    color: 'gold', // or any other color
+                  },
+                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                    color: 'transparent',
+                    stroke: 'white', // Border color
+                    strokeWidth: 0.7,
+                  }
+                }}
+              />
             )}
-            {
+          {
             persona.image && persona.image.length > 1 && (
-          <Rating name="size-large"
-            defaultValue={rate6}
-            className={classes.themesStar6}
-            onChange={(event, newValue) => {
-              setRate6(newValue ?? 5); // Replace 0 with your default value
-            }}
-            size="large"
-            sx={{
-              '& .MuiRating-iconFilled': {
-                color: 'gold', // or any other color
-              },
-              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                color: 'transparent',
-                stroke: 'white', // Border color
-                strokeWidth: 0.7,
-              }
-            }}
-          />
+              <Rating name="size-large"
+                defaultValue={rate6}
+                className={classes.themesStar6}
+                onChange={(event, newValue) => {
+                  setRate6(newValue ?? 5); // Replace 0 with your default value
+                }}
+                size="large"
+                sx={{
+                  '& .MuiRating-iconFilled': {
+                    color: 'gold', // or any other color
+                  },
+                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                    color: 'transparent',
+                    stroke: 'white', // Border color
+                    strokeWidth: 0.7,
+                  }
+                }}
+              />
             )}
-{
+          {
             persona.videosAmal && persona.videosAmal.length > 0 && (
-          <Rating name="size-large"
-            defaultValue={rate7}
-            className={classes.themesStar7}
-            onChange={(event, newValue) => {
-              setRate7(newValue ?? 5); // Replace 0 with your default value
-            }}
-            size="large"
-            sx={{
-              '& .MuiRating-iconFilled': {
-                color: 'gold', // or any other color
-              },
-              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                color: 'transparent',
-                stroke: 'white', // Border color
-                strokeWidth: 0.7,
-              }
-            }}
-          />
+              <Rating name="size-large"
+                defaultValue={rate7}
+                className={classes.themesStar7}
+                onChange={(event, newValue) => {
+                  setRate7(newValue ?? 5); // Replace 0 with your default value
+                }}
+                size="large"
+                sx={{
+                  '& .MuiRating-iconFilled': {
+                    color: 'gold', // or any other color
+                  },
+                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                    color: 'transparent',
+                    stroke: 'white', // Border color
+                    strokeWidth: 0.7,
+                  }
+                }}
+              />
             )}
 
-{
+          {
             persona.videosAmal && persona.videosAmal.length > 1 && (
-          <Rating name="size-large"
-            defaultValue={rate8}
-            className={classes.themesStar8}
-            onChange={(event, newValue) => {
-              setRate8(newValue ?? 5); // Replace 0 with your default value
-            }}
-            size="large"
-            sx={{
-              '& .MuiRating-iconFilled': {
-                color: 'gold', // or any other color
-              },
-              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                color: 'transparent',
-                stroke: 'white', // Border color
-                strokeWidth: 0.7,
-              }
-            }}
-          />)}
-{
+              <Rating name="size-large"
+                defaultValue={rate8}
+                className={classes.themesStar8}
+                onChange={(event, newValue) => {
+                  setRate8(newValue ?? 5); // Replace 0 with your default value
+                }}
+                size="large"
+                sx={{
+                  '& .MuiRating-iconFilled': {
+                    color: 'gold', // or any other color
+                  },
+                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                    color: 'transparent',
+                    stroke: 'white', // Border color
+                    strokeWidth: 0.7,
+                  }
+                }}
+              />)}
+          {
             persona.videosAmal && persona.videosAmal.length > 2 && (
-          <Rating name="size-large"
-            defaultValue={rate9}
-            className={classes.themesStar9}
-            onChange={(event, newValue) => {
-              setRate9(newValue ?? 5); // Replace 0 with your default value
-            }}
-            size="large"
-            sx={{
-              '& .MuiRating-iconFilled': {
-                color: 'gold', // or any other color
-              },
-              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                color: 'transparent',
-                stroke: 'white', // Border color
-                strokeWidth: 0.7,
-              }
-            }}
-          />
+              <Rating name="size-large"
+                defaultValue={rate9}
+                className={classes.themesStar9}
+                onChange={(event, newValue) => {
+                  setRate9(newValue ?? 5); // Replace 0 with your default value
+                }}
+                size="large"
+                sx={{
+                  '& .MuiRating-iconFilled': {
+                    color: 'gold', // or any other color
+                  },
+                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                    color: 'transparent',
+                    stroke: 'white', // Border color
+                    strokeWidth: 0.7,
+                  }
+                }}
+              />
             )}
-            {
+          {
             persona.videosAmal && persona.videosAmal.length > 3 && (
-          <Rating name="size-large"
-            defaultValue={rate10}
-            className={classes.themesStar10}
-            onChange={(event, newValue) => {
-              setRate10(newValue ?? 5);
-            }}
-            size="large"
-            sx={{
-              '& .MuiRating-iconFilled': {
-                color: 'gold', // or any other color
-              },
-              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                color: 'transparent',
-                stroke: 'white', // Border color
-                strokeWidth: 0.7,
-              }
-            }}
-          />
+              <Rating name="size-large"
+                defaultValue={rate10}
+                className={classes.themesStar10}
+                onChange={(event, newValue) => {
+                  setRate10(newValue ?? 5);
+                }}
+                size="large"
+                sx={{
+                  '& .MuiRating-iconFilled': {
+                    color: 'gold', // or any other color
+                  },
+                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                    color: 'transparent',
+                    stroke: 'white', // Border color
+                    strokeWidth: 0.7,
+                  }
+                }}
+              />
             )}
-          <div className={classes.video_idea}>
-            <div
-              style={{
-                backgroundImage: persona.image && persona.image.length > 0
-                  ? `url('${persona.image[0].url}')`
-                  : "none"
-              }}
-              className={classes.f0eb01a7774b433188739dba0afa23}
-            >
-            </div>
-            <div className={classes.rectangle34624112}></div>
-            {
-            persona.image && persona.image.length > 0 && (
-            <div className={classes.dateNight}>
-              <div className={classes.textBlock3}>Date </div>
-              <div className={classes.textBlock4}>Night</div>
-            </div>
-            )}
-          </div>
 
-          <div className={`${resets.storybrainResets} ${classes.root}`}>
-            <div
-              style={{
-                backgroundImage: persona.image && persona.image.length > 0
-                  ? `url('${persona.image[1].url}')`
-                  : "none"
-              }}
-              className={classes.f0eb01a7774b433188739dba0afa23}
-            ></div>
-            <div className={classes.rectangle34624112}></div>
-            {
+
+
+
+          <WhiteTextField
+            onChange={(e) => setAudience(e.target.value)}
+            className={classes.line314}
+            variant="standard"
+            multiline
+            name='audience'
+            focused
+            maxRows={4}
+          />
+
+
+
+          {
+            persona.image && persona.image.length > 1 && (
+              <div className={classes.video_idea}>
+
+                <div
+                  style={{
+                    backgroundImage: persona.image && persona.image.length > 1
+                      ? `url('${persona.image[1].url}')`
+                      : "none"
+                  }}
+                  className={classes.f0eb01a7774b433188739dba0afa23}
+                >
+                </div>
+                <div className={classes.rectangle34624112}></div>
+                {
+                  persona.image && persona.image.length > 1 && (
+                    <div className={classes.dateNight}>
+                      <div className={classes.textBlock3}>Date </div>
+                      <div className={classes.textBlock4}>Night</div>
+                    </div>
+                  )}
+              </div>
+            )}
+          {
             persona.image && persona.image.length > 0 && (
-            <div className={classes.naturalWineLovers}>
-              <div className={classes.textBlock19}>Natural Wine</div>
-              <div className={classes.textBlock20}> Lovers</div>
-            </div>)}
-          </div>
+              <div className={`${resets.storybrainResets} ${classes.root}`}>
+                <div
+                  style={{
+                    backgroundImage: persona.image && persona.image.length > 0
+                      ? `url('${persona.image[0].url}')`
+                      : "none"
+                  }}
+                  className={classes.f0eb01a7774b433188739dba0afa23}
+                ></div>
+                <div className={classes.rectangle34624112}></div>
+                {
+                  persona.image && persona.image.length > 0 && (
+                    <div className={classes.naturalWineLovers}>
+                      <div className={classes.textBlock19}>Natural Wine</div>
+                      <div className={classes.textBlock20}> Lovers</div>
+                    </div>)}
+              </div>)}
 
 
 
           {
             persona.image && persona.image.length > 0 && (
-          <div className={classes.personaIdeas}>
-            <div className={classes.textBlock5}>Persona Ideas</div>
-          </div>)
-}
+              <div className={classes.personaIdeas}>
+                <div className={classes.textBlock5}>Persona Ideas</div>
+              </div>)
+          }
           {
             persona.videosAmal && persona.videosAmal.length > 0 && (
-          <div className={classes.videoLibrary}>
-            <div className={classes.textBlock10}>Video Library</div>
-          </div>)}
+              <div className={classes.videoLibrary}>
+                <div className={classes.textBlock10}>Video Library</div>
+              </div>)}
           <div className={classes.rectangle4255}>
             <Rectangle4255Icon className={classes.icon} />
           </div>
+
+
+
+
 
           <div className="container">
 
@@ -492,37 +518,39 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
           </div>
           {
             persona.videosAmal && persona.videosAmal.length > 0 && (
-          <a href={persona.videosAmal[0].url} target="_blank" rel="noopener noreferrer">
-            <video autoPlay muted loop className={classes.screenshot2023118At10391}>
-              <source src={persona.videosAmal[0].url} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </a>)}
+              <a href={persona.videosAmal[0].url} target="_blank" rel="noopener noreferrer">
+                <video autoPlay muted loop className={classes.screenshot2023118At10391}>
+                  <source src={persona.videosAmal[0].url} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </a>)}
 
           {
             persona.videosAmal && persona.videosAmal.length > 1 && (
-          <a href={persona.videosAmal[1].url} target="_blank" rel="noopener noreferrer">
-            <video autoPlay muted loop className={classes.screenshot2023118At10401}>
-              <source src={persona.videosAmal[1].url} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </a>)}
+              <a href={persona.videosAmal[1].url} target="_blank" rel="noopener noreferrer">
+                <video autoPlay muted loop className={classes.screenshot2023118At10401}>
+                  <source src={persona.videosAmal[1].url} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </a>)}
           {
             persona.videosAmal && persona.videosAmal.length > 2 && (
-          <a href={persona.videosAmal[2].url} target="_blank" rel="noopener noreferrer">
-            <video autoPlay muted loop className={classes.screenshot2023118At10392}>
-              <source src={persona.videosAmal[2].url} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </a>)}
+              <a href={persona.videosAmal[2].url} target="_blank" rel="noopener noreferrer">
+                <video autoPlay muted loop className={classes.screenshot2023118At10392}>
+                  <source src={persona.videosAmal[2].url} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </a>)}
           {
             persona.videosAmal && persona.videosAmal.length > 3 && (
-          <a href={persona.videosAmal[3].url} target="_blank" rel="noopener noreferrer">
-            <video autoPlay muted loop className={classes.screenshot2023118At10402}>
-              <source src={persona.videosAmal[3].url} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </a>)}
+              <a href={persona.videosAmal[3].url} target="_blank" rel="noopener noreferrer">
+                <video autoPlay muted loop className={classes.screenshot2023118At10402}>
+                  <source src={persona.videosAmal[3].url} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </a>)}
+
+        
 
 
         </div>
