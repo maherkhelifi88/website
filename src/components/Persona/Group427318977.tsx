@@ -9,8 +9,8 @@ import { Rectangle34624121Icon } from './Rectangle34624121Icon.js';
 import Rating from '@mui/material/Rating';
 import Alert from '@mui/material/Alert';
 import Snackbar from '@mui/material/Snackbar';
-
-
+import Button from '@mui/material/Button';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 const WhiteTextField = styled(TextField)({
   backgroundColor: 'white',
   color: 'white',
@@ -57,6 +57,22 @@ interface Persona {
   rate: number;
   feedbacks: Feedback[];
 }
+const theme = createTheme({
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        outlined: {
+          borderRadius: '20px',
+          borderColor: '#2aebec',
+          color: '#2aebec',
+          '&:hover': {
+            borderColor: 'white',
+          },
+        },
+      },
+    },
+  },
+});
 
 
 export const Group427318977: FC<Props> = memo(function Group427318977(props = {}) {
@@ -136,424 +152,684 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
       console.error('Error while saving data:', error);
     }
   };
+
+
+  const handleClick = () => {
+    if (persona && persona.videosWalid && persona.videosWalid.length > 0) {
+      const url = persona.videosWalid[0].url;
+      window.location.href = url; // Redirects to the URL if persona is not null
+    } else {
+      // Handle the case where persona is null or doesn't have videos
+      console.error('Persona is null or videos are unavailable');
+    }
+  };
+
+  const handleClick1 = () => {
+    if (persona && persona.videosWalid && persona.videosWalid.length > 1) {
+      const url = persona.videosWalid[1].url;
+      window.location.href = url; // Redirects to the URL if persona is not null
+    } else {
+      // Handle the case where persona is null or doesn't have videos
+      console.error('Persona is null or videos are unavailable');
+    }
+  };
+
+  const handleClick2 = () => {
+    if (persona && persona.videosWalid && persona.videosWalid.length > 2) {
+      const url = persona.videosWalid[2].url;
+      window.location.href = url; // Redirects to the URL if persona is not null
+    } else {
+      // Handle the case where persona is null or doesn't have videos
+      console.error('Persona is null or videos are unavailable');
+    }
+  };
+
+  const handleClick3 = () => {
+    if (persona && persona.videosWalid && persona.videosWalid.length > 3) {
+      const url = persona.videosWalid[3].url;
+      window.location.href = url; // Redirects to the URL if persona is not null
+    } else {
+      // Handle the case where persona is null or doesn't have videos
+      console.error('Persona is null or videos are unavailable');
+    }
+  };
+  const handleClick4 = () => {
+    if (persona && persona.image && persona.image.length > 0 ) {
+      const url = persona.image[0].url;
+      window.location.href = url; // Redirects to the URL if persona is not null
+    } else {
+      // Handle the case where persona is null or doesn't have videos
+      console.error('Persona is null or images are unavailable');
+    }
+  };
+  const handleClick5 = () => {
+    if (persona && persona.image && persona.image.length > 1 ) {
+      const url = persona.image[1].url;
+      window.location.href = url; // Redirects to the URL if persona is not null
+    } else {
+      // Handle the case where persona is null or doesn't have videos
+      console.error('Persona is null or images are unavailable');
+    }
+  };
+
+  const handleClick7 = () => {
+    if (persona && persona.videosAmal && persona.videosAmal.length > 0) {
+      const url = persona.videosAmal[0].url;
+      window.location.href = url; // Redirects to the URL if persona is not null
+    } else {
+      // Handle the case where persona is null or doesn't have videos
+      console.error('Persona is null or videos are unavailable');
+    }
+  };
+  const handleClick8 = () => {
+    if (persona && persona.videosAmal && persona.videosAmal.length > 1) {
+      const url = persona.videosAmal[1].url;
+      window.location.href = url; // Redirects to the URL if persona is not null
+    } else {
+      // Handle the case where persona is null or doesn't have videos
+      console.error('Persona is null or videos are unavailable');
+    }
+  };
+
+  const handleClick9 = () => {
+    if (persona && persona.videosAmal && persona.videosAmal.length > 2) {
+      const url = persona.videosAmal[2].url;
+      window.location.href = url; // Redirects to the URL if persona is not null
+    } else {
+      // Handle the case where persona is null or doesn't have videos
+      console.error('Persona is null or videos are unavailable');
+    }
+  };
+
+  const handleClick10 = () => {
+    if (persona && persona.videosAmal && persona.videosAmal.length > 3) {
+      const url = persona.videosAmal[3].url;
+      window.location.href = url; // Redirects to the URL if persona is not null
+    } else {
+      // Handle the case where persona is null or doesn't have videos
+      console.error('Persona is null or videos are unavailable');
+    }
+  };
+ 
+  
   return (
     <>
       {persona ? (
-        <div >
-          <div className={classes.bg}></div>
+        <div className={classes.container}>
+
           <div className={classes.theBottleHouse}>{persona.name}</div>
-          <div className={classes.aboutSection}>About Section</div>
-          <div className={classes.seattleBasedWineServingSpotItS}>
-            <p className={classes.labelWrapper}>
-              <span className={classes.label}>{persona.about}</span>
-            </p>
-          </div>
-          <div className={classes.aboutSection2}>Feedback </div>
-          <div className={classes.rectangle34624117}></div>
-          <div className={classes.rectangle34624118}></div>
-          <div className={classes.wineBar}>Marroco</div>
-          <div className={classes.smallPlates}>Mediterranean</div>
-          <div className={classes.rectangle34624122}></div>
-          <div className={classes.happyHour}>Happy hour</div>
-          <div className={classes.rectangle34624123}></div>
-          <div className={classes.orangeWine}>Wine bar</div>
-          <div className={classes.videoIdeas}>
-            <div className={classes.textBlock}>Video Ideas</div>
+
+          <div className={classes._1}>
+
+            <div className={classes.aboutSection}>About Section</div>
+
+
+            <div className={classes.seattleBasedWineServingSpotItS}>
+              <p className={classes.labelWrapper}>
+                <span className={classes.label}>{persona.about}</span>
+              </p>
+            </div>
           </div>
 
-          {
-            persona.videosWalid && persona.videosWalid.length > 0 && (
-              <a href={persona.videosWalid[0].url} target="_blank" rel="noopener noreferrer">
-                <video autoPlay muted loop className={classes.dALLE202312810358CreateAPromot}>
-                  <source src={persona.videosWalid[0].url} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </a>
-            )
-          }
-          {
-            persona.videosWalid && persona.videosWalid.length > 1 && (
-              <video autoPlay muted loop className={classes.dALLE2023128103642CreateAPromo}>
-                <source src={persona.videosWalid[1].url} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>)
 
-          }
-          {
-            persona.videosWalid && persona.videosWalid.length > 2 && (
-              <video autoPlay muted loop className={classes.image}>
-                <source src={persona.videosWalid[2].url} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            )
-          }
-          {
-            persona.videosWalid && persona.videosWalid.length > 3 && (
-              <video autoPlay muted loop className={classes.image2}>
-                <source src={persona.videosWalid[3].url} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>)}
+          <div className={classes._2}>
 
+            <div className={classes._8}>
+              <div className={classes._9}>
+                <ThemeProvider theme={theme}>
+                  <Button variant="outlined" size="medium">
+                    Marroco
+                  </Button>
+                </ThemeProvider>
+                <ThemeProvider theme={theme}>
+                  <Button variant="outlined" size="medium">
+                    Mediterranean
+                  </Button>
+                </ThemeProvider></div>
 
-          {
-            persona.image && persona.image.length > 0 && (
-              <div className={classes.themesPartiesHappyHours2}>Themes, parties, happy hours</div>
-            )}
+              <div className={classes._9}>
+                <ThemeProvider theme={theme}>
+                  <Button variant="outlined" size="medium">
+                    Happy hour
+                  </Button>
+                </ThemeProvider>
 
-          {
-            persona.videosWalid && persona.videosWalid.length > 2 && (
-              <div className={classes.educationalVideosLearnAndTry}>Educational videos. learn and try! </div>)}
-          {
-            persona.videosWalid && persona.videosWalid.length > 3 && (
-              <div className={classes.educationalVideosLearnAndTry1}>Educational videos. learn and try! </div>)}
-          <div className={classes.christmasThemedVideosWithXmasT}>Christmas themed videos with Xmas themed drinks</div>
-
-          <div className={classes.themesPartiesHappyHours}>Themes, parties, happy hours</div>
-          {
-            persona.videosAmal && persona.videosAmal.length > 0 && (
-              <div className={classes.themesNote}>Note: Click on the video to download!</div>
-            )}
-          {
-            persona.videosWalid && persona.videosWalid.length > 1 && (
-              <div className={classes.wineClubWorkYourWinePaletteWit}>
-                Wine club. work your wine palette with natural wine.{' '}
+                <ThemeProvider theme={theme}>
+                  <Button variant="outlined" size="medium">
+                    Wine bar
+                  </Button>
+                </ThemeProvider>
               </div>
-            )}
+            </div>
+          </div>
+
+
           {
             persona.videosWalid && persona.videosWalid.length > 0 && (
-              <Rating name="size-large"
-                defaultValue={rate1}
-                className={classes.themesStar1}
-                onChange={(event, newValue) => {
-                  setRate1(newValue ?? 5); // Replace 0 with your default value
-                }}
-                size="large"
-                sx={{
-                  '& .MuiRating-iconFilled': {
-                    color: 'gold', // or any other color
-                  },
-                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                    color: 'transparent',
-                    stroke: 'white', // Border color
-                    strokeWidth: 0.7,
-                  }
-                }}
-              />)}
-          {
-            persona.videosWalid && persona.videosWalid.length > 1 && (
-              <Rating name="size-large"
-                defaultValue={rate2}
-                className={classes.themesStar2}
-                onChange={(event, newValue) => {
-                  setRate2(newValue ?? 5); // Replace 0 with your default value
-                }}
-                size="large"
-                sx={{
-                  '& .MuiRating-iconFilled': {
-                    color: 'gold', // or any other color
-                  },
-                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                    color: 'transparent',
-                    stroke: 'white', // Border color
-                    strokeWidth: 0.7,
-                  }
-                }}
-              />)}
-          {
-            persona.videosWalid && persona.videosWalid.length > 2 && (
-              <Rating name="size-large"
-                defaultValue={rate3}
-                className={classes.themesStar3}
-                onChange={(event, newValue) => {
-                  setRate3(newValue ?? 5); // Replace 0 with your default value
-                }}
-                size="large"
-                sx={{
-                  '& .MuiRating-iconFilled': {
-                    color: 'gold', // or any other color
-                  },
-                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                    color: 'transparent',
-                    stroke: 'white', // Border color
-                    strokeWidth: 0.7,
-                  }
-                }}
-              />
-            )}
-          {
-            persona.videosWalid && persona.videosWalid.length > 3 && (
-              <Rating name="size-large"
-                defaultValue={rate4}
-                className={classes.themesStar4}
-                onChange={(event, newValue) => {
-                  setRate4(newValue ?? 5); // Replace 0 with your default value
-                }}
-                size="large"
-                sx={{
-                  '& .MuiRating-iconFilled': {
-                    color: 'gold', // or any other color
-                  },
-                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                    color: 'transparent',
-                    stroke: 'white', // Border color
-                    strokeWidth: 0.7,
-                  }
-                }}
-              />)}
-          {
-            persona.image && persona.image.length > 0 && (
-              <Rating name="size-large"
-                defaultValue={rate5}
-                className={classes.themesStar5}
-                onChange={(event, newValue) => {
-                  setRate5(newValue ?? 5); // Replace 0 with your default value
-                }}
-                size="large"
-                sx={{
-                  '& .MuiRating-iconFilled': {
-                    color: 'gold', // or any other color
-                  },
-                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                    color: 'transparent',
-                    stroke: 'white', // Border color
-                    strokeWidth: 0.7,
-                  }
-                }}
-              />
-            )}
-          {
-            persona.image && persona.image.length > 1 && (
-              <Rating name="size-large"
-                defaultValue={rate6}
-                className={classes.themesStar6}
-                onChange={(event, newValue) => {
-                  setRate6(newValue ?? 5); // Replace 0 with your default value
-                }}
-                size="large"
-                sx={{
-                  '& .MuiRating-iconFilled': {
-                    color: 'gold', // or any other color
-                  },
-                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                    color: 'transparent',
-                    stroke: 'white', // Border color
-                    strokeWidth: 0.7,
-                  }
-                }}
-              />
-            )}
-          {
-            persona.videosAmal && persona.videosAmal.length > 0 && (
-              <Rating name="size-large"
-                defaultValue={rate7}
-                className={classes.themesStar7}
-                onChange={(event, newValue) => {
-                  setRate7(newValue ?? 5); // Replace 0 with your default value
-                }}
-                size="large"
-                sx={{
-                  '& .MuiRating-iconFilled': {
-                    color: 'gold', // or any other color
-                  },
-                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                    color: 'transparent',
-                    stroke: 'white', // Border color
-                    strokeWidth: 0.7,
-                  }
-                }}
-              />
-            )}
+              <div className={classes._1}>
 
-          {
-            persona.videosAmal && persona.videosAmal.length > 1 && (
-              <Rating name="size-large"
-                defaultValue={rate8}
-                className={classes.themesStar8}
-                onChange={(event, newValue) => {
-                  setRate8(newValue ?? 5); // Replace 0 with your default value
-                }}
-                size="large"
-                sx={{
-                  '& .MuiRating-iconFilled': {
-                    color: 'gold', // or any other color
-                  },
-                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                    color: 'transparent',
-                    stroke: 'white', // Border color
-                    strokeWidth: 0.7,
-                  }
-                }}
-              />)}
-          {
-            persona.videosAmal && persona.videosAmal.length > 2 && (
-              <Rating name="size-large"
-                defaultValue={rate9}
-                className={classes.themesStar9}
-                onChange={(event, newValue) => {
-                  setRate9(newValue ?? 5); // Replace 0 with your default value
-                }}
-                size="large"
-                sx={{
-                  '& .MuiRating-iconFilled': {
-                    color: 'gold', // or any other color
-                  },
-                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                    color: 'transparent',
-                    stroke: 'white', // Border color
-                    strokeWidth: 0.7,
-                  }
-                }}
-              />
-            )}
-          {
-            persona.videosAmal && persona.videosAmal.length > 3 && (
-              <Rating name="size-large"
-                defaultValue={rate10}
-                className={classes.themesStar10}
-                onChange={(event, newValue) => {
-                  setRate10(newValue ?? 5);
-                }}
-                size="large"
-                sx={{
-                  '& .MuiRating-iconFilled': {
-                    color: 'gold', // or any other color
-                  },
-                  '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
-                    color: 'transparent',
-                    stroke: 'white', // Border color
-                    strokeWidth: 0.7,
-                  }
-                }}
-              />
-            )}
+                <div className={classes._3}>
 
+                  <div className={classes.videoIdeas}>
+                    <div className={classes.textBlock}>Video Ideas</div>
+                  </div>
 
+                  <div className={classes.themesPartiesHappyHours}>Themes, parties, happy hours</div>
 
-
-          <WhiteTextField
-            onChange={(e) => setAudience(e.target.value)}
-            className={classes.line314}
-            variant="standard"
-            multiline
-            name='audience'
-            focused
-            maxRows={4}
-          />
-
-
-
-          {
-            persona.image && persona.image.length > 1 && (
-              <div className={classes.video_idea}>
-
-                <div
-                  style={{
-                    backgroundImage: persona.image && persona.image.length > 1
-                      ? `url('${persona.image[1].url}')`
-                      : "none"
-                  }}
-                  className={classes.f0eb01a7774b433188739dba0afa23}
-                >
                 </div>
-                <div className={classes.rectangle34624112}></div>
-                {
-                  persona.image && persona.image.length > 1 && (
-                    <div className={classes.dateNight}>
-                      <div className={classes.textBlock3}>Date </div>
-                      <div className={classes.textBlock4}>Night</div>
-                    </div>
-                  )}
+
+                <div className={classes._8}>
+                  <div className={classes._9}>
+
+                    {
+                      persona.videosWalid && persona.videosWalid.length > 0 && (
+                        <div className={classes._4}>
+                          <a href={persona.videosWalid[0].url} target="_blank" rel="noopener noreferrer">
+                            <video autoPlay muted loop className={classes.dALLE202312810358CreateAPromot}>
+                              <source src={persona.videosWalid[0].url} type="video/mp4" />
+                              Your browser does not support the video tag.
+                            </video>
+                          </a>
+                          <div className={classes.christmasThemedVideosWithXmasT}>Christmas themed videos with Xmas themed drinks</div>
+
+                          <Rating name="size-large"
+                            defaultValue={rate1}
+                            className={classes.themesStar1}
+                            onChange={(event, newValue) => {
+                              setRate1(newValue ?? 5); // Replace 0 with your default value
+                            }}
+                            size="large"
+                            sx={{
+                              '& .MuiRating-iconFilled': {
+                                color: 'gold', // or any other color
+                              },
+                              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                                color: 'transparent',
+                                stroke: 'white', // Border color
+                                strokeWidth: 0.7,
+                              }
+                            }}
+                          />
+                          <ThemeProvider theme={theme}>
+                            <Button     onClick={handleClick} variant="outlined" size="medium">
+                              Download
+                            </Button>
+                          </ThemeProvider>
+
+
+                        </div>
+                      )
+                    }
+
+
+
+                    {
+                      persona.videosWalid && persona.videosWalid.length > 1 && (
+                        <div className={classes._4}>
+                          <a href={persona.videosWalid[1].url} target="_blank" rel="noopener noreferrer">
+                            <video autoPlay muted loop className={classes.dALLE202312810358CreateAPromot}>
+                              <source src={persona.videosWalid[1].url} type="video/mp4" />
+                              Your browser does not support the video tag.
+                            </video>
+                          </a>
+                          <div className={classes.christmasThemedVideosWithXmasT}> Wine club. work your wine palette with natural wine.</div>
+
+                          <Rating name="size-large"
+                            defaultValue={rate2}
+                            className={classes.themesStar1}
+                            onChange={(event, newValue) => {
+                              setRate2(newValue ?? 5); // Replace 0 with your default value
+                            }}
+                            size="large"
+                            sx={{
+                              '& .MuiRating-iconFilled': {
+                                color: 'gold', // or any other color
+                              },
+                              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                                color: 'transparent',
+                                stroke: 'white', // Border color
+                                strokeWidth: 0.7,
+                              }
+                            }}
+                          />
+                          <ThemeProvider theme={theme}>
+                            <Button onClick={handleClick1} variant="outlined" size="medium">
+                              Download
+                            </Button>
+                          </ThemeProvider>
+
+
+                        </div>
+                      )
+                    }
+
+
+                  </div>
+                </div>
+                <div className={classes._8}>
+                  <div className={classes._9}>
+
+                    {
+                      persona.videosWalid && persona.videosWalid.length > 2 && (
+                        <div className={classes._4}>
+                          <a href={persona.videosWalid[2].url} target="_blank" rel="noopener noreferrer">
+                            <video autoPlay muted loop className={classes.dALLE202312810358CreateAPromot}>
+                              <source src={persona.videosWalid[2].url} type="video/mp4" />
+                              Your browser does not support the video tag.
+                            </video>
+                          </a>
+                          <div className={classes.christmasThemedVideosWithXmasT}>Educational videos. learn and try!</div>
+
+                          <Rating name="size-large"
+                            defaultValue={rate3}
+                            className={classes.themesStar1}
+                            onChange={(event, newValue) => {
+                              setRate3(newValue ?? 5); // Replace 0 with your default value
+                            }}
+                            size="large"
+                            sx={{
+                              '& .MuiRating-iconFilled': {
+                                color: 'gold', // or any other color
+                              },
+                              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                                color: 'transparent',
+                                stroke: 'white', // Border color
+                                strokeWidth: 0.7,
+                              }
+                            }}
+                          />
+                          <ThemeProvider theme={theme}>
+                            <Button onClick={handleClick2} variant="outlined" size="medium">
+                              Download
+                            </Button>
+                          </ThemeProvider>
+
+
+                        </div>
+                      )
+                    }
+                    {
+                      persona.videosWalid && persona.videosWalid.length > 3 && (
+                        <div className={classes._4}>
+                          <a href={persona.videosWalid[3].url} target="_blank" rel="noopener noreferrer">
+                            <video autoPlay muted loop className={classes.dALLE202312810358CreateAPromot}>
+                              <source src={persona.videosWalid[3].url} type="video/mp4" />
+                              Your browser does not support the video tag.
+                            </video>
+                          </a>
+                          <div className={classes.christmasThemedVideosWithXmasT}>Christmas themed videos with Xmas themed drinks</div>
+
+                          <Rating name="size-large"
+                            defaultValue={rate4}
+                            className={classes.themesStar1}
+                            onChange={(event, newValue) => {
+                              setRate4(newValue ?? 5); // Replace 0 with your default value
+                            }}
+                            size="large"
+                            sx={{
+                              '& .MuiRating-iconFilled': {
+                                color: 'gold', // or any other color
+                              },
+                              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                                color: 'transparent',
+                                stroke: 'white', // Border color
+                                strokeWidth: 0.7,
+                              }
+                            }}
+                          />
+                          <ThemeProvider theme={theme}>
+                            <Button onClick={handleClick3} variant="outlined" size="medium">
+                              Download
+                            </Button>
+                          </ThemeProvider>
+
+
+                        </div>
+                      )
+                    }
+                  </div>
+                </div>
+              </div>
+            )
+          }
+
+
+
+          {
+            persona.image && persona.image.length > 0 && (
+              <div className={classes._1}>
+
+                <div className={classes._3}>
+
+                  <div className={classes.videoIdeas}>
+                    <div className={classes.textBlock}>Persona Ideas</div>
+                  </div>
+
+                  <div className={classes.themesPartiesHappyHours}>Themes, parties, happy hours</div>
+
+                </div>
+
+                <div className={classes._8}>
+                  <div className={classes._9}>
+
+                    {
+                      persona.image && persona.image.length > 0 && (
+                        <div className={classes._4}>
+                          <div
+                            style={{
+                              backgroundImage: persona.image && persona.image.length > 1
+                                ? `url('${persona.image[0].url}')`
+                                : "none"
+                            }}
+                            className={classes.dALLE202312810358CreateAPromot}
+                          >
+                          </div>
+                          <Rating name="size-large"
+                            defaultValue={rate5}
+                            className={classes.themesStar1}
+                            onChange={(event, newValue) => {
+                              setRate5(newValue ?? 5); // Replace 0 with your default value
+                            }}
+                            size="large"
+                            sx={{
+                              '& .MuiRating-iconFilled': {
+                                color: 'gold', // or any other color
+                              },
+                              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                                color: 'transparent',
+                                stroke: 'white', // Border color
+                                strokeWidth: 0.7,
+                              }
+                            }}
+                          />
+                          <ThemeProvider theme={theme}>
+                            <Button onClick={handleClick4} variant="outlined" size="medium">
+                              Download
+                            </Button>
+                          </ThemeProvider>
+
+
+                        </div>
+                      )
+                    }
+
+                    {
+                      persona.image && persona.image.length > 1 && (
+                        <div className={classes._4}>
+                          <div
+                            style={{
+                              backgroundImage: persona.image && persona.image.length > 1
+                                ? `url('${persona.image[1].url}')`
+                                : "none"
+                            }}
+                            className={classes.dALLE202312810358CreateAPromot}
+                          >
+                          </div>
+                          <Rating name="size-large"
+                            defaultValue={rate6}
+                            className={classes.themesStar1}
+                            onChange={(event, newValue) => {
+                              setRate6(newValue ?? 5); // Replace 0 with your default value
+                            }}
+                            size="large"
+                            sx={{
+                              '& .MuiRating-iconFilled': {
+                                color: 'gold', // or any other color
+                              },
+                              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                                color: 'transparent',
+                                stroke: 'white', // Border color
+                                strokeWidth: 0.7,
+                              }
+                            }}
+                          />
+                          <ThemeProvider theme={theme}>
+                            <Button onClick={handleClick5} variant="outlined" size="medium">
+                              Download
+                            </Button>
+                          </ThemeProvider>
+
+
+                        </div>
+                      )
+                    }
+                  </div>
+                </div>
               </div>
             )}
-          {
-            persona.image && persona.image.length > 0 && (
-              <div className={`${resets.storybrainResets} ${classes.root}`}>
-                <div
-                  style={{
-                    backgroundImage: persona.image && persona.image.length > 0
-                      ? `url('${persona.image[0].url}')`
-                      : "none"
-                  }}
-                  className={classes.f0eb01a7774b433188739dba0afa23}
-                ></div>
-                <div className={classes.rectangle34624112}></div>
-                {
-                  persona.image && persona.image.length > 0 && (
-                    <div className={classes.naturalWineLovers}>
-                      <div className={classes.textBlock19}>Natural Wine</div>
-                      <div className={classes.textBlock20}> Lovers</div>
-                    </div>)}
-              </div>)}
 
-
-
-          {
-            persona.image && persona.image.length > 0 && (
-              <div className={classes.personaIdeas}>
-                <div className={classes.textBlock5}>Persona Ideas</div>
-              </div>)
-          }
           {
             persona.videosAmal && persona.videosAmal.length > 0 && (
-              <div className={classes.videoLibrary}>
-                <div className={classes.textBlock10}>Video Library</div>
+              <div className={classes._1}>
+
+                <div className={classes._3}>
+
+                  <div className={classes.videoIdeas}>
+                    <div className={classes.textBlock}>Video Library</div>
+                  </div>
+
+                  <div className={classes.themesPartiesHappyHours}>Themes, parties, happy hours</div>
+
+                </div>
+
+                <div className={classes._8}>
+                  <div className={classes._9}>
+                    {
+                      persona.videosAmal && persona.videosAmal.length > 0 && (
+                        <div className={classes._4}>
+                          <a href={persona.videosAmal[0].url} target="_blank" rel="noopener noreferrer">
+                            <video autoPlay muted loop className={classes.dALLE202312810358CreateAPromot}>
+                              <source src={persona.videosAmal[0].url} type="video/mp4" />
+                              Your browser does not support the video tag.
+                            </video>
+                          </a>
+                          <div className={classes.christmasThemedVideosWithXmasT}>Christmas themed videos with Xmas themed drinks</div>
+
+                          <Rating name="size-large"
+                            defaultValue={rate7}
+                            className={classes.themesStar1}
+                            onChange={(event, newValue) => {
+                              setRate7(newValue ?? 5); // Replace 0 with your default value
+                            }}
+                            size="large"
+                            sx={{
+                              '& .MuiRating-iconFilled': {
+                                color: 'gold', // or any other color
+                              },
+                              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                                color: 'transparent',
+                                stroke: 'white', // Border color
+                                strokeWidth: 0.7,
+                              }
+                            }}
+                          />
+                          <ThemeProvider theme={theme}>
+                            <Button onClick={handleClick7}variant="outlined" size="medium">
+                              Download
+                            </Button>
+                          </ThemeProvider>
+
+
+                        </div>
+                      )
+                    }
+
+
+
+                    {
+                      persona.videosAmal && persona.videosAmal.length > 1 && (
+                        <div className={classes._4}>
+                          <a href={persona.videosAmal[1].url} target="_blank" rel="noopener noreferrer">
+                            <video autoPlay muted loop className={classes.dALLE202312810358CreateAPromot}>
+                              <source src={persona.videosAmal[1].url} type="video/mp4" />
+                              Your browser does not support the video tag.
+                            </video>
+                          </a>
+                          <div className={classes.christmasThemedVideosWithXmasT}>Christmas themed videos with Xmas themed drinks</div>
+
+                          <Rating name="size-large"
+                            defaultValue={rate8}
+                            className={classes.themesStar1}
+                            onChange={(event, newValue) => {
+                              setRate8(newValue ?? 5); // Replace 0 with your default value
+                            }}
+                            size="large"
+                            sx={{
+                              '& .MuiRating-iconFilled': {
+                                color: 'gold', // or any other color
+                              },
+                              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                                color: 'transparent',
+                                stroke: 'white', // Border color
+                                strokeWidth: 0.7,
+                              }
+                            }}
+                          />
+                          <ThemeProvider theme={theme}>
+                            <Button onClick={handleClick8} variant="outlined" size="medium">
+                              Download
+                            </Button>
+                          </ThemeProvider>
+
+
+                        </div>
+                      )
+                    }
+
+                  </div>
+                </div>
+                <div className={classes._8}>
+                  <div className={classes._9}>
+
+                    {
+                      persona.videosAmal && persona.videosAmal.length > 2 && (
+                        <div className={classes._4}>
+                          <a href={persona.videosAmal[2].url} target="_blank" rel="noopener noreferrer">
+                            <video autoPlay muted loop className={classes.dALLE202312810358CreateAPromot}>
+                              <source src={persona.videosAmal[2].url} type="video/mp4" />
+                              Your browser does not support the video tag.
+                            </video>
+                          </a>
+                          <div className={classes.christmasThemedVideosWithXmasT}>Christmas themed videos with Xmas themed drinks</div>
+
+                          <Rating name="size-large"
+                            defaultValue={rate9}
+                            className={classes.themesStar1}
+                            onChange={(event, newValue) => {
+                              setRate9(newValue ?? 5); // Replace 0 with your default value
+                            }}
+                            size="large"
+                            sx={{
+                              '& .MuiRating-iconFilled': {
+                                color: 'gold', // or any other color
+                              },
+                              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                                color: 'transparent',
+                                stroke: 'white', // Border color
+                                strokeWidth: 0.7,
+                              }
+                            }}
+                          />
+                          <ThemeProvider theme={theme}>
+                            <Button onClick={handleClick9}variant="outlined" size="medium">
+                              Download
+                            </Button>
+                          </ThemeProvider>
+
+
+                        </div>
+                      )
+                    }
+
+
+                    {
+                      persona.videosAmal && persona.videosAmal.length > 3 && (
+                        <div className={classes._4}>
+                          <a href={persona.videosAmal[3].url} target="_blank" rel="noopener noreferrer">
+                            <video autoPlay muted loop className={classes.dALLE202312810358CreateAPromot}>
+                              <source src={persona.videosAmal[3].url} type="video/mp4" />
+                              Your browser does not support the video tag.
+                            </video>
+                          </a>
+                          <div className={classes.christmasThemedVideosWithXmasT}>Christmas themed videos with Xmas themed drinks</div>
+
+                          <Rating name="size-large"
+                            defaultValue={rate10}
+                            className={classes.themesStar1}
+                            onChange={(event, newValue) => {
+                              setRate10(newValue ?? 5); // Replace 0 with your default value
+                            }}
+                            size="large"
+                            sx={{
+                              '& .MuiRating-iconFilled': {
+                                color: 'gold', // or any other color
+                              },
+                              '& .MuiRating-iconEmpty .MuiSvgIcon-root': {
+                                color: 'transparent',
+                                stroke: 'white', // Border color
+                                strokeWidth: 0.7,
+                              }
+                            }}
+                          />
+                          <ThemeProvider theme={theme}>
+                            <Button onClick={handleClick10} variant="outlined" size="medium">
+                              Download
+                            </Button>
+                          </ThemeProvider>
+
+
+                        </div>
+                      )
+                    }
+
+                  </div>
+                </div>
+
               </div>)}
-          <div className={classes.rectangle4255}>
-            <Rectangle4255Icon className={classes.icon} />
+
+
+          <div className={classes._1}>
+
+            <div className={classes._3}>
+
+              <div className={classes.videoIdeas}>
+                <div className={classes.textBlock}>Feedback</div>
+              </div>
+
+              <div className={classes.themesPartiesHappyHours}>Your feedback will be genuinely appreciated.</div>
+
+            
+
+            </div>
+            <WhiteTextField
+              onChange={(e) => setfeedbacks(e.target.value)}
+              className={classes.line314}
+              variant="standard"
+              multiline
+              name='audience'
+              focused
+              maxRows={4}
+            />
           </div>
 
 
 
+          <Button className={classes.btn} onClick={handleSubmit} variant="contained" size="large" style={{ color: 'black', backgroundColor: '#ffd700', borderRadius: '20px'}}>
+            Submit Review
+          </Button>
+          <Snackbar open={openAlert} autoHideDuration={6000} onClose={() => setOpenAlert(false)}>
+            <Alert onClose={() => setOpenAlert(false)} severity="success" sx={{ width: '90%' }}>
+              Review submitted
+            </Alert>
+          </Snackbar>
 
-
-          <div className="container">
-
-            <button onClick={handleSubmit} className={classes.submit}>Submit review</button>
-
-            <Snackbar open={openAlert} autoHideDuration={6000} onClose={() => setOpenAlert(false)}>
-              <Alert onClose={() => setOpenAlert(false)} severity="success" sx={{ width: '100%' }}>
-                Review submitted
-              </Alert>
-            </Snackbar>
-          </div>
-          {
-            persona.videosAmal && persona.videosAmal.length > 0 && (
-              <a href={persona.videosAmal[0].url} target="_blank" rel="noopener noreferrer">
-                <video autoPlay muted loop className={classes.screenshot2023118At10391}>
-                  <source src={persona.videosAmal[0].url} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </a>)}
-
-          {
-            persona.videosAmal && persona.videosAmal.length > 1 && (
-              <a href={persona.videosAmal[1].url} target="_blank" rel="noopener noreferrer">
-                <video autoPlay muted loop className={classes.screenshot2023118At10401}>
-                  <source src={persona.videosAmal[1].url} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </a>)}
-          {
-            persona.videosAmal && persona.videosAmal.length > 2 && (
-              <a href={persona.videosAmal[2].url} target="_blank" rel="noopener noreferrer">
-                <video autoPlay muted loop className={classes.screenshot2023118At10392}>
-                  <source src={persona.videosAmal[2].url} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </a>)}
-          {
-            persona.videosAmal && persona.videosAmal.length > 3 && (
-              <a href={persona.videosAmal[3].url} target="_blank" rel="noopener noreferrer">
-                <video autoPlay muted loop className={classes.screenshot2023118At10402}>
-                  <source src={persona.videosAmal[3].url} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </a>)}
-
-        
-
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
 
         </div>
+
       ) : (
         <p>Loading...</p>
       )}
