@@ -604,14 +604,13 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
           {
             persona.videosAmal && persona.videosAmal.length > 0 && (
               <div className={classes._1}>
-
                 <div className={classes._3}>
 
                   <div className={classes.videoIdeas}>
-                    <div className={classes.textBlock}>Video Library</div>
+                    <div className={classes.textBlock}></div>
                   </div>
 
-                  <div className={classes.themesPartiesHappyHours}>Themes, parties, happy hours</div>
+                  <div className={classes.themesPartiesHappyHours}></div>
 
                 </div>
 
