@@ -98,17 +98,24 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
 
   useEffect(() => {
     if (id) {
-      fetch(`https://leapback-d796b66e0016.herokuapp.com/api/persona/${id}`)
-        .then(response => {
-          if (!response.ok) {
-            throw new Error('Network response was not ok');
-          }
-          return response.json();
-        })
-        .then(data => setPersona(data))
-        .catch(error => console.error('Error fetching data:', error));
+      fetch(`https://leapback-d796b66e0016.herokuapp.com/api/persona/${id}`, {
+        method: 'GET', // or 'PUT' if you're making a put request
+        headers: {
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*', 
+        },
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => setPersona(data))
+      .catch(error => console.error('Error fetching data:', error));
     }
   }, [id]);
+  
 
 
   const handleSubmit = async () => {
@@ -152,7 +159,6 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
       console.error('Error while saving data:', error);
     }
   };
-
 
   const handleClick = () => {
     if (persona && persona.videosWalid && persona.videosWalid.length > 0) {
@@ -302,7 +308,6 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
               </div>
             </div>
           </div>
-
 
           {
             persona.videosWalid && persona.videosWalid.length > 0 && (
@@ -492,8 +497,6 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
               </div>
             )
           }
-
-
 
           {
             persona.image && persona.image.length > 0 && (
@@ -811,7 +814,6 @@ export const Group427318977: FC<Props> = memo(function Group427318977(props = {}
               maxRows={4}
             />
           </div>
-
 
 
           <Button className={classes.btn} onClick={handleSubmit} variant="contained" size="large" style={{ color: 'black', backgroundColor: '#ffd700', borderRadius: '20px'}}>
