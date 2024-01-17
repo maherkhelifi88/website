@@ -10,6 +10,7 @@ import { Text } from './components/Text/Text';
 import { Texttwo } from './components/Texttwo/Text';
 import { Textthree } from './components/Textthree/Text';
 import { CTA } from './components/CTA/CTA';
+import { CTA1 } from './components/subscribe/CTA';
 import { Content } from './components/Content/Content';
 import { Footer } from './components/Footer/Footer';
 interface Props {
@@ -23,6 +24,7 @@ export const Home: FC<Props> = memo(function Home(props = {}) {
       <Textthree />
       <Header />
       <CTA />
+      <CTA1 />
       <Hero />
       <HowItWorks />
       <Footer />

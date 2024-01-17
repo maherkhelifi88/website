@@ -1,0 +1,129 @@
+.bg {
+  position: absolute;
+  left: 32px;
+  top: 3157px;
+  width: 1396px;
+  height: 530px;
+  border-radius: 16px;
+  background-color: #f0f5f4;
+}
+.text {
+  position: absolute;
+  left: 415px;
+  top: 3194px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.title {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.subscribeToOurNewsletter {
+  color: #083c2f;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -2px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.letUsManageYourForYouSoThatYou {
+  color: #3c4a47;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: 610px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+@media (max-width: 760px) {
+  .bg {
+    position: absolute;
+    top: 4597px;
+    left:23px;
+    width:90%;
+    height: 580px;
+    border-radius: 16px;
+    background-color: #f0f5f4;
+  }
+  .text {
+    position: absolute;
+    left: 40px;
+    top: 4624px;
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    place-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  .title {
+    width: 350px;
+    height: min-content;
+    flex-direction: column;
+    place-content: center;
+    align-items: center;
+    
+  }
+  .subscribeToOurNewsletter {
+    color: #3c4a47;
+    font-size: 28px;
+    line-height: 28px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 300px;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .letUsManageYourForYouSoThatYou1 {
+    color: #3c4a47;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 38px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -1px;
+    width: 300px;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .letUsManageYourForYouSoThatYou {
+    color: #3c4a47;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 300px;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+}
